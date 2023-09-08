@@ -1,0 +1,45 @@
+import * as React from 'react';
+import { Ref, forwardRef } from 'react';
+import { QuillSvgProps, SvgSize } from 'types';
+const sizes: SvgSize = {
+  sm: {
+    width: 24,
+    height: 24,
+  },
+  md: {
+    width: 32,
+    height: 32,
+  },
+  lg: {
+    width: 48,
+    height: 48,
+  },
+  xl: {
+    width: 64,
+    height: 64,
+  },
+  '2xl': {
+    width: 96,
+    height: 96,
+  },
+};
+export const StandaloneArrowDownRightBoldIcon = (
+  { iconSize = 'md', ...props }: QuillSvgProps,
+  ref: Ref<SVGSVGElement>,
+) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    viewBox='0 0 32 32'
+    {...sizes[iconSize]}
+    role='img'
+    ref={ref}
+    {...props}
+  >
+    <path
+      fillOpacity={0.72}
+      d='M21.313 22.75h-9.375c-.573-.052-.886-.365-.938-.938.052-.572.365-.885.938-.937h7.109l-9.024-9.023c-.364-.443-.364-.886 0-1.329.443-.364.886-.364 1.329 0l9.023 9.024v-7.11c.052-.572.365-.885.938-.937.572.052.885.365.937.938v9.374c-.052.573-.365.886-.938.938Z'
+    />
+  </svg>
+);
+const ForwardRef = forwardRef(StandaloneArrowDownRightBoldIcon);
+export default ForwardRef;

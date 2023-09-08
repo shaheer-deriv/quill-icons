@@ -1,0 +1,17 @@
+<svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flag-czech republic">
+<g clip-path="url(#clip0_708_1772)">
+<g id="flag">
+<path d="M0.681763 15.5041C1.03374 15.8129 1.495 16 1.99996 16H22C23.1045 16 24 15.1046 24 14V8H11L0.681763 15.5041Z" fill="#E8252A"/>
+<path d="M22 0H2C1.495 0 1.03369 0.187138 0.681763 0.495846L11 8H24L24 2C24 0.895432 23.1046 0 22 0Z" fill="white"/>
+<path d="M0.681763 15.5041L11 8L0.681763 0.495846C0.263794 0.862415 0 1.4004 0 2V14C0 14.5996 0.263794 15.1376 0.681763 15.5041Z" fill="#17579E"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22 1H2C1.44772 1 1 1.44772 1 2V14C1 14.5523 1.44772 15 2 15H22C22.5523 15 23 14.5523 23 14V2C23 1.44771 22.5523 1 22 1ZM2 0C0.895431 0 0 0.895431 0 2V14C0 15.1046 0.895394 16 1.99996 16H22C23.1045 16 24 15.1046 24 14L24 2C24 0.895432 23.1046 0 22 0H2Z" fill="black" fill-opacity="0.08"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_708_1772">
+<rect width="24" height="16" rx="2" fill="white"/>
+</clipPath>
+</defs>
+</svg>
