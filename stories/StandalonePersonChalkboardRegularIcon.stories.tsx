@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandalonePersonChalkboardRegularIcon } from '../src/react/System/Standalone';
+import { StandalonePersonChalkboardRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandalonePersonChalkboardRegularIcon',

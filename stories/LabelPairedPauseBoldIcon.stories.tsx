@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedPauseBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedPauseBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedPauseBoldIcon',

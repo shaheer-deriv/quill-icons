@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandalonePenLineRegularIcon } from '../src/react/System/Standalone';
+import { StandalonePenLineRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandalonePenLineRegularIcon',

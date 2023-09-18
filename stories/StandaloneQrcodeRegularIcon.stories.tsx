@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneQrcodeRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneQrcodeRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneQrcodeRegularIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedComputerMouseScrollwheelRegularIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedComputerMouseScrollwheelRegularIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedComputerMouseScrollwheelRegularIcon',

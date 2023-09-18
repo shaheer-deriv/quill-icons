@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedSquareMinusFillIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedSquareMinusFillIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedSquareMinusFillIcon',

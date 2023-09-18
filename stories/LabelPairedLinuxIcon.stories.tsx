@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedLinuxIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedLinuxIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedLinuxIcon',

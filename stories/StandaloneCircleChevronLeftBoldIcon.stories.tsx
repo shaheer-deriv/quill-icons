@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneCircleChevronLeftBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneCircleChevronLeftBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneCircleChevronLeftBoldIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SocialYoutubeIcon } from '../src/react/Social/Social';
+import { SocialYoutubeIcon } from '../src/react/Social';
 
 const meta = {
   title: 'social/SocialYoutubeIcon',

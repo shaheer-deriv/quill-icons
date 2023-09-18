@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneBackwardBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneBackwardBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneBackwardBoldIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneAppStoreIcon } from '../src/react/System/Standalone';
+import { StandaloneAppStoreIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneAppStoreIcon',

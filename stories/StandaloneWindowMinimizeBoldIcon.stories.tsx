@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneWindowMinimizeBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneWindowMinimizeBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneWindowMinimizeBoldIcon',

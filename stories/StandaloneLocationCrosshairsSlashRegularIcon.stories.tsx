@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneLocationCrosshairsSlashRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneLocationCrosshairsSlashRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneLocationCrosshairsSlashRegularIcon',

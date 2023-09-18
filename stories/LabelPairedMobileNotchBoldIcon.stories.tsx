@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedMobileNotchBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedMobileNotchBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedMobileNotchBoldIcon',

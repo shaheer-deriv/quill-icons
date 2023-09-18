@@ -1,0 +1,12 @@
+export { default as SocialGoogleIcon } from './SocialGoogleIcon';
+export { default as SocialFacebookIcon } from './SocialFacebookIcon';
+export { default as SocialXTwitterIcon } from './SocialXTwitterIcon';
+export { default as SocialAppleIcon } from './SocialAppleIcon';
+export { default as SocialWhatsappIcon } from './SocialWhatsappIcon';
+export { default as SocialLinkedinIcon } from './SocialLinkedinIcon';
+export { default as SocialTelegramIcon } from './SocialTelegramIcon';
+export { default as SocialRedditIcon } from './SocialRedditIcon';
+export { default as SocialInstagramIcon } from './SocialInstagramIcon';
+export { default as SocialYoutubeIcon } from './SocialYoutubeIcon';
+export { default as SocialTiktokBrandIcon } from './SocialTiktokBrandIcon';
+export { default as SocialTiktokBlackIcon } from './SocialTiktokBlackIcon';

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneMicrophoneRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneMicrophoneRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneMicrophoneRegularIcon',

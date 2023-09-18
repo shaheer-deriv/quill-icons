@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneLinkedinIcon } from '../src/react/System/Standalone';
+import { StandaloneLinkedinIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneLinkedinIcon',

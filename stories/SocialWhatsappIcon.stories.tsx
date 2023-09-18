@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SocialWhatsappIcon } from '../src/react/Social/Social';
+import { SocialWhatsappIcon } from '../src/react/Social';
 
 const meta = {
   title: 'social/SocialWhatsappIcon',

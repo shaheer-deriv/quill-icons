@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneFiatOfframpBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneFiatOfframpBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneFiatOfframpBoldIcon',

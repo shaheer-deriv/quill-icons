@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SocialTiktokBlackIcon } from '../src/react/Social/Social';
+import { SocialTiktokBlackIcon } from '../src/react/Social';
 
 const meta = {
   title: 'social/SocialTiktokBlackIcon',

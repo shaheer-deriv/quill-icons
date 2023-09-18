@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneDerivIcon } from '../src/react/System/Standalone';
+import { StandaloneDerivIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneDerivIcon',

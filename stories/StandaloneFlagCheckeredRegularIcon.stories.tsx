@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneFlagCheckeredRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneFlagCheckeredRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneFlagCheckeredRegularIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneHuaweiIcon } from '../src/react/System/Standalone';
+import { StandaloneHuaweiIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneHuaweiIcon',

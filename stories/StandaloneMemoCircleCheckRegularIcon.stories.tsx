@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneMemoCircleCheckRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneMemoCircleCheckRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneMemoCircleCheckRegularIcon',

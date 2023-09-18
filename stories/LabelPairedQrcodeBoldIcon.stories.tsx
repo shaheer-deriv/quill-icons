@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedQrcodeBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedQrcodeBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedQrcodeBoldIcon',

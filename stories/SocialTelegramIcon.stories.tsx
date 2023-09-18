@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SocialTelegramIcon } from '../src/react/Social/Social';
+import { SocialTelegramIcon } from '../src/react/Social';
 
 const meta = {
   title: 'social/SocialTelegramIcon',

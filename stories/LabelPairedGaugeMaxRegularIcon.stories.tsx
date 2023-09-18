@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedGaugeMaxRegularIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedGaugeMaxRegularIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedGaugeMaxRegularIcon',

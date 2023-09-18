@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandalonePercentBoldIcon } from '../src/react/System/Standalone';
+import { StandalonePercentBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandalonePercentBoldIcon',

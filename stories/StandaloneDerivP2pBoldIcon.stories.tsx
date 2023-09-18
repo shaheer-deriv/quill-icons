@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneDerivP2pBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneDerivP2pBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneDerivP2pBoldIcon',

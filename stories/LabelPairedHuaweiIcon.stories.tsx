@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedHuaweiIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedHuaweiIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedHuaweiIcon',

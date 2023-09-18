@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneClockThreeRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneClockThreeRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneClockThreeRegularIcon',

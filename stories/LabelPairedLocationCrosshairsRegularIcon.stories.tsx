@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedLocationCrosshairsRegularIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedLocationCrosshairsRegularIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedLocationCrosshairsRegularIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedHorizontalRuleDashedRegularIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedHorizontalRuleDashedRegularIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedHorizontalRuleDashedRegularIcon',

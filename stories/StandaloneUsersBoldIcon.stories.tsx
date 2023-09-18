@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneUsersBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneUsersBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneUsersBoldIcon',

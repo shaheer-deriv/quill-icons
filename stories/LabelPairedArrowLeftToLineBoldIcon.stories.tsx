@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedArrowLeftToLineBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedArrowLeftToLineBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedArrowLeftToLineBoldIcon',

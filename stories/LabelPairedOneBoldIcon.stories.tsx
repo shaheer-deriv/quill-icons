@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedOneBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedOneBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedOneBoldIcon',

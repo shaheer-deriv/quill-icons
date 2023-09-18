@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneVideoRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneVideoRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneVideoRegularIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneEuroSignRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneEuroSignRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneEuroSignRegularIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SocialXTwitterIcon } from '../src/react/Social/Social';
+import { SocialXTwitterIcon } from '../src/react/Social';
 
 const meta = {
   title: 'social/SocialXTwitterIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneWhatsappIcon } from '../src/react/System/Standalone';
+import { StandaloneWhatsappIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneWhatsappIcon',

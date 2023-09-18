@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneCircleCaretDownRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneCircleCaretDownRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneCircleCaretDownRegularIcon',

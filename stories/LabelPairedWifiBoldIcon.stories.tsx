@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedWifiBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedWifiBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedWifiBoldIcon',

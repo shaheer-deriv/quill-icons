@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandalonePauseRegularIcon } from '../src/react/System/Standalone';
+import { StandalonePauseRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandalonePauseRegularIcon',

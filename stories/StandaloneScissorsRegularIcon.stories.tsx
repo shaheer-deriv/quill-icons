@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneScissorsRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneScissorsRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneScissorsRegularIcon',

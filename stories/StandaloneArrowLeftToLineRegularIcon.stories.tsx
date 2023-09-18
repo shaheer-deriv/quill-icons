@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneArrowLeftToLineRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneArrowLeftToLineRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneArrowLeftToLineRegularIcon',

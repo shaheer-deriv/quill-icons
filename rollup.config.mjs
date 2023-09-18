@@ -24,7 +24,7 @@ export default [
         sourcemap: true,
       },
     ],
-    plugins: [external(), resolve(), typescript({ tsconfig: './tsconfig.build.json' })],
+    plugins: [external(), resolve(), typescript({ tsconfig: './tsconfig.build.json' }), terser()],
   },
   {
     input: 'dist/esm/types/index.d.ts',

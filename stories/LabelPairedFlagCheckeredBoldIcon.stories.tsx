@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedFlagCheckeredBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedFlagCheckeredBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedFlagCheckeredBoldIcon',

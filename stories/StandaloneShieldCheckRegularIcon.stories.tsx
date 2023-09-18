@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneShieldCheckRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneShieldCheckRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneShieldCheckRegularIcon',

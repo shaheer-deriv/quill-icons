@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SocialAppleIcon } from '../src/react/Social/Social';
+import { SocialAppleIcon } from '../src/react/Social';
 
 const meta = {
   title: 'social/SocialAppleIcon',

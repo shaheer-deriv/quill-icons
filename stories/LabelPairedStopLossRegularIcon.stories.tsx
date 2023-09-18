@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedStopLossRegularIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedStopLossRegularIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedStopLossRegularIcon',

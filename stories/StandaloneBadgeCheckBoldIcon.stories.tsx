@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneBadgeCheckBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneBadgeCheckBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneBadgeCheckBoldIcon',

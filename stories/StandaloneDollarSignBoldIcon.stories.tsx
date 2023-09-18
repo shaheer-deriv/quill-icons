@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneDollarSignBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneDollarSignBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneDollarSignBoldIcon',

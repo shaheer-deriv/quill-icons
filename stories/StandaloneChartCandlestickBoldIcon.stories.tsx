@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneChartCandlestickBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneChartCandlestickBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneChartCandlestickBoldIcon',

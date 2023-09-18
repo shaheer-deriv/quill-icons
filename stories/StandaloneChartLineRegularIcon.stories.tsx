@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneChartLineRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneChartLineRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneChartLineRegularIcon',

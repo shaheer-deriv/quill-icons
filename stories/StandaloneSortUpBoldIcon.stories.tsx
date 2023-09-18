@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneSortUpBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneSortUpBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneSortUpBoldIcon',

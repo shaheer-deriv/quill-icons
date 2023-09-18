@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneUnlockRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneUnlockRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneUnlockRegularIcon',

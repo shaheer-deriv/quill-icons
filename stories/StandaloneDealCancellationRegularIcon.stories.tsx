@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneDealCancellationRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneDealCancellationRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneDealCancellationRegularIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneLockBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneLockBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneLockBoldIcon',

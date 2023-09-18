@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneBullhornRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneBullhornRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneBullhornRegularIcon',

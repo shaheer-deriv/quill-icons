@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneCircleNineRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneCircleNineRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneCircleNineRegularIcon',

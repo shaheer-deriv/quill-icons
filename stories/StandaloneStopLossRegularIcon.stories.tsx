@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneStopLossRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneStopLossRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneStopLossRegularIcon',

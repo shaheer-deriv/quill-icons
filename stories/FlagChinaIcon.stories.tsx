@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { FlagChinaIcon } from '../src/react/flags';
+import { FlagChinaIcon } from '../src/react/Flag';
 
 const meta = {
-  title: 'flags/FlagChinaIcon',
+  title: 'Flags/FlagChinaIcon',
   component: FlagChinaIcon,
   parameters: {
     layout: 'centered',

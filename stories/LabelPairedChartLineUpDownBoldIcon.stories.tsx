@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedChartLineUpDownBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedChartLineUpDownBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedChartLineUpDownBoldIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneMobileScreenButtonBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneMobileScreenButtonBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneMobileScreenButtonBoldIcon',

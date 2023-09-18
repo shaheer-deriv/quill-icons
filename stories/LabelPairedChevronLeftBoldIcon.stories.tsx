@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedChevronLeftBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedChevronLeftBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedChevronLeftBoldIcon',

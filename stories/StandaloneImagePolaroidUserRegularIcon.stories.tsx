@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneImagePolaroidUserRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneImagePolaroidUserRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneImagePolaroidUserRegularIcon',

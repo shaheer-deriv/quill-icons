@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneSearchBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneSearchBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneSearchBoldIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneTriangleExclamationBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneTriangleExclamationBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneTriangleExclamationBoldIcon',

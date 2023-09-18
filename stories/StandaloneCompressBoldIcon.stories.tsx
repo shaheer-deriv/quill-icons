@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneCompressBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneCompressBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneCompressBoldIcon',

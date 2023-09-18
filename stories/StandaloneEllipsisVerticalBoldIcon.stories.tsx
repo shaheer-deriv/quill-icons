@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneEllipsisVerticalBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneEllipsisVerticalBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneEllipsisVerticalBoldIcon',

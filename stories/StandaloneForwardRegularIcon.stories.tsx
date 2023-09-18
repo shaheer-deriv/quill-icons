@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneForwardRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneForwardRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneForwardRegularIcon',

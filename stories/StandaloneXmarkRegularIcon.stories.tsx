@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneXmarkRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneXmarkRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneXmarkRegularIcon',

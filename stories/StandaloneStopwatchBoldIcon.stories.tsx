@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneStopwatchBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneStopwatchBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneStopwatchBoldIcon',

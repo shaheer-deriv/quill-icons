@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { FlagNigeriaIcon } from '../src/react/flags';
+import { FlagNigeriaIcon } from '../src/react/Flag';
 
 const meta = {
-  title: 'flags/FlagNigeriaIcon',
+  title: 'Flags/FlagNigeriaIcon',
   component: FlagNigeriaIcon,
   parameters: {
     layout: 'centered',

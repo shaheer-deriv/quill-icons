@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedCircleCaretUpRegularIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedCircleCaretUpRegularIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedCircleCaretUpRegularIcon',

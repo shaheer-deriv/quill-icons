@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneMoonBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneMoonBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneMoonBoldIcon',

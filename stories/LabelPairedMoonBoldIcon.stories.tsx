@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedMoonBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedMoonBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedMoonBoldIcon',

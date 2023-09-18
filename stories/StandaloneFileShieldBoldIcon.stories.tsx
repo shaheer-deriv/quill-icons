@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneFileShieldBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneFileShieldBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneFileShieldBoldIcon',

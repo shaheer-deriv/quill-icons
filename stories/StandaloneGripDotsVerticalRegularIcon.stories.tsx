@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneGripDotsVerticalRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneGripDotsVerticalRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneGripDotsVerticalRegularIcon',

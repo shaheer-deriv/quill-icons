@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneUbuntuIcon } from '../src/react/System/Standalone';
+import { StandaloneUbuntuIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneUbuntuIcon',

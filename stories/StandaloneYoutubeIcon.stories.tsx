@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneYoutubeIcon } from '../src/react/System/Standalone';
+import { StandaloneYoutubeIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneYoutubeIcon',

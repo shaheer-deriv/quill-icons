@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneMessagesQuestionRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneMessagesQuestionRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneMessagesQuestionRegularIcon',

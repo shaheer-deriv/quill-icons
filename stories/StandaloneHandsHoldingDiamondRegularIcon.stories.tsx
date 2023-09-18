@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneHandsHoldingDiamondRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneHandsHoldingDiamondRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneHandsHoldingDiamondRegularIcon',

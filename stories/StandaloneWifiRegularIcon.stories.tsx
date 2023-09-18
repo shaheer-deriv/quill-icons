@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneWifiRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneWifiRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneWifiRegularIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedRectangleBarcodeRegularIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedRectangleBarcodeRegularIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedRectangleBarcodeRegularIcon',

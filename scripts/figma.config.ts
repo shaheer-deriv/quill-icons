@@ -4,13 +4,13 @@ import outPutSvgrComponent from '@figma-export/output-components-as-svgr';
 import outPutSvgStore from '@figma-export/output-components-as-svgstore';
 import { ComponentFilter, ComponentOutputter, FigmaExportRC } from '@figma-export/types';
 import dotenv from 'dotenv';
-import outPutStories from './stories-configs/output.stories';
-import { RenameSvgStoreConfig, SvgStoreConfig } from './outputters.config';
-import renameOutPut from './rename.output';
-import { getFileDescriptor } from './figma.utils';
+import outPutStories from './outputters/stories';
+import { SvgStoreConfig } from './svg-store-configs/outputters.config';
+import renameOutPut from './outputters/rename';
 import { SvgOutPutConfig } from './svg-configs';
 import { ESOutPutConfig, RenameEsConfig } from './es-configs';
-import { SvgReactOutPutConfig } from './svgr-configs';
+import { IconSvgReactOutPutConfig } from './svgr-configs/icons';
+import { IconStoriesOptions } from './stories-configs/icons';
 
 dotenv.config();
 
@@ -19,19 +19,21 @@ const fileId: string = process.env.FILE_ID ?? '';
 const outputters: ComponentOutputter[] = [
   outPutSvg(SvgOutPutConfig),
   outPutEs6(ESOutPutConfig),
-  outPutSvgrComponent(SvgReactOutPutConfig),
   renameOutPut(RenameEsConfig),
-  outPutStories(),
+  outPutSvgrComponent(IconSvgReactOutPutConfig),
+  outPutStories(IconStoriesOptions),
   outPutSvgStore(SvgStoreConfig),
-  renameOutPut(RenameSvgStoreConfig),
 ];
 
 const filterComponent: ComponentFilter = (component) => {
   if (component.name.includes('flag-') && !component.name.includes('/')) {
     return true;
   }
-  const desc = getFileDescriptor(component.name);
-  if (!desc.subCategory.includes('md')) {
+  if (component.name.includes('partnership-md') || component.name.includes('sign-up-md')) {
+    return false;
+  }
+  const splits = component.name.split('/');
+  if (!splits[1].includes('md')) {
     return false;
   }
   return true;
@@ -44,7 +46,7 @@ const filterComponent: ComponentFilter = (component) => {
       {
         fileId,
         filterComponent,
-        onlyFromPages: ['Social', 'Flags', 'System'],
+        onlyFromPages: ['Social', 'Flags', 'System', 'Illustrative'],
         outputters,
       },
     ],

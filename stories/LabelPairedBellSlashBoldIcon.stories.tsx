@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedBellSlashBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedBellSlashBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedBellSlashBoldIcon',

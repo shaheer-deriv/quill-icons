@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedCircleArrowDownRightBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedCircleArrowDownRightBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedCircleArrowDownRightBoldIcon',

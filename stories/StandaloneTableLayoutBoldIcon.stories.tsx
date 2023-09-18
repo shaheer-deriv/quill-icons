@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneTableLayoutBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneTableLayoutBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneTableLayoutBoldIcon',

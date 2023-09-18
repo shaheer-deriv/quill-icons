@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneCompressRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneCompressRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneCompressRegularIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneGridRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneGridRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneGridRegularIcon',

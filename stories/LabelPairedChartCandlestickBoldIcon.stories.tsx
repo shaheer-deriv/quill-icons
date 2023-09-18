@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedChartCandlestickBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedChartCandlestickBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedChartCandlestickBoldIcon',

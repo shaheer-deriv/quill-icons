@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneHorizontalRuleRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneHorizontalRuleRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneHorizontalRuleRegularIcon',

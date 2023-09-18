@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedCircleXmarkRegularIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedCircleXmarkRegularIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedCircleXmarkRegularIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneComputerMouseScrollwheelRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneComputerMouseScrollwheelRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneComputerMouseScrollwheelRegularIcon',

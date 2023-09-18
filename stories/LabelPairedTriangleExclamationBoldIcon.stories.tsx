@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedTriangleExclamationBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedTriangleExclamationBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedTriangleExclamationBoldIcon',

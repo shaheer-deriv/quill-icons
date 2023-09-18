@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneCameraRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneCameraRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneCameraRegularIcon',

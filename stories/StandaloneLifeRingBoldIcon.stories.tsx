@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneLifeRingBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneLifeRingBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneLifeRingBoldIcon',

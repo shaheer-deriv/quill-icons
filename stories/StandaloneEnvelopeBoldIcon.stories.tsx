@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneEnvelopeBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneEnvelopeBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneEnvelopeBoldIcon',

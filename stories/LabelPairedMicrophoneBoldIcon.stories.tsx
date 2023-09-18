@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedMicrophoneBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedMicrophoneBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedMicrophoneBoldIcon',

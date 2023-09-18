@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedSquareFillIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedSquareFillIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedSquareFillIcon',

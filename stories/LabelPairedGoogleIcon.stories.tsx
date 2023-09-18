@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedGoogleIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedGoogleIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedGoogleIcon',

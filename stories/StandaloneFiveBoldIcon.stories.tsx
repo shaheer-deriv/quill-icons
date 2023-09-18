@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneFiveBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneFiveBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneFiveBoldIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneChartMixedRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneChartMixedRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneChartMixedRegularIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneGaugeMinRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneGaugeMinRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneGaugeMinRegularIcon',

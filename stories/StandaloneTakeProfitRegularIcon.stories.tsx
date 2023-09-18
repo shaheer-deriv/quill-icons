@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneTakeProfitRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneTakeProfitRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneTakeProfitRegularIcon',

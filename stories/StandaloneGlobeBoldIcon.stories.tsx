@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneGlobeBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneGlobeBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneGlobeBoldIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneRightFromBracketRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneRightFromBracketRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneRightFromBracketRegularIcon',

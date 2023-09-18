@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneBoxArchiveCircleArrowUpBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneBoxArchiveCircleArrowUpBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneBoxArchiveCircleArrowUpBoldIcon',

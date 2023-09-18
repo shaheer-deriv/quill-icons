@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedBackwardStepRegularIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedBackwardStepRegularIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedBackwardStepRegularIcon',

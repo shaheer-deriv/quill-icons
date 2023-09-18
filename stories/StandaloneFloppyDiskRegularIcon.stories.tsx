@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneFloppyDiskRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneFloppyDiskRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneFloppyDiskRegularIcon',

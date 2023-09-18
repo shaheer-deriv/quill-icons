@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneMobileNotchBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneMobileNotchBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneMobileNotchBoldIcon',

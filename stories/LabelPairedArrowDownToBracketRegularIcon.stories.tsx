@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedArrowDownToBracketRegularIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedArrowDownToBracketRegularIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedArrowDownToBracketRegularIcon',

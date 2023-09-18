@@ -122,34 +122,10 @@ const SvgrTemplate: Options['template'] = (variables, { tpl }) => {
   ];
   return tpl`
     ${updatedImports};
-    import { QuillSvgProps, SvgSize } from 'types';
+    import { QuillSvgProps, sizes } from 'types';
 
     ${variables.interfaces};
     
-          
-    const sizes: SvgSize = {
-      sm: {
-        width: 24,
-        height: 24,
-      },
-      md: {
-        width: 32,
-        height: 32,
-      },
-      lg: {
-        width: 48,
-        height: 48,
-      },
-      xl: {
-        width: 64,
-        height: 64,
-      },
-      '2xl': {
-        width: 96,
-        height: 96,
-      },
-    };
-
     export const ${variables.componentName} = (${updatedProps}) => (
       ${variables.jsx}
     );

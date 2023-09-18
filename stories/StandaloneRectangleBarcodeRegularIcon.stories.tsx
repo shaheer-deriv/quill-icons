@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneRectangleBarcodeRegularIcon } from '../src/react/System/Standalone';
+import { StandaloneRectangleBarcodeRegularIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneRectangleBarcodeRegularIcon',

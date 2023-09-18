@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedTriangleExclamationRegularIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedTriangleExclamationRegularIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedTriangleExclamationRegularIcon',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedEllipsisVerticalRegularIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedEllipsisVerticalRegularIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedEllipsisVerticalRegularIcon',

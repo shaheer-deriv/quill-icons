@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedTiktokIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedTiktokIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedTiktokIcon',

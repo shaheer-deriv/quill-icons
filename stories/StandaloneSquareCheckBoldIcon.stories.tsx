@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneSquareCheckBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneSquareCheckBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneSquareCheckBoldIcon',

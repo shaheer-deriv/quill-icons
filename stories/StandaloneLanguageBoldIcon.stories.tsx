@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneLanguageBoldIcon } from '../src/react/System/Standalone';
+import { StandaloneLanguageBoldIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneLanguageBoldIcon',

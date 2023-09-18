@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { StandaloneStarFillIcon } from '../src/react/System/Standalone';
+import { StandaloneStarFillIcon } from '../src/react/Standalone';
 
 const meta = {
   title: 'standalone/StandaloneStarFillIcon',

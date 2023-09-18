@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { LabelPairedDerivP2pBoldIcon } from '../src/react/System/LabelPaired';
+import { LabelPairedDerivP2pBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
   title: 'label-paired/LabelPairedDerivP2pBoldIcon',
