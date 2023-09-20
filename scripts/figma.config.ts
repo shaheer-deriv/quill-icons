@@ -1,14 +1,7 @@
-import outPutEs6 from '@figma-export/output-components-as-es6';
-import outPutSvg from '@figma-export/output-components-as-svg';
 import outPutSvgrComponent from '@figma-export/output-components-as-svgr';
-import outPutSvgStore from '@figma-export/output-components-as-svgstore';
 import { ComponentFilter, ComponentOutputter, FigmaExportRC } from '@figma-export/types';
 import dotenv from 'dotenv';
 import outPutStories from './outputters/stories';
-import { SvgStoreConfig } from './svg-store-configs/outputters.config';
-import renameOutPut from './outputters/rename';
-import { SvgOutPutConfig } from './svg-configs';
-import { ESOutPutConfig, RenameEsConfig } from './es-configs';
 import { IconSvgReactOutPutConfig } from './svgr-configs/icons';
 import { IconStoriesOptions } from './stories-configs/icons';
 
@@ -17,12 +10,8 @@ dotenv.config();
 const fileId: string = 'c24yCkzAgS5Fv1x0QuEYxq';
 
 const outputters: ComponentOutputter[] = [
-  outPutSvg(SvgOutPutConfig),
-  outPutEs6(ESOutPutConfig),
-  renameOutPut(RenameEsConfig),
   outPutSvgrComponent(IconSvgReactOutPutConfig),
   outPutStories(IconStoriesOptions),
-  outPutSvgStore(SvgStoreConfig),
 ];
 
 const filterComponent: ComponentFilter = (component) => {
