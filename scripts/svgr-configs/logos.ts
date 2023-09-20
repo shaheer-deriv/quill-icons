@@ -10,6 +10,7 @@ import {
 } from '../utils/figma.utils';
 import * as FigmaExport from '@figma-export/types';
 import { pascalCase } from '@figma-export/utils';
+import { Config as OptimizeOptions } from 'svgo';
 
 interface Options {
   output: string;
@@ -59,6 +60,20 @@ export const LogosSvgReactOutPutConfig: Options = {
     return getExportTemplate({ reactComponentFilename, reactComponentName });
   },
   getSvgrConfig: () => {
+    const svgoConfig: OptimizeOptions = {
+      plugins: [
+        {
+          name: 'preset-default',
+          params: {
+            overrides: {
+              removeViewBox: false,
+            },
+          },
+        },
+        'removeComments',
+        'removeUselessStrokeAndFill',
+      ],
+    };
     return {
       ref: true,
       svgProps: {
@@ -67,6 +82,9 @@ export const LogosSvgReactOutPutConfig: Options = {
       typescript: true,
       svgo: true,
       icon: true,
+      plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],
+      svgoConfig,
+      dimensions: false,
     };
   },
 };

@@ -81,7 +81,6 @@ export const IconSvgReactOutPutConfig: Options = {
       icon: true,
       plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],
       svgoConfig,
-
       dimensions: false,
       template: SvgrTemplate,
     };
