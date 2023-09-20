@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/deriv-com/quill-icons/compare/v1.0.0...v1.0.1) (2023-09-20)
+
+
+### ♻️ 	 Chores
+
+* removed useless attr from logo icons ([fdebe40](https://github.com/deriv-com/quill-icons/commit/fdebe40b89579bf5352346236bd67d4e66041a1d))
+
 # 1.0.0 (2023-09-20)
 
 
