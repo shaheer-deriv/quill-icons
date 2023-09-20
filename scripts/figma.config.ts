@@ -14,7 +14,7 @@ import { IconStoriesOptions } from './stories-configs/icons';
 
 dotenv.config();
 
-const fileId: string = process.env.FILE_ID ?? '';
+const fileId: string = 'c24yCkzAgS5Fv1x0QuEYxq';
 
 const outputters: ComponentOutputter[] = [
   outPutSvg(SvgOutPutConfig),
