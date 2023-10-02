@@ -76,6 +76,7 @@ export { default as IllustrativeNoCommissionIcon } from './IllustrativeNoCommiss
 export { default as IllustrativeComputerIcon } from './IllustrativeComputerIcon';
 export { default as IllustrativeMobileIcon } from './IllustrativeMobileIcon';
 export { default as IllustrativePaidProgrammeIcon } from './IllustrativePaidProgrammeIcon';
+export { default as IllustrativePartnershipShieldIcon } from './IllustrativePartnershipShieldIcon';
 export { default as IllustrativeProfessionalGuidanceIcon } from './IllustrativeProfessionalGuidanceIcon';
 export { default as IllustrativeMarketingIcon } from './IllustrativeMarketingIcon';
 export { default as IllustrativeCreativeMaterialsIcon } from './IllustrativeCreativeMaterialsIcon';
@@ -89,6 +90,7 @@ export { default as IllustrativeTransparentIcon } from './IllustrativeTransparen
 export { default as IllustrativeReliableIcon } from './IllustrativeReliableIcon';
 export { default as IllustrativeFairIcon } from './IllustrativeFairIcon';
 export { default as IllustrativeOptionalIcon } from './IllustrativeOptionalIcon';
+export { default as IllustrativeRegisterIcon } from './IllustrativeRegisterIcon';
 export { default as IllustrativeProfitPotentialIcon } from './IllustrativeProfitPotentialIcon';
 export { default as IllustrativeSoftwareDevelopersIcon } from './IllustrativeSoftwareDevelopersIcon';
 export { default as IllustrativeStraightforwardTradingIcon } from './IllustrativeStraightforwardTradingIcon';

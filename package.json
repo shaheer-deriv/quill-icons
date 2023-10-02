@@ -10,7 +10,7 @@
     "export:icons": "ts-node ./node_modules/@figma-export/cli/bin/run use-config ./scripts/figma.config.ts",
     "export:logos": "ts-node ./node_modules/@figma-export/cli/bin/run use-config ./scripts/logo.figma.config.ts",
     "export:figma": "npm-run-all export:icons export:logos",
-    "rexport": "npm-run-all clean export:figma",
+    "rexport": "npm-run-all clean export:figma format",
     "export:barrels": "barrelsby -c barrelsby.config.json",
     "export": "npm-run-all clean export:figma export:barrels format",
     "build": "rimraf dist && rollup -c",
