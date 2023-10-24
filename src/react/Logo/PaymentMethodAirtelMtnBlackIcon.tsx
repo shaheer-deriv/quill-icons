@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const PaymentMethodAirtelMtnDarkIcon = (
+const PaymentMethodAirtelMtnBlackIcon = (
   props: SVGProps<SVGSVGElement>,
   ref: Ref<SVGSVGElement>,
 ) => (
@@ -23,5 +23,5 @@ const PaymentMethodAirtelMtnDarkIcon = (
     </g>
   </svg>
 );
-const ForwardRef = forwardRef(PaymentMethodAirtelMtnDarkIcon);
+const ForwardRef = forwardRef(PaymentMethodAirtelMtnBlackIcon);
 export default ForwardRef;
