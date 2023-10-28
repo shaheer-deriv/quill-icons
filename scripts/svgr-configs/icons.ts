@@ -1,11 +1,12 @@
 import { ComponentOutputterParamOption } from '@figma-export/types';
 import { Config } from '@svgr/core';
-import { SVGR_COMPONENT_OUT_PUT_PATH } from '../utils/figma.constants';
+import { ICON_PAGES, SVGR_COMPONENT_OUT_PUT_PATH } from '../utils/figma.constants';
 import {
   getDirName,
   getExportTemplate,
   getFileDescriptor,
-  getVarNameByFileDC,
+  getNameGeneratorByPage,
+  // getVarNameByFileDC,
 } from '../utils/figma.utils';
 import { Config as OptimizeOptions } from 'svgo';
 import SvgrTemplate from './svgr-template';
@@ -28,7 +29,8 @@ interface Options {
 
 export const getIconComponentName = (options: FigmaExport.ComponentOutputterParamOption) => {
   const fileDescriptor = getFileDescriptor(options);
-  const variableName = getVarNameByFileDC(fileDescriptor);
+  const nameGenerator = getNameGeneratorByPage(options.pageName as (typeof ICON_PAGES)[number]);
+  const variableName = nameGenerator(fileDescriptor);
   return `${pascalCase(variableName)}Icon`;
 };
 

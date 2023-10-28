@@ -1,0 +1,27 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="currencies / currency-sol" clip-path="url(#clip0_1859_870)">
+<g id="logo">
+<path d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16Z" fill="black"/>
+<path d="M9.92418 9.11908C10.0373 9.01047 10.1867 8.94711 10.3405 8.94711H24.7047C24.9672 8.94711 25.0984 9.2639 24.9129 9.44945L22.0753 12.287C21.9667 12.3956 21.8174 12.459 21.659 12.459H7.29483C7.03235 12.459 6.90111 12.1422 7.08665 11.9566L9.92418 9.11908Z" fill="url(#paint0_linear_1859_870)"/>
+<path d="M9.92419 19.7138C10.0328 19.6052 10.1821 19.5418 10.3405 19.5418H24.7047C24.9672 19.5418 25.0984 19.8586 24.9129 20.0442L22.0753 22.8817C21.9667 22.9903 21.8174 23.0537 21.659 23.0537H7.29483C7.03235 23.0537 6.90111 22.7369 7.08666 22.5513L9.92419 19.7138Z" fill="url(#paint1_linear_1859_870)"/>
+<path d="M21.659 14.2108C21.8174 14.2108 21.9667 14.2741 22.0753 14.3828L24.9129 17.2203C25.0984 17.4058 24.9672 17.7226 24.7047 17.7226H10.3405C10.1821 17.7226 10.0328 17.6593 9.92419 17.5507L7.08666 14.7131C6.90111 14.5276 7.03235 14.2108 7.29483 14.2108H21.659Z" fill="url(#paint2_linear_1859_870)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1859_870" x1="21.1453" y1="6.11004" x2="11.2037" y2="25.1516" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00FFA3"/>
+<stop offset="1" stop-color="#DC1FFF"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1859_870" x1="21.1453" y1="6.11004" x2="11.2037" y2="25.1516" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00FFA3"/>
+<stop offset="1" stop-color="#DC1FFF"/>
+</linearGradient>
+<linearGradient id="paint2_linear_1859_870" x1="21.1453" y1="6.11004" x2="11.2037" y2="25.1516" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00FFA3"/>
+<stop offset="1" stop-color="#DC1FFF"/>
+</linearGradient>
+<clipPath id="clip0_1859_870">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { FlagNetherlandsAntillesIcon } from '../src/react/Flag';
+import { FlagNetherlandsAntillesIcon } from '../src/react/Flags';
 
 const meta = {
   title: 'Flags/FlagNetherlandsAntillesIcon',

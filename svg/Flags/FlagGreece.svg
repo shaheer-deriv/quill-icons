@@ -1,0 +1,17 @@
+<svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flags / flag-greece">
+<g id="flag">
+<path d="M0 14H24C24 15.1046 23.1046 16 22 16H2C0.89543 16 0 15.1046 0 14Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.99999e-08 13.5H24V14C24 15.1046 23.1046 16 22 16H2C0.89543 16 0 15.1046 0 14L4.99999e-08 13.5Z" fill="#006CC7"/>
+<path d="M24 11.5H4.99999e-08V13.5H24V11.5Z" fill="white"/>
+<path d="M24 9H4.99999e-08V11.5H24V9Z" fill="#006CC7"/>
+<path d="M24 7H4.99999e-08V9H24V7Z" fill="white"/>
+<path d="M24 4.5H4.99999e-08V7H24V4.5Z" fill="#006CC7"/>
+<path d="M24 2.5H4.99999e-08V4.5H24V2.5Z" fill="white"/>
+<path d="M2 1.66667e-08H22C23.1046 1.66667e-08 24 0.89543 24 2V2.5H4.99999e-08L0 2C0 0.89543 0.89543 1.66667e-08 2 1.66667e-08Z" fill="#006CC7"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11 7V9H4.99999e-08V7H11ZM11 2.5V4.5H4.99999e-08V2.5H11Z" fill="#006CC7"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.875 0V4.5H11V7H6.875V11.5H4.125V7H4.99999e-08V4.5H4.125V0H6.875Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22 1H2C1.44772 1 1 1.44772 1 2V14C1 14.5523 1.44772 15 2 15H22C22.5523 15 23 14.5523 23 14V2C23 1.44771 22.5523 1 22 1ZM2 1.66667e-08C0.89543 1.66667e-08 0 0.89543 0 2V14C0 15.1046 0.89543 16 2 16H22C23.1046 16 24 15.1046 24 14V2C24 0.89543 23.1046 1.66667e-08 22 1.66667e-08H2Z" fill="black" fill-opacity="0.08"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="currencies / currency-bat" clip-path="url(#clip0_1859_897)">
+<g id="logo">
+<path d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16Z" fill="#FF5000"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.9997 6.16699L4.97754 22.7002L27.0218 22.7005L15.9997 6.16699ZM12.3263 19.0257L15.9997 13.5156L19.674 19.0265L12.3263 19.0257Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1859_897">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>
