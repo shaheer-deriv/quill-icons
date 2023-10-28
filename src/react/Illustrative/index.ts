@@ -54,6 +54,7 @@ export { default as IllustrativeTradeWiselyIcon } from './IllustrativeTradeWisel
 export { default as IllustrativeLimitLossesIcon } from './IllustrativeLimitLossesIcon';
 export { default as IllustrativeTwoFactorAuthenticationIcon } from './IllustrativeTwoFactorAuthenticationIcon';
 export { default as IllustrativeHandsOnExperienceIcon } from './IllustrativeHandsOnExperienceIcon';
+export { default as IllustrativePartnershipIcon } from './IllustrativePartnershipIcon';
 export { default as IllustrativeHighIcon } from './IllustrativeHighIcon';
 export { default as IllustrativeMarketExposureIcon } from './IllustrativeMarketExposureIcon';
 export { default as IllustrativeInstantAccessIcon } from './IllustrativeInstantAccessIcon';
@@ -82,6 +83,7 @@ export { default as IllustrativeMarketingIcon } from './IllustrativeMarketingIco
 export { default as IllustrativeCreativeMaterialsIcon } from './IllustrativeCreativeMaterialsIcon';
 export { default as IllustrativeRecordIcon } from './IllustrativeRecordIcon';
 export { default as IllustrativePurchaseIcon } from './IllustrativePurchaseIcon';
+export { default as IllustrativeSignUpIcon } from './IllustrativeSignUpIcon';
 export { default as IllustrativeRealWorldExposureIcon } from './IllustrativeRealWorldExposureIcon';
 export { default as IllustrativeResponsiveIcon } from './IllustrativeResponsiveIcon';
 export { default as IllustrativeRiskManagementIcon } from './IllustrativeRiskManagementIcon';

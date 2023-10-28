@@ -6,6 +6,7 @@ import outPutStories from './outputters/stories';
 import { IconSvgReactOutPutConfig } from './svgr-configs/icons';
 import { IconStoriesOptions } from './stories-configs/icons';
 import { SvgOutPutConfig } from './svg-configs';
+import { ICON_PAGES } from './utils/figma.constants';
 
 dotenv.config();
 
@@ -18,12 +19,16 @@ const outputters: ComponentOutputter[] = [
 ];
 
 const filterComponent: ComponentFilter = (component) => {
-  if (component.name.includes('flag-') && !component.name.includes('/')) {
+  // pages without sm/md/lg/xl sizes we get all icons
+  if (
+    component.name.includes('flags /') ||
+    component.name.includes('markets /') ||
+    component.name.includes('currencies /')
+  ) {
     return true;
   }
-  if (component.name.includes('partnership-md') || component.name.includes('sign-up-md')) {
-    return false;
-  }
+
+  // pages with sm/md/lg/xl sizes we get only md icons
   const splits = component.name.split('/');
   if (!splits[1].includes('md')) {
     return false;
@@ -38,7 +43,7 @@ const filterComponent: ComponentFilter = (component) => {
       {
         fileId,
         filterComponent,
-        onlyFromPages: ['Social', 'Flags', 'System', 'Illustrative'],
+        onlyFromPages: [...ICON_PAGES],
         outputters,
       },
     ],

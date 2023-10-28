@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="currencies / currency-dai">
+<g id="logo">
+<path d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16Z" fill="#FCE6C5"/>
+<path d="M6 16H16V26L6 16Z" fill="#FFCC80"/>
+<path d="M16 6V19L6 16L16 6Z" fill="#FFB74D"/>
+<path d="M9 16L16 9V13L13 16H9Z" fill="white"/>
+<path d="M26 16H16V26L26 16Z" fill="#F7C57B"/>
+<path d="M16 6V19L26 16L16 6Z" fill="#F7B14A"/>
+<path d="M23 16L16 9V13L19 16H23Z" fill="white"/>
+</g>
+</g>
+</svg>

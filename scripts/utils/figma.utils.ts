@@ -1,12 +1,10 @@
 import { pascalCase } from '@figma-export/utils';
 import * as FigmaExport from '@figma-export/types';
+import { ICON_PAGES } from './figma.constants';
 
 export const getFileDescriptor = (options: FigmaExport.ComponentOutputterParamOption) => {
   const { componentName } = options;
-  let separator = '/';
-  if (isFlagsPage(options)) {
-    separator = '-';
-  }
+  const separator = '/';
   const splits = componentName.split(separator);
 
   const category = splits[0].trim().replace(/-md/g, '');
@@ -39,7 +37,7 @@ export const getVarNameByFileDC = (fileDescriptor: ReturnType<typeof getFileDesc
   const names: Array<string | undefined> = [];
   const fileDescriptorKeys = Object.keys(fileDescriptor) as Array<keyof typeof fileDescriptor>;
   fileDescriptorKeys.forEach((key) => {
-    if (fileDescriptor[key] !== undefined && !isMd(fileDescriptor[key])) {
+    if (key !== 'category' && fileDescriptor[key] !== undefined && !isMd(fileDescriptor[key])) {
       names.push(fileDescriptor[key]);
     }
   });
@@ -49,9 +47,38 @@ export const getVarNameByFileDC = (fileDescriptor: ReturnType<typeof getFileDesc
   return variableName;
 };
 
+export const getNameGeneratorByPage = (pageName: (typeof ICON_PAGES)[number]) => {
+  switch (pageName) {
+    case 'Markets':
+    case 'Currencies':
+    case 'Flags':
+      return (fileDescriptor: ReturnType<typeof getFileDescriptor>) => {
+        const { subCategory } = fileDescriptor;
+        return `${subCategory}`;
+      };
+    default:
+      return (fileDescriptor: ReturnType<typeof getFileDescriptor>) => {
+        const names: Array<string | undefined> = [];
+        const fileDescriptorKeys = Object.keys(fileDescriptor) as Array<
+          keyof typeof fileDescriptor
+        >;
+        fileDescriptorKeys.forEach((key) => {
+          if (fileDescriptor[key] !== undefined && !isMd(fileDescriptor[key])) {
+            names.push(fileDescriptor[key]);
+          }
+        });
+
+        const joinedNames = names.join('_');
+        const variableName = makeVariableName(joinedNames);
+        return variableName;
+      };
+  }
+};
+
 export const getSvgBaseName = (options: FigmaExport.ComponentOutputterParamOption) => {
   const fileDescriptor = getFileDescriptor(options);
-  const variableName = getVarNameByFileDC(fileDescriptor);
+  const nameGenerator = getNameGeneratorByPage(options.pageName as (typeof ICON_PAGES)[number]);
+  const variableName = nameGenerator(fileDescriptor);
   return `${pascalCase(variableName)}.svg`;
 };
 

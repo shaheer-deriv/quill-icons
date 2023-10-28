@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="currencies / currency-eth">
+<g id="logo">
+<path d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16Z" fill="#EBF0F1"/>
+<path d="M15.998 4V20.5652L23.495 16.22L15.998 4Z" fill="#12100B" fill-opacity="0.8"/>
+<path d="M15.998 4L8.5 16.22L15.998 20.57V4Z" fill="#12100B" fill-opacity="0.45"/>
+<path d="M15.998 21.968V27.995L23.5 17.616L15.998 21.968Z" fill="#12100B" fill-opacity="0.8"/>
+<path d="M15.998 27.995V21.967L8.5 17.616L15.998 27.995Z" fill="#12100B" fill-opacity="0.45"/>
+<path d="M15.998 20.573L23.495 16.22L15.998 12.872V20.573Z" fill="#12100B" fill-opacity="0.6"/>
+<path d="M8.5 16.22L15.998 20.573V12.872L8.5 16.22Z" fill="#12100B" fill-opacity="0.6"/>
+</g>
+</g>
+</svg>
