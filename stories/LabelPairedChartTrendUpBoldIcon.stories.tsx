@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { MarketForexUsdrmbIcon } from '../src/react/Markets';
+import { LabelPairedChartTrendUpBoldIcon } from '../src/react/LabelPaired';
 
 const meta = {
-  title: 'markets/MarketForexUsdrmbIcon',
-  component: MarketForexUsdrmbIcon,
+  title: 'label-paired/LabelPairedChartTrendUpBoldIcon',
+  component: LabelPairedChartTrendUpBoldIcon,
   parameters: {
     layout: 'centered',
   },
@@ -19,11 +19,11 @@ const meta = {
     },
   },
   tags: ['autodocs'],
-} satisfies Meta<typeof MarketForexUsdrmbIcon>;
+} satisfies Meta<typeof LabelPairedChartTrendUpBoldIcon>;
 
 export default meta;
 
-type Story = StoryObj<typeof MarketForexUsdrmbIcon>;
+type Story = StoryObj<typeof LabelPairedChartTrendUpBoldIcon>;
 
 export const Primary: Story = {
   args: {

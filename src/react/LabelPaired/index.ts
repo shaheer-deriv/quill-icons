@@ -491,3 +491,9 @@ export { default as LabelPairedCameraRegularIcon } from './LabelPairedCameraRegu
 export { default as LabelPairedCameraBoldIcon } from './LabelPairedCameraBoldIcon';
 export { default as LabelPairedImagePolaroidUserRegularIcon } from './LabelPairedImagePolaroidUserRegularIcon';
 export { default as LabelPairedImagePolaroidUserBoldIcon } from './LabelPairedImagePolaroidUserBoldIcon';
+export { default as LabelPairedChartTrendUpRegularIcon } from './LabelPairedChartTrendUpRegularIcon';
+export { default as LabelPairedChartTrendUpBoldIcon } from './LabelPairedChartTrendUpBoldIcon';
+export { default as LabelPairedChartTrendDownRegularIcon } from './LabelPairedChartTrendDownRegularIcon';
+export { default as LabelPairedChartTrendDownBoldIcon } from './LabelPairedChartTrendDownBoldIcon';
+export { default as LabelPairedChartTrendSidewayRegularIcon } from './LabelPairedChartTrendSidewayRegularIcon';
+export { default as LabelPairedChartTrendSidewayBoldIcon } from './LabelPairedChartTrendSidewayBoldIcon';
