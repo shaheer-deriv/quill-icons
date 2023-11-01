@@ -491,3 +491,9 @@ export { default as StandaloneCameraRegularIcon } from './StandaloneCameraRegula
 export { default as StandaloneCameraBoldIcon } from './StandaloneCameraBoldIcon';
 export { default as StandaloneImagePolaroidUserRegularIcon } from './StandaloneImagePolaroidUserRegularIcon';
 export { default as StandaloneImagePolaroidUserBoldIcon } from './StandaloneImagePolaroidUserBoldIcon';
+export { default as StandaloneChartTrendUpRegularIcon } from './StandaloneChartTrendUpRegularIcon';
+export { default as StandaloneChartTrendUpBoldIcon } from './StandaloneChartTrendUpBoldIcon';
+export { default as StandaloneChartTrendDownRegularIcon } from './StandaloneChartTrendDownRegularIcon';
+export { default as StandaloneChartTrendDownBoldIcon } from './StandaloneChartTrendDownBoldIcon';
+export { default as StandaloneChartTrendSidewayRegularIcon } from './StandaloneChartTrendSidewayRegularIcon';
+export { default as StandaloneChartTrendSidewayBoldIcon } from './StandaloneChartTrendSidewayBoldIcon';

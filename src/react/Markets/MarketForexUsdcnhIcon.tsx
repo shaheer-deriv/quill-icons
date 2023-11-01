@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from 'types';
-export const MarketForexUsdrmbIcon = (
+export const MarketForexUsdcnhIcon = (
   { iconSize = 'md', ...props }: QuillSvgProps,
   ref: Ref<SVGSVGElement>,
 ) => (
@@ -58,5 +58,5 @@ export const MarketForexUsdrmbIcon = (
     />
   </svg>
 );
-const ForwardRef = forwardRef(MarketForexUsdrmbIcon);
+const ForwardRef = forwardRef(MarketForexUsdcnhIcon);
 export default ForwardRef;
