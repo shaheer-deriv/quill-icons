@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/deriv-com/quill-icons/compare/v1.0.5...v1.0.6) (2023-11-01)
+
+
+### ♻️ 	 Chores
+
+* added new 3 icons for market ([4fbb9f4](https://github.com/deriv-com/quill-icons/commit/4fbb9f47c4d82638d38a0ff41e58a64655eba027))
+
 ## [1.0.5](https://github.com/deriv-com/quill-icons/compare/v1.0.4...v1.0.5) (2023-10-28)
 
 
