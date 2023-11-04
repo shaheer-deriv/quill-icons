@@ -2,9 +2,43 @@
   "name": "@deriv/quill-icons",
   "version": "1.0.6",
   "description": "This is the central repository for quill icons, exported from figma design file",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./Currencies": {
+      "import": "./dist/Currencies/index.js",
+      "types": "./dist/Currencies/index.d.ts"
+    },
+    "./Flags": {
+      "import": "./dist/Flags/index.js",
+      "types": "./dist/Flags/index.d.ts"
+    },
+    "./Illustrative": {
+      "import": "./dist/Illustrative/index.js",
+      "types": "./dist/Illustrative/index.d.ts"
+    },
+    "./LabelPaired": {
+      "import": "./dist/LabelPaired/index.js",
+      "types": "./dist/LabelPaired/index.d.ts"
+    },
+    "./Logo": {
+      "import": "./dist/Logo/index.js",
+      "types": "./dist/Logo/index.d.ts"
+    },
+    "./Markets": {
+      "import": "./dist/Markets/index.js",
+      "types": "./dist/Markets/index.d.ts"
+    },
+    "./Social": {
+      "import": "./dist/Social/index.js",
+      "types": "./dist/Social/index.d.ts"
+    },
+    "./Standalone": {
+      "import": "./dist/Standalone/index.js",
+      "types": "./dist/Standalone/index.d.ts"
+    }
+  },
   "scripts": {
     "clean": "rimraf stories src/es6 src/react src/index.ts svg storybook-static sprite",
     "export:icons": "ts-node ./node_modules/@figma-export/cli/bin/run use-config ./scripts/figma.config.ts",
@@ -13,7 +47,7 @@
     "rexport": "npm-run-all clean export:figma format",
     "export:barrels": "barrelsby -c barrelsby.config.json",
     "export": "npm-run-all clean export:figma export:barrels format",
-    "build": "rimraf dist && rollup -c",
+    "build": "rimraf dist && rollup -c && rimraf dist/types dist/index.d.ts dist/index.js",
     "rebuild": "npm-run-all clean export build",
     "storybook": "storybook dev -p 6006",
     "start": "storybook dev -p 6006",
@@ -40,9 +74,9 @@
     "@figma-export/transform-svg-with-svgo": "^4.5.0",
     "@figma-export/types": "^4.5.0",
     "@figma-export/utils": "^4.0.0",
-    "@rollup/plugin-node-resolve": "^15.0.1",
-    "@rollup/plugin-terser": "^0.1.0",
-    "@rollup/plugin-typescript": "^10.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@storybook/addon-actions": "^7.4.2",
@@ -76,15 +110,15 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^2.8.0",
     "rimraf": "^3.0.2",
-    "rollup": "^3.5.0",
-    "rollup-plugin-dts": "^5.0.0",
+    "rollup": "^4.3.0",
+    "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "semantic-release": "21.1.1",
     "storybook": "^7.4.2",
     "svgo": "^3.0.2",
     "ts-node": "^10.9.1",
-    "tslib": "^2.4.0",
-    "typescript": "^4.9.3",
+    "tslib": "^2.6.2",
+    "typescript": "^4.9.5",
     "webpack": "^5.88.2"
   },
   "peerDependencies": {
@@ -104,7 +138,7 @@
     "type": "git",
     "url": "git+https://github.com/deriv-com/quill-icons.git"
   },
-  "author": "Michio",
+  "author": "Deriv",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/deriv-com/quill-icons/issues"
