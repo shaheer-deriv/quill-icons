@@ -1,3 +1,11 @@
+## [1.0.7-beta.1](https://github.com/deriv-com/quill-icons/compare/v1.0.6...v1.0.7-beta.1) (2023-11-04)
+
+
+### ♻️ 	 Chores
+
+* separated icons types in separate import folder ([240221b](https://github.com/deriv-com/quill-icons/commit/240221b9e1fa8d55e48dfe9e1afb7858973fffc6))
+* update github aciton branches [skip ci] ([3af3516](https://github.com/deriv-com/quill-icons/commit/3af3516b70ce37baffd78cfb2eb5a62689c855f0))
+
 ## [1.0.6](https://github.com/deriv-com/quill-icons/compare/v1.0.5...v1.0.6) (2023-11-01)
 
 
