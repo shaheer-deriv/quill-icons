@@ -1,3 +1,10 @@
+## [1.0.7-beta.2](https://github.com/deriv-com/quill-icons/compare/v1.0.7-beta.1...v1.0.7-beta.2) (2023-11-06)
+
+
+### ♻️ 	 Chores
+
+* aded IconTypes sub folder ([caed52a](https://github.com/deriv-com/quill-icons/commit/caed52a5d1df275049aaf33f2ed7ef33208897ca))
+
 ## [1.0.7-beta.1](https://github.com/deriv-com/quill-icons/compare/v1.0.6...v1.0.7-beta.1) (2023-11-04)
 
 
