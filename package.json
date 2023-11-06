@@ -4,8 +4,9 @@
   "description": "This is the central repository for quill icons, exported from figma design file",
   "files": [
     "dist"
-  ],
+  ],  
   "exports": {
+    "./IconTypes": "./dist/types.d.ts",
     "./Currencies": {
       "import": "./dist/Currencies/index.js",
       "types": "./dist/Currencies/index.d.ts"
@@ -47,7 +48,8 @@
     "rexport": "npm-run-all clean export:figma format",
     "export:barrels": "barrelsby -c barrelsby.config.json",
     "export": "npm-run-all clean export:figma export:barrels format",
-    "build": "rimraf dist && rollup -c && rimraf dist/types dist/index.d.ts dist/index.js",
+    "clean:postBuild": "rimraf dist/types dist/index.d.ts dist/index.js",
+    "build": "rimraf dist && rollup -c && npm run clean:postBuild",
     "rebuild": "npm-run-all clean export build",
     "storybook": "storybook dev -p 6006",
     "start": "storybook dev -p 6006",
