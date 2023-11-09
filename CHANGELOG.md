@@ -1,3 +1,22 @@
+## [1.0.7](https://github.com/deriv-com/quill-icons/compare/v1.0.6...v1.0.7) (2023-11-09)
+
+
+### ♻️ 	 Chores
+
+* added QuillTypes ([ca81acb](https://github.com/deriv-com/quill-icons/commit/ca81acb61700b882bd6743ac474f8242d46a619a))
+* aded IconTypes sub folder ([caed52a](https://github.com/deriv-com/quill-icons/commit/caed52a5d1df275049aaf33f2ed7ef33208897ca))
+* exports now have general exports and sub-directory exports ([0fbde09](https://github.com/deriv-com/quill-icons/commit/0fbde091a2f67295f41b6f01c0cb7bd6b166cda3))
+* separated icons types in separate import folder ([240221b](https://github.com/deriv-com/quill-icons/commit/240221b9e1fa8d55e48dfe9e1afb7858973fffc6))
+* update github aciton branches [skip ci] ([3af3516](https://github.com/deriv-com/quill-icons/commit/3af3516b70ce37baffd78cfb2eb5a62689c855f0))
+
+
+### ⚙️ 	 Continuous Integrations
+
+* release(version): Release 1.0.7-beta.1 [skip ci] ([0e2ecd2](https://github.com/deriv-com/quill-icons/commit/0e2ecd29a0d3f49c8ad24f02566cef88e5c90f9d))
+* release(version): Release 1.0.7-beta.2 [skip ci] ([dc3e29f](https://github.com/deriv-com/quill-icons/commit/dc3e29ff7676e028f7397b95d41a540996702eac))
+* release(version): Release 1.0.7-beta.3 [skip ci] ([ad1b534](https://github.com/deriv-com/quill-icons/commit/ad1b5343d26bb87fa511e0e09977023e41bdb296))
+* release(version): Release 1.0.7-beta.4 [skip ci] ([4af806b](https://github.com/deriv-com/quill-icons/commit/4af806b68b1cf8d989585e89aa5394a30c444962))
+
 ## [1.0.7-beta.4](https://github.com/deriv-com/quill-icons/compare/v1.0.7-beta.3...v1.0.7-beta.4) (2023-11-09)
 
 
