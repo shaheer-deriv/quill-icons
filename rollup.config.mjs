@@ -3,6 +3,7 @@ import typescript from '@rollup/plugin-typescript';
 import external from 'rollup-plugin-peer-deps-external';
 import { readdirSync } from 'fs';
 import dts from 'rollup-plugin-dts';
+import terser from '@rollup/plugin-terser';
 
 const getComponentsFolders = (entry) => {
   const dirs = readdirSync(entry);
@@ -16,6 +17,7 @@ const commonPlugins = [
   typescript({
     tsconfig: './tsconfig.build.json',
   }),
+  terser(),
 ];
 
 function component(commonPlugins, folder) {
@@ -74,6 +76,17 @@ export default [
   {
     input: 'dist/types/index.d.ts',
     output: [{ file: 'dist/index.d.ts', format: 'esm' }],
+    plugins: [
+      dts({
+        compilerOptions: {
+          baseUrl: './src',
+        },
+      }),
+    ],
+  },
+  {
+    input: 'src/types/index.ts',
+    output: [{ file: 'dist/quill-types.d.ts', format: 'esm' }],
     plugins: [
       dts({
         compilerOptions: {
