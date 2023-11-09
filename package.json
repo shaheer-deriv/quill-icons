@@ -11,34 +11,42 @@
     },
     "./Currencies": {
       "import": "./dist/Currencies/index.js",
+      "require": "./dist/Currencies/index.cjs",
       "types": "./dist/Currencies/index.d.ts"
     },
     "./Flags": {
       "import": "./dist/Flags/index.js",
+      "require": "./dist/Flags/index.cjs",
       "types": "./dist/Flags/index.d.ts"
     },
     "./Illustrative": {
       "import": "./dist/Illustrative/index.js",
+      "require": "./dist/Illustrative/index.cjs",
       "types": "./dist/Illustrative/index.d.ts"
     },
     "./LabelPaired": {
       "import": "./dist/LabelPaired/index.js",
+      "require": "./dist/LabelPaired/index.cjs",
       "types": "./dist/LabelPaired/index.d.ts"
     },
     "./Logo": {
       "import": "./dist/Logo/index.js",
+      "require": "./dist/Logo/index.cjs",
       "types": "./dist/Logo/index.d.ts"
     },
     "./Markets": {
       "import": "./dist/Markets/index.js",
+      "require": "./dist/Markets/index.cjs",
       "types": "./dist/Markets/index.d.ts"
     },
     "./Social": {
       "import": "./dist/Social/index.js",
+      "require": "./dist/Social/index.cjs",
       "types": "./dist/Social/index.d.ts"
     },
     "./Standalone": {
       "import": "./dist/Standalone/index.js",
+      "require": "./dist/Standalone/index.cjs",
       "types": "./dist/Standalone/index.d.ts"
     }
   },

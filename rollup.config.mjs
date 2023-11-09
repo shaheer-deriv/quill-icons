@@ -29,6 +29,11 @@ function component(commonPlugins, folder) {
         exports: 'named',
         format: 'esm',
       },
+      {
+        file: `dist/${folder}/index.cjs`,
+        exports: 'named',
+        format: 'cjs',
+      },
     ],
     plugins: [...commonPlugins],
     external: [/node_modules/, 'react', 'react-dom', 'react/jsx-runtime'],
