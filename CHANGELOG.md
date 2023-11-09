@@ -1,3 +1,32 @@
+## [1.0.7-beta.4](https://github.com/deriv-com/quill-icons/compare/v1.0.7-beta.3...v1.0.7-beta.4) (2023-11-09)
+
+
+### ♻️ 	 Chores
+
+* added QuillTypes ([ca81acb](https://github.com/deriv-com/quill-icons/commit/ca81acb61700b882bd6743ac474f8242d46a619a))
+
+## [1.0.7-beta.3](https://github.com/deriv-com/quill-icons/compare/v1.0.7-beta.2...v1.0.7-beta.3) (2023-11-09)
+
+
+### ♻️ 	 Chores
+
+* exports now have general exports and sub-directory exports ([0fbde09](https://github.com/deriv-com/quill-icons/commit/0fbde091a2f67295f41b6f01c0cb7bd6b166cda3))
+
+## [1.0.7-beta.2](https://github.com/deriv-com/quill-icons/compare/v1.0.7-beta.1...v1.0.7-beta.2) (2023-11-06)
+
+
+### ♻️ 	 Chores
+
+* aded IconTypes sub folder ([caed52a](https://github.com/deriv-com/quill-icons/commit/caed52a5d1df275049aaf33f2ed7ef33208897ca))
+
+## [1.0.7-beta.1](https://github.com/deriv-com/quill-icons/compare/v1.0.6...v1.0.7-beta.1) (2023-11-04)
+
+
+### ♻️ 	 Chores
+
+* separated icons types in separate import folder ([240221b](https://github.com/deriv-com/quill-icons/commit/240221b9e1fa8d55e48dfe9e1afb7858973fffc6))
+* update github aciton branches [skip ci] ([3af3516](https://github.com/deriv-com/quill-icons/commit/3af3516b70ce37baffd78cfb2eb5a62689c855f0))
+
 ## [1.0.6](https://github.com/deriv-com/quill-icons/compare/v1.0.5...v1.0.6) (2023-11-01)
 
 
