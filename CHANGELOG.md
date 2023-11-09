@@ -1,3 +1,10 @@
+## [1.0.7-beta.3](https://github.com/deriv-com/quill-icons/compare/v1.0.7-beta.2...v1.0.7-beta.3) (2023-11-09)
+
+
+### ♻️ 	 Chores
+
+* exports now have general exports and sub-directory exports ([0fbde09](https://github.com/deriv-com/quill-icons/commit/0fbde091a2f67295f41b6f01c0cb7bd6b166cda3))
+
 ## [1.0.7-beta.2](https://github.com/deriv-com/quill-icons/compare/v1.0.7-beta.1...v1.0.7-beta.2) (2023-11-06)
 
 
