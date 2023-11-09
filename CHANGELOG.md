@@ -1,3 +1,10 @@
+## [1.0.7-beta.4](https://github.com/deriv-com/quill-icons/compare/v1.0.7-beta.3...v1.0.7-beta.4) (2023-11-09)
+
+
+### ♻️ 	 Chores
+
+* added QuillTypes ([ca81acb](https://github.com/deriv-com/quill-icons/commit/ca81acb61700b882bd6743ac474f8242d46a619a))
+
 ## [1.0.7-beta.3](https://github.com/deriv-com/quill-icons/compare/v1.0.7-beta.2...v1.0.7-beta.3) (2023-11-09)
 
 
