@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/deriv-com/quill-icons/compare/v1.0.7...v1.0.8) (2023-11-09)
+
+
+### ♻️ 	 Chores
+
+* added cjs build ([9a5d612](https://github.com/deriv-com/quill-icons/commit/9a5d6121d629d40b8763e943f2ace827bd71bdf3))
+
 ## [1.0.7](https://github.com/deriv-com/quill-icons/compare/v1.0.6...v1.0.7) (2023-11-09)
 
 
