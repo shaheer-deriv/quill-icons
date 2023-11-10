@@ -1,3 +1,15 @@
+## [1.0.9](https://github.com/deriv-com/quill-icons/compare/v1.0.8...v1.0.9) (2023-11-10)
+
+
+### ♻️ 	 Chores
+
+* added . export path for package.json ([606a5f7](https://github.com/deriv-com/quill-icons/commit/606a5f71db0e29d7e77a95f182a4dc06f1a33ea9))
+
+
+### ⚙️ 	 Continuous Integrations
+
+* release(version): Release 1.0.9-beta.1 [skip ci] ([cc27d44](https://github.com/deriv-com/quill-icons/commit/cc27d44a90e632da9e3646f00d3f10d069675ee6))
+
 ## [1.0.9-beta.1](https://github.com/deriv-com/quill-icons/compare/v1.0.8...v1.0.9-beta.1) (2023-11-10)
 
 
