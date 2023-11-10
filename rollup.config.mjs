@@ -89,17 +89,6 @@ export default [
       }),
     ],
   },
-  {
-    input: 'src/types/index.ts',
-    output: [{ file: 'dist/quill-types.d.ts', format: 'esm' }],
-    plugins: [
-      dts({
-        compilerOptions: {
-          baseUrl: './src',
-        },
-      }),
-    ],
-  },
   ...componentsFolders.map((folder) => component(commonPlugins, folder)),
   ...componentsFolders.map((folder) => componentDts(folder)),
 ];

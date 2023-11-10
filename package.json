@@ -6,8 +6,10 @@
     "dist"
   ],
   "exports": {
-    "./QuillTypes": {
-      "types": "./dist/quill-types.d.ts"
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
     },
     "./Currencies": {
       "import": "./dist/Currencies/index.js",
@@ -59,7 +61,7 @@
     "export:barrels": "barrelsby -c barrelsby.config.json",
     "export": "npm-run-all clean export:figma export:barrels format",
     "clean:postBuild": "rimraf dist/types dist/index.d.ts dist/index.js",
-    "build": "rimraf dist && rollup -c && npm run clean:postBuild",
+    "build": "rimraf dist && rollup -c",
     "rebuild": "npm-run-all clean export build",
     "storybook": "storybook dev -p 6006",
     "start": "storybook dev -p 6006",
