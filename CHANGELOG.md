@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/deriv-com/quill-icons/compare/v1.0.10...v1.0.11) (2023-11-24)
+
+
+### ♻️ 	 Chores
+
+* added new logos ([0736309](https://github.com/deriv-com/quill-icons/commit/07363092bcdfef99458e7262d138b2bba89797c8))
+
 ## [1.0.10](https://github.com/deriv-com/quill-icons/compare/v1.0.9...v1.0.10) (2023-11-10)
 
 
