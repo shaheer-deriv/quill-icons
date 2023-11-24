@@ -26,6 +26,7 @@ export { default as StandaloneHarmonyOsIcon } from './StandaloneHarmonyOsIcon';
 export { default as StandaloneHuaweiIcon } from './StandaloneHuaweiIcon';
 export { default as StandaloneYoutubeIcon } from './StandaloneYoutubeIcon';
 export { default as StandaloneTiktokIcon } from './StandaloneTiktokIcon';
+export { default as StandaloneTrustpilotIcon } from './StandaloneTrustpilotIcon';
 export { default as StandalonePlaceholderRegularIcon } from './StandalonePlaceholderRegularIcon';
 export { default as StandalonePlaceholderBoldIcon } from './StandalonePlaceholderBoldIcon';
 export { default as StandaloneGripDotsVerticalRegularIcon } from './StandaloneGripDotsVerticalRegularIcon';

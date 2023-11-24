@@ -26,6 +26,7 @@ export { default as LabelPairedHarmonyOsIcon } from './LabelPairedHarmonyOsIcon'
 export { default as LabelPairedHuaweiIcon } from './LabelPairedHuaweiIcon';
 export { default as LabelPairedYoutubeIcon } from './LabelPairedYoutubeIcon';
 export { default as LabelPairedTiktokIcon } from './LabelPairedTiktokIcon';
+export { default as LabelPairedTrustpilotIcon } from './LabelPairedTrustpilotIcon';
 export { default as LabelPairedPlaceholderRegularIcon } from './LabelPairedPlaceholderRegularIcon';
 export { default as LabelPairedPlaceholderBoldIcon } from './LabelPairedPlaceholderBoldIcon';
 export { default as LabelPairedGripDotsVerticalRegularIcon } from './LabelPairedGripDotsVerticalRegularIcon';
