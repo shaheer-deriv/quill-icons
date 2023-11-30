@@ -1,3 +1,24 @@
+## [1.0.14](https://github.com/deriv-com/quill-icons/compare/v1.0.13...v1.0.14) (2023-11-30)
+
+
+### ♻️ 	 Chores
+
+* added package.json to exports ([5e746a0](https://github.com/deriv-com/quill-icons/commit/5e746a06c56547eb1073f7154e1c506eab03c6cf))
+* replaced cjs with mjs as default module type ([43204b2](https://github.com/deriv-com/quill-icons/commit/43204b26762630efe407eb55e5463210c8c51a6a))
+* updated main export field in package.json ([9aaca4a](https://github.com/deriv-com/quill-icons/commit/9aaca4a591145b518cb37c619e85a9c17f066a26))
+
+
+### ⚙️ 	 Continuous Integrations
+
+* release(version): Release 1.0.14-beta.1 [skip ci] ([f32e1dc](https://github.com/deriv-com/quill-icons/commit/f32e1dc56e5ef8a651c3befd3b3ce9baaa74a41a))
+* release(version): Release 1.0.14-beta.2 [skip ci] ([c3aab03](https://github.com/deriv-com/quill-icons/commit/c3aab036b921198ba9246bf98040edc424d520e3))
+* release(version): Release 1.0.14-beta.3 [skip ci] ([0473a9f](https://github.com/deriv-com/quill-icons/commit/0473a9f19e7febf0948c0017df7153f136d3d037))
+
+
+### 🐛 	 Bug Fixes
+
+* add cjs build and enable terser on main export ([32c3ee3](https://github.com/deriv-com/quill-icons/commit/32c3ee39fab8a99f19c51ad5df68a4f31f4e250d))
+
 ## [1.0.14-beta.3](https://github.com/deriv-com/quill-icons/compare/v1.0.14-beta.2...v1.0.14-beta.3) (2023-11-30)
 
 
