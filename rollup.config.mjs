@@ -62,10 +62,16 @@ const componentsFolders = getComponentsFolders('./src/react');
 export default [
   {
     input: 'src/index.ts',
-    output: {
-      file: 'dist/index.js',
-      format: 'esm',
-    },
+    output: [
+      {
+        file: 'dist/index.js',
+        format: 'esm',
+      },
+      {
+        file: 'dist/index.cjs',
+        format: 'cjs',
+      },
+    ],
     plugins: [
       external(),
       resolve(),
@@ -76,6 +82,7 @@ export default [
           declarationDir: './dist/types',
         },
       }),
+      terser(),
     ],
   },
   {
