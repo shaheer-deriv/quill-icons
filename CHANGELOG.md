@@ -1,3 +1,10 @@
+## [1.0.14-beta.2](https://github.com/deriv-com/quill-icons/compare/v1.0.14-beta.1...v1.0.14-beta.2) (2023-11-30)
+
+
+### ♻️ 	 Chores
+
+* replaced cjs with mjs as default module type ([43204b2](https://github.com/deriv-com/quill-icons/commit/43204b26762630efe407eb55e5463210c8c51a6a))
+
 ## [1.0.14-beta.1](https://github.com/deriv-com/quill-icons/compare/v1.0.13...v1.0.14-beta.1) (2023-11-30)
 
 
