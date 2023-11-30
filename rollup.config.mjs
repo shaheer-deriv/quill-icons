@@ -25,12 +25,12 @@ function component(commonPlugins, folder) {
     input: `src/react/${folder}/index.ts`,
     output: [
       {
-        file: `dist/${folder}/index.js`,
+        file: `dist/${folder}/index.mjs`,
         exports: 'named',
         format: 'esm',
       },
       {
-        file: `dist/${folder}/index.cjs`,
+        file: `dist/${folder}/index.js`,
         exports: 'named',
         format: 'cjs',
       },
@@ -62,10 +62,16 @@ const componentsFolders = getComponentsFolders('./src/react');
 export default [
   {
     input: 'src/index.ts',
-    output: {
-      file: 'dist/index.js',
-      format: 'esm',
-    },
+    output: [
+      {
+        file: 'dist/index.mjs',
+        format: 'esm',
+      },
+      {
+        file: 'dist/index.js',
+        format: 'cjs',
+      },
+    ],
     plugins: [
       external(),
       resolve(),
@@ -76,6 +82,7 @@ export default [
           declarationDir: './dist/types',
         },
       }),
+      terser(),
     ],
   },
   {

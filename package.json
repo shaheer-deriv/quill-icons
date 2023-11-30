@@ -1,10 +1,12 @@
 {
   "name": "@deriv/quill-icons",
-  "version": "1.0.13",
+  "version": "1.0.14-beta.3",
   "description": "This is the central repository for quill icons, exported from figma design file",
   "files": [
     "dist"
   ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/index.js",
@@ -55,7 +57,8 @@
       "import": "./dist/Illustration/index.js",
       "require": "./dist/Illustration/index.cjs",
       "types": "./dist/Illustration/index.d.ts"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "scripts": {
     "clean": "rimraf stories src/es6 src/react src/index.ts svg storybook-static sprite",
