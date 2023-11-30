@@ -1,3 +1,11 @@
+## [1.0.14-beta.3](https://github.com/deriv-com/quill-icons/compare/v1.0.14-beta.2...v1.0.14-beta.3) (2023-11-30)
+
+
+### ♻️ 	 Chores
+
+* added package.json to exports ([5e746a0](https://github.com/deriv-com/quill-icons/commit/5e746a06c56547eb1073f7154e1c506eab03c6cf))
+* updated main export field in package.json ([9aaca4a](https://github.com/deriv-com/quill-icons/commit/9aaca4a591145b518cb37c619e85a9c17f066a26))
+
 ## [1.0.14-beta.2](https://github.com/deriv-com/quill-icons/compare/v1.0.14-beta.1...v1.0.14-beta.2) (2023-11-30)
 
 
