@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/deriv-com/quill-icons/compare/v1.0.12...v1.0.13) (2023-11-30)
+
+
+### 🐛 	 Bug Fixes
+
+* fixed missing export for illustrations ([8365763](https://github.com/deriv-com/quill-icons/commit/83657637361e5b189cafa0c27a766126fc510d3c))
+
 ## [1.0.12](https://github.com/deriv-com/quill-icons/compare/v1.0.11...v1.0.12) (2023-11-29)
 
 
