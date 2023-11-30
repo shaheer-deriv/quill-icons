@@ -1,3 +1,10 @@
+## [1.0.14-beta.1](https://github.com/deriv-com/quill-icons/compare/v1.0.13...v1.0.14-beta.1) (2023-11-30)
+
+
+### 🐛 	 Bug Fixes
+
+* add cjs build and enable terser on main export ([32c3ee3](https://github.com/deriv-com/quill-icons/commit/32c3ee39fab8a99f19c51ad5df68a4f31f4e250d))
+
 ## [1.0.13](https://github.com/deriv-com/quill-icons/compare/v1.0.12...v1.0.13) (2023-11-30)
 
 
