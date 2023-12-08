@@ -148,6 +148,8 @@ export { default as StandaloneStarFillIcon } from './StandaloneStarFillIcon';
 export { default as StandaloneCircleStarRegularIcon } from './StandaloneCircleStarRegularIcon';
 export { default as StandaloneCircleStarBoldIcon } from './StandaloneCircleStarBoldIcon';
 export { default as StandaloneCircleStarFillIcon } from './StandaloneCircleStarFillIcon';
+export { default as StandaloneGrid2RegularIcon } from './StandaloneGrid2RegularIcon';
+export { default as StandaloneGrid2BoldIcon } from './StandaloneGrid2BoldIcon';
 export { default as StandaloneArrowUpRegularIcon } from './StandaloneArrowUpRegularIcon';
 export { default as StandaloneArrowUpBoldIcon } from './StandaloneArrowUpBoldIcon';
 export { default as StandaloneArrowRightRegularIcon } from './StandaloneArrowRightRegularIcon';

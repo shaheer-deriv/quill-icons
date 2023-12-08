@@ -148,6 +148,8 @@ export { default as LabelPairedStarFillIcon } from './LabelPairedStarFillIcon';
 export { default as LabelPairedCircleStarRegularIcon } from './LabelPairedCircleStarRegularIcon';
 export { default as LabelPairedCircleStarBoldIcon } from './LabelPairedCircleStarBoldIcon';
 export { default as LabelPairedCircleStarFillIcon } from './LabelPairedCircleStarFillIcon';
+export { default as LabelPairedGrid2RegularIcon } from './LabelPairedGrid2RegularIcon';
+export { default as LabelPairedGrid2BoldIcon } from './LabelPairedGrid2BoldIcon';
 export { default as LabelPairedArrowUpRegularIcon } from './LabelPairedArrowUpRegularIcon';
 export { default as LabelPairedArrowUpBoldIcon } from './LabelPairedArrowUpBoldIcon';
 export { default as LabelPairedArrowRightRegularIcon } from './LabelPairedArrowRightRegularIcon';

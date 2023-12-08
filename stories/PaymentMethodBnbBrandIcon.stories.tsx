@@ -1,19 +1,19 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { DarkRegulatedIcon } from '../src/react/Illustration';
+import { PaymentMethodBnbBrandIcon } from '../src/react/Logo';
 
 const meta = {
-  title: 'Illustrations/DarkRegulatedIcon',
-  component: DarkRegulatedIcon,
+  title: 'Logo/PaymentMethodBnbBrandIcon',
+  component: PaymentMethodBnbBrandIcon,
   parameters: {
     layout: 'centered',
   },
   tags: ['autodocs'],
-} satisfies Meta<typeof DarkRegulatedIcon>;
+} satisfies Meta<typeof PaymentMethodBnbBrandIcon>;
 
 export default meta;
 
-type Story = StoryObj<typeof DarkRegulatedIcon>;
+type Story = StoryObj<typeof PaymentMethodBnbBrandIcon>;
 
 export const Primary: Story = {
   args: {
