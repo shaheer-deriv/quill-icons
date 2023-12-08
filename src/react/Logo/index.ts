@@ -597,3 +597,13 @@ export { default as PaymentMethodXanpoolWhiteIcon } from './PaymentMethodXanpool
 export { default as PaymentMethodXpayWhiteIcon } from './PaymentMethodXpayWhiteIcon';
 export { default as PaymentMethodZenithBankWhiteIcon } from './PaymentMethodZenithBankWhiteIcon';
 export { default as PaymentMethodZingpayWhiteIcon } from './PaymentMethodZingpayWhiteIcon';
+export { default as PaymentMethodDogecoinBrandDarkIcon } from './PaymentMethodDogecoinBrandDarkIcon';
+export { default as PaymentMethodDogecoinBrandIcon } from './PaymentMethodDogecoinBrandIcon';
+export { default as PaymentMethodCardanoBrandIcon } from './PaymentMethodCardanoBrandIcon';
+export { default as PaymentMethodBnbBrandIcon } from './PaymentMethodBnbBrandIcon';
+export { default as PaymentMethodDogecoinBlackIcon } from './PaymentMethodDogecoinBlackIcon';
+export { default as PaymentMethodCardanoBlackIcon } from './PaymentMethodCardanoBlackIcon';
+export { default as PaymentMethodBnbBlackIcon } from './PaymentMethodBnbBlackIcon';
+export { default as PaymentMethodDogecoinWhiteIcon } from './PaymentMethodDogecoinWhiteIcon';
+export { default as PaymentMethodCardanoWhiteIcon } from './PaymentMethodCardanoWhiteIcon';
+export { default as PaymentMethodBnbWhiteIcon } from './PaymentMethodBnbWhiteIcon';
