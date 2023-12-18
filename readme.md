@@ -13,14 +13,8 @@ With [@figma-export](https://www.npmjs.com/package/@figma-export/cli) we export 
 - [@figma-export/output-components-as-svg](https://github.com/marcomontalbano/figma-exporter/blob/HEAD/packages/cli/packages/output-components-as-svg)
   We use this to generate `SVG` files, you can check them in `svg` folder.
 
-- [@figma-export/output-components-as-es6](https://github.com/marcomontalbano/figma-exporter/blob/HEAD/packages/cli/packages/output-components-as-es6])
-  We use this to generate `ES6` modules for `SVG`s. you can check them in `src/es6` folder.
-
 - [@figma-export/output-components-as-svgr](https://github.com/marcomontalbano/figma-exporter/blob/HEAD/packages/cli/packages/output-components-as-svgr)
   We use this to generate `React` Components based on `transformed ( optimized ) SVG` files. you can check them in `src/react` folder.
-
-- [@figma-export/output-components-as-svgstore](https://github.com/marcomontalbano/figma-exporter/blob/HEAD/packages/cli/packages/output-components-as-svgstore)
-  We use this to generate `SVG Sprite` based on the `transformed ( optimized ) SVG` files. you can check them in `sprite` folder.
 
 ## Pre-installation
 
