@@ -1,3 +1,15 @@
+## [1.0.16](https://github.com/deriv-com/quill-icons/compare/v1.0.15...v1.0.16) (2023-12-18)
+
+
+### 📚 	 Documentation
+
+* updated readMe file ([d10bedd](https://github.com/deriv-com/quill-icons/commit/d10beddf8d07fc101f0e0c3c47d31b1ef03afb28))
+
+
+### 🛠 	 Builds
+
+* removed unnecessary libraries ([e6d0568](https://github.com/deriv-com/quill-icons/commit/e6d0568603bdf79f848ea44ad380dfa9a3b25ea8))
+
 ## [1.0.15](https://github.com/deriv-com/quill-icons/compare/v1.0.14...v1.0.15) (2023-12-08)
 
 
