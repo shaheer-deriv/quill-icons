@@ -1,0 +1,27 @@
+import * as React from 'react';
+import { SVGProps, Ref, forwardRef } from 'react';
+const LabelPairedForwardStepMdFillIcon = (
+  props: SVGProps<SVGSVGElement>,
+  ref: Ref<SVGSVGElement>,
+) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width={10}
+    height={24}
+    viewBox='0 0 10 24'
+    role='img'
+    ref={ref}
+    {...props}
+  >
+    <g clipPath='url(#a)'>
+      <path d='M1.656 17.781c-.333.25-.698.292-1.093.125C.208 17.72.02 17.416 0 17V7c.02-.417.208-.719.563-.906.395-.167.76-.125 1.093.125l6 5L8 11.53V7c0-.292.094-.531.281-.719A.973.973 0 0 1 9 6c.292 0 .531.094.719.281A.973.973 0 0 1 10 7v10a.974.974 0 0 1-.281.719A.974.974 0 0 1 9 18a.974.974 0 0 1-.719-.281A.974.974 0 0 1 8 17v-4.531l-.344.312-6 5Z' />
+    </g>
+    <defs>
+      <clipPath id='a'>
+        <path d='M0 0h10v24H0z' />
+      </clipPath>
+    </defs>
+  </svg>
+);
+const ForwardRef = forwardRef(LabelPairedForwardStepMdFillIcon);
+export default ForwardRef;

@@ -7,15 +7,27 @@ export const getFileDescriptor = (options: FigmaExport.ComponentOutputterParamOp
   const separator = '/';
   const splits = componentName.split(separator);
 
-  const category = splits[0].trim().replace(/-md/g, '');
+  let category = splits[0].trim().replace(/-md/g, '');
 
-  const subCategory = splits[1].trim().replace(/-md/g, '');
+  let subCategory = splits[1].trim().replace(/-md/g, '');
 
-  const variant = splits[2] ? splits[2].trim().replace(/-md/g, '') : undefined;
+  let variant = splits[2] ? splits[2].trim().replace(/-md/g, '') : undefined;
 
-  const style = splits[3] ? splits[3].trim().replace(/-md/g, '') : undefined;
+  let style = splits[3] ? splits[3].trim().replace(/-md/g, '') : undefined;
 
-  const type = splits[4] ? splits[4].trim().replace(/-md/g, '') : undefined;
+  let type = splits[4] ? splits[4].trim().replace(/-md/g, '') : undefined;
+
+  if (componentName.includes('label-paired')) {
+    category = splits[0].trim();
+
+    subCategory = splits[1].trim();
+
+    variant = splits[2] ? splits[2].trim() : undefined;
+
+    style = splits[3] ? splits[3].trim() : undefined;
+
+    type = splits[4] ? splits[4].trim() : undefined;
+  }
 
   return {
     category,

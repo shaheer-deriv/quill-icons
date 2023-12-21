@@ -48,6 +48,8 @@ export const IconSvgReactOutPutConfig: Options = {
     return getExportTemplate({ reactComponentFilename, reactComponentName });
   },
   getSvgrConfig: (options) => {
+    console.log('options', JSON.stringify(options, null, 2));
+    const shouldUseTemplate = !options.componentName.toLowerCase().includes('label-paired');
     const shouldCleanFills =
       options.pageName.toLowerCase().includes('system') ||
       options.pageName.toLowerCase().includes('illustrative');
@@ -69,7 +71,7 @@ export const IconSvgReactOutPutConfig: Options = {
       svgoConfig.plugins?.push({
         name: 'removeAttrs',
         params: {
-          attrs: 'fill',
+          attrs: ['fill', 'fill-opacity'],
         },
       });
     }
@@ -80,11 +82,13 @@ export const IconSvgReactOutPutConfig: Options = {
       },
       typescript: true,
       svgo: true,
-      icon: true,
+      // plugins: shouldUseTemplate
+      //   ? ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier']
+      //   : undefined,
       plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],
       svgoConfig,
-      dimensions: false,
-      template: SvgrTemplate,
+      dimensions: !shouldUseTemplate,
+      template: shouldUseTemplate ? SvgrTemplate : undefined,
     };
   },
 };

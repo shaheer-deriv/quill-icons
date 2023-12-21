@@ -1,23 +1,20 @@
 import * as React from 'react';
-import { Ref, forwardRef } from 'react';
-import { QuillSvgProps, sizes } from 'types';
-export const LabelPairedHorizontalRuleLgBoldIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+import { SVGProps, Ref, forwardRef } from 'react';
+const LabelPairedHorizontalRuleLgBoldIcon = (
+  props: SVGProps<SVGSVGElement>,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    width={25}
+    height={30}
     viewBox='0 0 25 30'
-    {...sizes[iconSize]}
     role='img'
     ref={ref}
     {...props}
   >
     <g clipPath='url(#a)'>
-      <path
-        fillOpacity={0.72}
-        d='M0 15.5c.052-.573.365-.885.938-.937h23.125c.572.052.885.364.937.937-.052.573-.365.885-.937.938H.938C.365 16.385.051 16.073 0 15.5'
-      />
+      <path d='M0 15.5c.052-.573.365-.885.938-.938h23.125c.572.053.885.365.937.938-.052.573-.365.885-.938.938H.938C.366 16.384.052 16.073 0 15.5Z' />
     </g>
     <defs>
       <clipPath id='a'>
