@@ -1,3 +1,14 @@
+## [1.0.17](https://github.com/deriv-com/quill-icons/compare/v1.0.16...v1.0.17) (2023-12-21)
+
+
+### ⚙️ 	 Continuous Integrations
+
+* added 1.1.x to github release [skip ci] ([ad1fdc2](https://github.com/deriv-com/quill-icons/commit/ad1fdc224d8d0401e13959f841ef85eea7c2fba1))
+* added next branch to release action ([7745c54](https://github.com/deriv-com/quill-icons/commit/7745c54a56294d1df5dd2b449fd8b766080c688e))
+* updated branches on release config [skip ci] ([0111a1c](https://github.com/deriv-com/quill-icons/commit/0111a1c13db5a9b525789a919271375c168b8999))
+* updated branches on release config [skip ci] ([512b28c](https://github.com/deriv-com/quill-icons/commit/512b28c1848e763695d22f74ab38139303518d7b))
+* updated release config, and release branch trigger name [skip ci] ([41944ad](https://github.com/deriv-com/quill-icons/commit/41944add3a0affa492841e66d7bb75ecfa9f42d3))
+
 ## [1.0.16](https://github.com/deriv-com/quill-icons/compare/v1.0.15...v1.0.16) (2023-12-18)
 
 
