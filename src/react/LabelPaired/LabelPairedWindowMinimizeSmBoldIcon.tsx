@@ -13,7 +13,7 @@ const LabelPairedWindowMinimizeSmBoldIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g>
       <path d='M.656 15.563h12.688c.4.036.62.255.656.656-.037.4-.255.62-.656.656H.656c-.4-.037-.62-.255-.656-.656.036-.401.255-.62.656-.657Z' />
     </g>
     <defs>

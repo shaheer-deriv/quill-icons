@@ -10,7 +10,7 @@ const LabelPairedMicrosoftSmIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVG
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g>
       <path d='M.375 4.625h5.879v5.879H.375V4.625Zm6.371 0h5.879v5.879H6.746V4.625ZM.375 10.996h5.879v5.879H.375v-5.879Zm6.371 0h5.879v5.879H6.746v-5.879Z' />
     </g>
     <defs>

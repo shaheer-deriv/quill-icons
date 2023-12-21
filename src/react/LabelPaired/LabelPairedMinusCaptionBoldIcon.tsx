@@ -13,7 +13,7 @@ const LabelPairedMinusCaptionBoldIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g>
       <path d='M10.375 9.5c-.031.344-.219.531-.563.563H1.188C.844 10.03.655 9.842.625 9.5c.031-.344.219-.531.563-.563h8.624c.344.032.532.22.563.563Z' />
     </g>
     <defs>

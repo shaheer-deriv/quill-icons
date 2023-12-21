@@ -71,7 +71,7 @@ export const IconSvgReactOutPutConfig: Options = {
       svgoConfig.plugins?.push({
         name: 'removeAttrs',
         params: {
-          attrs: ['fill', 'fill-opacity'],
+          attrs: ['fill', 'fill-opacity', 'clip-path'],
         },
       });
     }
@@ -82,9 +82,6 @@ export const IconSvgReactOutPutConfig: Options = {
       },
       typescript: true,
       svgo: true,
-      // plugins: shouldUseTemplate
-      //   ? ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier']
-      //   : undefined,
       plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],
       svgoConfig,
       dimensions: !shouldUseTemplate,

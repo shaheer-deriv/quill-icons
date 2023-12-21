@@ -13,7 +13,7 @@ const LabelPairedChevronLeftLgRegularIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g>
       <path d='M1.07 15.93c-.26-.287-.26-.573 0-.86l7.5-7.5c.287-.26.573-.26.86 0 .26.287.26.573 0 .86L2.398 15.5l7.032 7.07c.26.287.26.573 0 .86-.287.26-.573.26-.86 0l-7.5-7.5Z' />
     </g>
     <defs>

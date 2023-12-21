@@ -13,7 +13,7 @@ const LabelPairedChevronDownCaptionBoldIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g>
       <path d='m5.602 12.898-4.5-4.5c-.22-.265-.22-.53 0-.796.265-.22.53-.22.796 0L6 11.703l4.102-4.101c.265-.22.53-.22.796 0 .22.265.22.53 0 .796l-4.5 4.5c-.265.22-.53.22-.796 0Z' />
     </g>
     <defs>

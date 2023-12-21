@@ -10,7 +10,7 @@ const LabelPairedMinusMdBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVG
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g>
       <path d='M13.5 12c-.042.458-.292.708-.75.75H1.25C.792 12.708.542 12.458.5 12c.042-.458.292-.708.75-.75h11.5c.458.042.708.292.75.75Z' />
     </g>
     <defs>

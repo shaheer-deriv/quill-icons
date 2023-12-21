@@ -13,7 +13,7 @@ const LabelPairedWindowMinimizeXlRegularIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g>
       <path d='M.75 27h22.5c.469.031.719.281.75.75-.031.469-.281.719-.75.75H.75c-.469-.031-.719-.281-.75-.75.031-.469.281-.719.75-.75Z' />
     </g>
     <defs>

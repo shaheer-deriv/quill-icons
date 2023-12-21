@@ -10,7 +10,7 @@ const LabelPairedTrustpilotXlIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g>
       <path d='M20.484 22.922 15 24.375 22.781 30l-2.297-7.078Zm7.125-7.735L15 24.376 7.172 30l3-9.14-7.828-5.672H12L15 6l2.953 9.188h9.656Z' />
     </g>
     <defs>

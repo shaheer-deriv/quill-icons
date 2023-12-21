@@ -13,7 +13,7 @@ const LabelPairedChartTrendSidewaySmBoldIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g>
       <path d='M.469 10.75c0-.355.273-.656.656-.656h15.75c.355 0 .656.3.656.656 0 .383-.3.656-.656.656H1.125a.632.632 0 0 1-.656-.656Z' />
     </g>
     <defs>

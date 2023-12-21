@@ -10,7 +10,7 @@ const LabelPairedSevenSmRegularIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g>
       <path d='M.125 5.063c.018-.274.164-.42.438-.438h7.875c.164 0 .291.073.382.219a.465.465 0 0 1 0 .437l-7 11.375c-.164.219-.364.274-.601.164-.219-.164-.265-.364-.137-.601L7.645 5.5H.563c-.274-.018-.42-.164-.438-.438Z' />
     </g>
     <defs>
