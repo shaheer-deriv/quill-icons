@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/deriv-com/quill-icons/compare/v1.1.2...v1.1.3) (2023-12-21)
+
+
+### ♻️ 	 Chores
+
+* removed clip-path ([c7edeae](https://github.com/deriv-com/quill-icons/commit/c7edeaee70ac93afdb541f704303635c0b28a4be))
+
 ## [1.1.2](https://github.com/deriv-com/quill-icons/compare/v1.1.1...v1.1.2) (2023-12-21)
 
 
