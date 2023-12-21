@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/deriv-com/quill-icons/compare/v1.0.17...v1.1.0) (2023-12-21)
+
+
+### ✨ 	 Features
+
+* setting up new version ([230242b](https://github.com/deriv-com/quill-icons/commit/230242b51f378b396b4cd1414a6a434c4d9c4d9d))
+
 ## [1.0.17](https://github.com/deriv-com/quill-icons/compare/v1.0.16...v1.0.17) (2023-12-21)
 
 
