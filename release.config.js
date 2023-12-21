@@ -34,7 +34,7 @@ module.exports = {
           },
           {
             type: 'refactor',
-            release: 'patch',
+            release: 'minor',
           },
           {
             type: 'style',
