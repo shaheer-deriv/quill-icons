@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/deriv-com/quill-icons/compare/v1.1.3...v1.1.4) (2023-12-22)
+
+
+### ♻️ 	 Chores
+
+* added sideEffects false to package.json ([4077f5f](https://github.com/deriv-com/quill-icons/commit/4077f5fd484b81caf742c2bd92dad08afe21caab))
+
 ## [1.1.3](https://github.com/deriv-com/quill-icons/compare/v1.1.2...v1.1.3) (2023-12-21)
 
 
