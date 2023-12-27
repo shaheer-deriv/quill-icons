@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/deriv-com/quill-icons/compare/v1.1.5...v1.1.6) (2023-12-27)
+
+
+### ♻️ 	 Chores
+
+* updated readme file ([61e40d4](https://github.com/deriv-com/quill-icons/commit/61e40d4f51f4adde62119a39c493cb0e65d7ef20))
+
 ## [1.1.5](https://github.com/deriv-com/quill-icons/compare/v1.1.4...v1.1.5) (2023-12-27)
 
 
