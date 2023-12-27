@@ -1,7 +1,5 @@
 ## Deriv Icons
 
-This is next version of quill-icons.
-
 This project will export SVG, Sprite, React Components from a simple Figma Icon project.
 
 ## Prerequisite
