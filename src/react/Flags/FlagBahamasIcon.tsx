@@ -32,11 +32,6 @@ export const FlagBahamasIcon = (
         clipRule='evenodd'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h24v16H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(FlagBahamasIcon);

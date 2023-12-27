@@ -31,21 +31,6 @@ const PaymentMethodPseBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
       fill='#fff'
       d='m55.271 26.637.338.061-.189 1.048a.944.944 0 0 1 .12-.069l.028-.013.03-.003h.004l.01-.001.036-.003a5.67 5.67 0 0 1 .54-.015c.153.004.32.017.465.049a.963.963 0 0 1 .209.069.48.48 0 0 1 .15.108.568.568 0 0 1 .127.116c.077.095.144.24.136.44v.012l-.339 1.966-.339-.058.335-1.944a.296.296 0 0 0-.06-.2.234.234 0 0 0-.052-.046l-.037-.018-.026-.037a.127.127 0 0 0-.045-.03.623.623 0 0 0-.133-.043 2.208 2.208 0 0 0-.4-.041 4.966 4.966 0 0 0-.504.014l-.012.001a.885.885 0 0 0-.26.234 1.243 1.243 0 0 0-.082.117l-.39 2.115-.339-.061.68-3.768Z'
     />
-    <defs>
-      <radialGradient
-        id='a'
-        cx={0}
-        cy={0}
-        r={1}
-        gradientTransform='translate(64.572 39.884) scale(31.9994)'
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop offset={0.316} stopColor='#2D5CA8' />
-        <stop offset={0.531} stopColor='#285496' />
-        <stop offset={0.729} stopColor='#1F4272' />
-        <stop offset={1} stopColor='#0D2D4D' />
-      </radialGradient>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(PaymentMethodPseBrandIcon);

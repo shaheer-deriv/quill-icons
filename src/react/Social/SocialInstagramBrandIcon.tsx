@@ -23,53 +23,6 @@ export const SocialInstagramBrandIcon = (
       fill='url(#c)'
       d='M15.998 21.33a5.33 5.33 0 0 1-5.332-5.328 5.334 5.334 0 1 1 10.67 0 5.334 5.334 0 0 1-5.338 5.329Zm0-13.55c-4.538 0-8.213 3.684-8.213 8.222a8.213 8.213 0 0 0 8.213 8.213c4.538 0 8.218-3.679 8.218-8.213 0-4.538-3.68-8.221-8.218-8.221Z'
     />
-    <defs>
-      <linearGradient
-        id='a'
-        x1={-185.895}
-        x2={56.12}
-        y1={-185.731}
-        y2={56.081}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#FFD521' />
-        <stop offset={0.05} stopColor='#FFD521' />
-        <stop offset={0.501} stopColor='#F50000' />
-        <stop offset={0.95} stopColor='#B900B4' />
-        <stop offset={0.95} stopColor='#B900B4' />
-        <stop offset={1} stopColor='#B900B4' />
-      </linearGradient>
-      <linearGradient
-        id='b'
-        x1={0.289}
-        x2={29.359}
-        y1={0.291}
-        y2={29.361}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#FFD521' />
-        <stop offset={0.05} stopColor='#FFD521' />
-        <stop offset={0.501} stopColor='#F50000' />
-        <stop offset={0.95} stopColor='#B900B4' />
-        <stop offset={0.95} stopColor='#B900B4' />
-        <stop offset={1} stopColor='#B900B4' />
-      </linearGradient>
-      <linearGradient
-        id='c'
-        x1={0.297}
-        x2={29.36}
-        y1={31.71}
-        y2={2.647}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#FFD521' />
-        <stop offset={0.05} stopColor='#FFD521' />
-        <stop offset={0.501} stopColor='#F50000' />
-        <stop offset={0.95} stopColor='#B900B4' />
-        <stop offset={0.95} stopColor='#B900B4' />
-        <stop offset={1} stopColor='#B900B4' />
-      </linearGradient>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(SocialInstagramBrandIcon);

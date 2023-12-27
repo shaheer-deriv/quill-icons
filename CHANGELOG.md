@@ -1,3 +1,52 @@
+## [1.1.5](https://github.com/deriv-com/quill-icons/compare/v1.1.4...v1.1.5) (2023-12-27)
+
+
+### ♻️ 	 Chores
+
+* removed unused defs in svgs ([1fbd399](https://github.com/deriv-com/quill-icons/commit/1fbd3995f859d3a65b0ce1527c8c926c0fdfb04d))
+
+## [1.1.4](https://github.com/deriv-com/quill-icons/compare/v1.1.3...v1.1.4) (2023-12-22)
+
+
+### ♻️ 	 Chores
+
+* added sideEffects false to package.json ([4077f5f](https://github.com/deriv-com/quill-icons/commit/4077f5fd484b81caf742c2bd92dad08afe21caab))
+
+## [1.1.3](https://github.com/deriv-com/quill-icons/compare/v1.1.2...v1.1.3) (2023-12-21)
+
+
+### ♻️ 	 Chores
+
+* removed clip-path ([c7edeae](https://github.com/deriv-com/quill-icons/commit/c7edeaee70ac93afdb541f704303635c0b28a4be))
+
+## [1.1.2](https://github.com/deriv-com/quill-icons/compare/v1.1.1...v1.1.2) (2023-12-21)
+
+
+### ♻️ 	 Chores
+
+* updated label-paired exports ([433ba41](https://github.com/deriv-com/quill-icons/commit/433ba419b29d015cf8e229f373b856f545cd2fab))
+
+## [1.1.1](https://github.com/deriv-com/quill-icons/compare/v1.1.0...v1.1.1) (2023-12-21)
+
+
+### ♻️ 	 Chores
+
+* exported the icons ([9131418](https://github.com/deriv-com/quill-icons/commit/9131418cfa1f7c132434874e43eac8ee3a3de9fe))
+
+
+### 🐛 	 Bug Fixes
+
+* illustrations file id ([8d16d72](https://github.com/deriv-com/quill-icons/commit/8d16d7218e5d856bd8268c7ba5fd3979e614bec8))
+* label-paired icons issue ([efcc13f](https://github.com/deriv-com/quill-icons/commit/efcc13f10433f60f246a9b552d2753f74d1113a4))
+* storybook issue ([89845f1](https://github.com/deriv-com/quill-icons/commit/89845f1e1474e31ca4f1f5b20f592e5107d33c1a))
+
+# [1.1.0](https://github.com/deriv-com/quill-icons/compare/v1.0.17...v1.1.0) (2023-12-21)
+
+
+### ✨ 	 Features
+
+* setting up new version ([230242b](https://github.com/deriv-com/quill-icons/commit/230242b51f378b396b4cd1414a6a434c4d9c4d9d))
+
 ## [1.0.17](https://github.com/deriv-com/quill-icons/compare/v1.0.16...v1.0.17) (2023-12-21)
 
 

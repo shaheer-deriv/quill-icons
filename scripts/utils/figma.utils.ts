@@ -7,15 +7,27 @@ export const getFileDescriptor = (options: FigmaExport.ComponentOutputterParamOp
   const separator = '/';
   const splits = componentName.split(separator);
 
-  const category = splits[0].trim().replace(/-md/g, '');
+  let category = splits[0].trim().replace(/-md/g, '');
 
-  const subCategory = splits[1].trim().replace(/-md/g, '');
+  let subCategory = splits[1].trim().replace(/-md/g, '');
 
-  const variant = splits[2] ? splits[2].trim().replace(/-md/g, '') : undefined;
+  let variant = splits[2] ? splits[2].trim().replace(/-md/g, '') : undefined;
 
-  const style = splits[3] ? splits[3].trim().replace(/-md/g, '') : undefined;
+  let style = splits[3] ? splits[3].trim().replace(/-md/g, '') : undefined;
 
-  const type = splits[4] ? splits[4].trim().replace(/-md/g, '') : undefined;
+  let type = splits[4] ? splits[4].trim().replace(/-md/g, '') : undefined;
+
+  if (componentName.includes('label-paired')) {
+    category = splits[0].trim();
+
+    subCategory = splits[1].trim();
+
+    variant = splits[2] ? splits[2].trim() : undefined;
+
+    style = splits[3] ? splits[3].trim() : undefined;
+
+    type = splits[4] ? splits[4].trim() : undefined;
+  }
 
   return {
     category,
@@ -55,6 +67,30 @@ export const getNameGeneratorByPage = (pageName: (typeof ICON_PAGES)[number]) =>
       return (fileDescriptor: ReturnType<typeof getFileDescriptor>) => {
         const { subCategory } = fileDescriptor;
         return `${subCategory}`;
+      };
+    case 'System':
+      return (fileDescriptor: ReturnType<typeof getFileDescriptor>) => {
+        const names: Array<string | undefined> = [];
+        const { category, variant, style } = fileDescriptor;
+
+        if (category.includes('label-paired')) {
+          const names = `${category}_${variant ?? ''}_${style ?? ''}`;
+          const variableName = makeVariableName(names);
+          return variableName;
+        }
+
+        const fileDescriptorKeys = Object.keys(fileDescriptor) as Array<
+          keyof typeof fileDescriptor
+        >;
+        fileDescriptorKeys.forEach((key) => {
+          if (fileDescriptor[key] !== undefined && !isMd(fileDescriptor[key])) {
+            names.push(fileDescriptor[key]);
+          }
+        });
+
+        const joinedNames = names.join('_');
+        const variableName = makeVariableName(joinedNames);
+        return variableName;
       };
     default:
       return (fileDescriptor: ReturnType<typeof getFileDescriptor>) => {

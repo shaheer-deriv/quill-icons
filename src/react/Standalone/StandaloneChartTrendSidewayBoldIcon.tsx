@@ -13,10 +13,7 @@ export const StandaloneChartTrendSidewayBoldIcon = (
     ref={ref}
     {...props}
   >
-    <path
-      fillOpacity={0.72}
-      d='M3.813 16.5c0-.508.39-.938.937-.938h22.5a.95.95 0 0 1 .938.938c0 .547-.43.938-.938.938H4.75c-.547 0-.938-.391-.938-.938Z'
-    />
+    <path d='M3.813 16.5c0-.508.39-.938.937-.938h22.5a.95.95 0 0 1 .938.938c0 .547-.43.938-.938.938H4.75c-.547 0-.938-.391-.938-.938Z' />
   </svg>
 );
 const ForwardRef = forwardRef(StandaloneChartTrendSidewayBoldIcon);

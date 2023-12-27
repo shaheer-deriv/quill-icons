@@ -32,11 +32,6 @@ export const SocialGoogleBrandIcon = (
         d='M16.327 0C10.154 0 4.503 3.417 1.734 8.82l5.457 4.146c1.284-3.786 4.88-6.6 9.136-6.6 2.394 0 4.55.81 6.237 2.392l4.687-4.595C24.426 1.583 20.73 0 16.327 0Z'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(SocialGoogleBrandIcon);

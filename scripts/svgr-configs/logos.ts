@@ -72,6 +72,13 @@ export const LogosSvgReactOutPutConfig: Options = {
         },
         'removeComments',
         'removeUselessStrokeAndFill',
+        {
+          name: 'removeAttrs',
+          params: {
+            attrs: ['clip-path', 'id'],
+          },
+        },
+        'removeUselessDefs',
       ],
     };
     return {
@@ -81,7 +88,6 @@ export const LogosSvgReactOutPutConfig: Options = {
       },
       typescript: true,
       svgo: true,
-      icon: true,
       plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],
       svgoConfig,
       dimensions: false,

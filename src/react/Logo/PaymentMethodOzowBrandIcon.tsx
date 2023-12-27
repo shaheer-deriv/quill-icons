@@ -29,52 +29,6 @@ const PaymentMethodOzowBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVG
       fill='url(#d)'
       d='M20.734 56.569a16.662 16.662 0 0 1-14.25-8.121 1.42 1.42 0 0 1 .224-1.725l4.211-4.209a1.424 1.424 0 0 1 2.33.477 8.064 8.064 0 0 0 15.485-3.996 8.055 8.055 0 0 0-2.415-4.801 1.425 1.425 0 0 1 .413-2.333 1.423 1.423 0 0 1 1.558.282A10.914 10.914 0 0 1 31.646 40a10.912 10.912 0 0 1-20.091 5.896l-2.017 2.017a13.705 13.705 0 0 0 21.887.67 1.425 1.425 0 0 1 2.22 1.786 16.511 16.511 0 0 1-12.911 6.2Z'
     />
-    <defs>
-      <linearGradient
-        id='a'
-        x1={14.248}
-        x2={55.5}
-        y1={12.879}
-        y2={108.002}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#00E587' />
-        <stop offset={1} stopColor='#00B8AD' />
-      </linearGradient>
-      <linearGradient
-        id='b'
-        x1={-107.291}
-        x2={-67.519}
-        y1={-13.571}
-        y2={149.541}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#00E587' />
-        <stop offset={1} stopColor='#00B8AD' />
-      </linearGradient>
-      <linearGradient
-        id='c'
-        x1={1.348}
-        x2={37.354}
-        y1={14.13}
-        y2={123.85}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#00E587' />
-        <stop offset={1} stopColor='#00B8AD' />
-      </linearGradient>
-      <linearGradient
-        id='d'
-        x1={3.591}
-        x2={30.823}
-        y1={24.853}
-        y2={55.694}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#00E587' />
-        <stop offset={1} stopColor='#00B8AD' />
-      </linearGradient>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(PaymentMethodOzowBrandIcon);

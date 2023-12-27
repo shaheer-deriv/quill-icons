@@ -32,44 +32,6 @@ export const CurrencySolIcon = (
         d='M21.659 14.21c.158 0 .308.064.416.173l2.838 2.837a.294.294 0 0 1-.208.503H10.34a.589.589 0 0 1-.417-.172l-2.837-2.838a.294.294 0 0 1 .208-.502h14.364Z'
       />
     </g>
-    <defs>
-      <linearGradient
-        id='b'
-        x1={21.145}
-        x2={11.204}
-        y1={6.11}
-        y2={25.152}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#00FFA3' />
-        <stop offset={1} stopColor='#DC1FFF' />
-      </linearGradient>
-      <linearGradient
-        id='c'
-        x1={21.145}
-        x2={11.204}
-        y1={6.11}
-        y2={25.152}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#00FFA3' />
-        <stop offset={1} stopColor='#DC1FFF' />
-      </linearGradient>
-      <linearGradient
-        id='d'
-        x1={21.145}
-        x2={11.204}
-        y1={6.11}
-        y2={25.152}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#00FFA3' />
-        <stop offset={1} stopColor='#DC1FFF' />
-      </linearGradient>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(CurrencySolIcon);
