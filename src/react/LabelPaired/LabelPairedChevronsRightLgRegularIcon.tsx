@@ -16,11 +16,6 @@ const LabelPairedChevronsRightLgRegularIcon = (
     <g>
       <path d='M2.93 23.43c-.287.26-.573.26-.86 0-.26-.287-.26-.573 0-.86l7.032-7.07L2.07 8.43c-.26-.287-.26-.573 0-.86.287-.26.573-.26.86 0l7.5 7.5c.26.287.26.573 0 .86l-7.5 7.5Zm7.5 0c-.287.26-.573.26-.86 0-.26-.287-.26-.573 0-.86l7.032-7.07L9.57 8.43c-.26-.287-.26-.573 0-.86.287-.26.573-.26.86 0l7.5 7.5c.26.287.26.573 0 .86l-7.5 7.5Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h20v30H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedChevronsRightLgRegularIcon);

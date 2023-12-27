@@ -28,11 +28,6 @@ export const MarketStocksTeslaIcon = (
         d='M13.2 11.175 16 26.913l2.819-15.738c2.65 0 3.49.293 3.61 1.488a6.28 6.28 0 0 0 2.694-2.023 19.796 19.796 0 0 0-7.05-1.705l-2.067 2.49-2.066-2.49a19.77 19.77 0 0 0-7.056 1.705 6.278 6.278 0 0 0 2.688 2.023c.124-1.195.964-1.488 3.628-1.488Z'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksTeslaIcon);

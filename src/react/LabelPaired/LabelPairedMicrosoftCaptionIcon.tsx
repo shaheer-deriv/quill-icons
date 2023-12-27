@@ -16,11 +16,6 @@ const LabelPairedMicrosoftCaptionIcon = (
     <g>
       <path d='M.25 4.25h5.04v5.04H.25V4.25Zm5.46 0h5.04v5.04H5.71V4.25ZM.25 9.71h5.04v5.04H.25V9.71Zm5.46 0h5.04v5.04H5.71V9.71Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h11v18H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedMicrosoftCaptionIcon);

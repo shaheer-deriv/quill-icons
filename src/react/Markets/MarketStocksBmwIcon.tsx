@@ -44,11 +44,6 @@ export const MarketStocksBmwIcon = (
         d='M16 16h9.48c0-5.193-4.227-9.48-9.48-9.48V16ZM6.52 16A9.457 9.457 0 0 0 16 25.48V16H6.52Z'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksBmwIcon);

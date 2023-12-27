@@ -16,11 +16,6 @@ const LabelPairedWindowMinimizeMdRegularIcon = (
     <g>
       <path d='M.5 18h15c.313.02.48.188.5.5-.02.313-.188.48-.5.5H.5c-.313-.02-.48-.188-.5-.5.02-.313.188-.48.5-.5Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h16v24H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedWindowMinimizeMdRegularIcon);

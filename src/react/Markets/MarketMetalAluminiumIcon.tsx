@@ -36,11 +36,6 @@ export const MarketMetalAluminiumIcon = (
         d='M25.679 7.321A12.952 12.952 0 0 0 17 4C9.82 4 4 9.82 4 17c0 3.335 1.256 6.378 3.321 8.679A12.968 12.968 0 0 1 3 16C3 8.82 8.82 3 16 3c3.844 0 7.299 1.669 9.679 4.321Z'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketMetalAluminiumIcon);

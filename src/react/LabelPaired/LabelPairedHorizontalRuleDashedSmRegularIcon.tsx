@@ -16,11 +16,6 @@ const LabelPairedHorizontalRuleDashedSmRegularIcon = (
     <g>
       <path d='M.25 10.75a.45.45 0 0 1 .438-.438h2.187a.47.47 0 0 1 .438.438.45.45 0 0 1-.438.438H.687a.432.432 0 0 1-.437-.438Zm4.813 0a.45.45 0 0 1 .437-.438h2.188a.47.47 0 0 1 .437.438.45.45 0 0 1-.438.438H5.5a.432.432 0 0 1-.438-.438Zm4.812 0a.45.45 0 0 1 .438-.438H12.5a.47.47 0 0 1 .438.438.45.45 0 0 1-.438.438h-2.188a.432.432 0 0 1-.437-.438Zm4.813 0a.45.45 0 0 1 .437-.438h2.188a.47.47 0 0 1 .437.438.45.45 0 0 1-.438.438h-2.187a.432.432 0 0 1-.438-.438Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h18v22H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedHorizontalRuleDashedSmRegularIcon);

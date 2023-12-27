@@ -40,33 +40,6 @@ export const MarketStocksProcterAndGambleIcon = (
         clipRule='evenodd'
       />
     </g>
-    <defs>
-      <radialGradient
-        id='c'
-        cx={0}
-        cy={0}
-        r={1}
-        gradientTransform='matrix(7.10385 22.5 -13.42745 4.2394 9.235 8)'
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#D8F1FC' />
-        <stop offset={1} stopColor='#0098DA' />
-      </radialGradient>
-      <linearGradient
-        id='b'
-        x1={18.963}
-        x2={18.963}
-        y1={-0.197}
-        y2={32.197}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#0093D7' />
-        <stop offset={1} stopColor='#002A78' />
-      </linearGradient>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksProcterAndGambleIcon);

@@ -13,11 +13,6 @@ const LabelPairedMinusSmRegularIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
     <g>
       <path d='M12.188 10.75c-.019.273-.165.42-.438.438H1.25c-.273-.019-.42-.165-.438-.438.019-.273.165-.42.438-.438h10.5c.273.019.42.165.438.438Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h13v22H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedMinusSmRegularIcon);

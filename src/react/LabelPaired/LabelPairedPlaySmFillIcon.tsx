@@ -13,11 +13,6 @@ const LabelPairedPlaySmFillIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
     <g>
       <path d='m2.246 4.816 7.875 4.813c.401.273.61.647.629 1.121-.018.492-.228.866-.629 1.121l-7.875 4.813c-.437.255-.875.264-1.312.027-.438-.255-.666-.638-.684-1.148V5.937c.018-.51.246-.893.684-1.148.437-.237.875-.228 1.312.027Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h11v22H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedPlaySmFillIcon);

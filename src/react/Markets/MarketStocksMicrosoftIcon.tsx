@@ -24,11 +24,6 @@ export const MarketStocksMicrosoftIcon = (
       <path fill='#2A9FDA' d='M15.742 16.258H8V24h7.742v-7.742Z' />
       <path fill='#FDB716' d='M24 16.258h-7.742V24H24v-7.742Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksMicrosoftIcon);

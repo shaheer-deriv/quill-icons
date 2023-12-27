@@ -16,11 +16,6 @@ const LabelPairedHorizontalRuleCaptionBoldIcon = (
     <g>
       <path d='M0 9.5c.031-.344.219-.531.563-.563h13.874c.344.032.532.22.563.563-.031.344-.219.531-.563.563H.563C.219 10.03.03 9.842 0 9.5Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h15v18H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedHorizontalRuleCaptionBoldIcon);

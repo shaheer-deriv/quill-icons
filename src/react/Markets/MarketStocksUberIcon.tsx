@@ -40,11 +40,6 @@ export const MarketStocksUberIcon = (
         d='M26.17 16.63a1.57 1.57 0 0 1 .38-1.11 1.25 1.25 0 0 1 .96-.42H28V14h-.41a1.6 1.6 0 0 0-1.42.73V14H25v6h1.17v-3.37Z'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksUberIcon);

@@ -24,11 +24,6 @@ export const MarketStocksAirbusIcon = (
         d='M16.764 16.983h-3.317l2.454-4.975h.05l5.517 11.084H26L17.749 6.909H14.25L6 23.092h4.433l1.337-2.71h6.644l-1.65-3.399Z'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksAirbusIcon);

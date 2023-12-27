@@ -34,11 +34,6 @@ export const MarketStocksFoxIcon = (
         d='m23.253 18.556 1.465 2.61H28l-3.114-5.372 2.824-4.961h-3.19l-1.221 2.229-1.206-2.229h-3.297l2.885 4.991-3.053 5.343h3.206l1.419-2.61Z'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksFoxIcon);

@@ -48,7 +48,6 @@ export const IconSvgReactOutPutConfig: Options = {
     return getExportTemplate({ reactComponentFilename, reactComponentName });
   },
   getSvgrConfig: (options) => {
-    console.log('options', JSON.stringify(options, null, 2));
     const shouldUseTemplate = !options.componentName.toLowerCase().includes('label-paired');
     const shouldCleanFills =
       options.pageName.toLowerCase().includes('system') ||
@@ -65,13 +64,20 @@ export const IconSvgReactOutPutConfig: Options = {
         },
         'removeComments',
         'removeUselessStrokeAndFill',
+        {
+          name: 'removeAttrs',
+          params: {
+            attrs: ['id'],
+          },
+        },
+        'removeUselessDefs',
       ],
     };
     if (shouldCleanFills) {
       svgoConfig.plugins?.push({
         name: 'removeAttrs',
         params: {
-          attrs: ['fill', 'fill-opacity', 'clip-path'],
+          attrs: ['fill', 'fill-opacity', 'clip-path', 'id'],
         },
       });
     }

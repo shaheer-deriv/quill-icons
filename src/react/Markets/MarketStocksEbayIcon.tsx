@@ -36,11 +36,6 @@ export const MarketStocksEbayIcon = (
         d='M21.19 13.318h1.432l2.048 4.095 2.04-4.095H28l-3.75 7.297h-1.328l1.08-2.032-2.812-5.25v-.015Z'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksEbayIcon);

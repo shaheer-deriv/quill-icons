@@ -16,11 +16,6 @@ const LabelPairedForwardStepMdRegularIcon = (
     <g>
       <path d='M8 6.5c.02-.313.188-.48.5-.5.313.02.48.188.5.5v11c-.02.313-.188.48-.5.5-.313-.02-.48-.188-.5-.5v-4.25l-5.594 4.563a.789.789 0 0 1-.531.187.848.848 0 0 1-.625-.25.848.848 0 0 1-.25-.625V6.875c0-.25.083-.458.25-.625A.848.848 0 0 1 1.875 6c.208 0 .385.063.531.188L8 10.75V6.5Zm-6 .656v9.688L7.969 12 2 7.156Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h10v24H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedForwardStepMdRegularIcon);

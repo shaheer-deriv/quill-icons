@@ -16,11 +16,6 @@ const LabelPairedChevronDownXlRegularIcon = (
     <g>
       <path d='M12.516 24.516c-.344.312-.688.312-1.032 0l-9-9c-.312-.344-.312-.688 0-1.032.344-.312.688-.312 1.032 0L12 22.922l8.484-8.438c.344-.312.688-.312 1.032 0 .312.344.312.688 0 1.032l-9 9Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h24v36H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedChevronDownXlRegularIcon);

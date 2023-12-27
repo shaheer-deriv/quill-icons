@@ -16,11 +16,6 @@ const LabelPairedWindowMinimizeCaptionBoldIcon = (
     <g>
       <path d='M.563 13.625h10.874c.344.031.532.219.563.563-.031.343-.219.53-.563.562H.563c-.344-.031-.532-.219-.563-.563.031-.343.219-.53.563-.562Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h12v18H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedWindowMinimizeCaptionBoldIcon);

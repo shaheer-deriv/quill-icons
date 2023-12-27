@@ -16,11 +16,6 @@ const LabelPairedHorizontalRuleSmRegularIcon = (
     <g>
       <path d='M.25 10.75c.018-.273.164-.42.438-.438h16.625c.273.019.419.165.437.438-.018.273-.164.42-.438.438H.688c-.273-.019-.419-.165-.437-.438Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h18v22H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedHorizontalRuleSmRegularIcon);

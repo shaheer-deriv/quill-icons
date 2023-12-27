@@ -16,11 +16,6 @@ const LabelPairedArrowUpLeftMdBoldIcon = (
     <g>
       <path d='M1.75 7h7.5c.458.042.708.292.75.75-.042.458-.292.708-.75.75H3.562l7.22 7.219c.29.354.29.708 0 1.062-.355.292-.71.292-1.063 0L2.5 9.563v5.687c-.042.458-.292.708-.75.75-.458-.042-.708-.292-.75-.75v-7.5c.042-.458.292-.708.75-.75Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h12v24H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedArrowUpLeftMdBoldIcon);

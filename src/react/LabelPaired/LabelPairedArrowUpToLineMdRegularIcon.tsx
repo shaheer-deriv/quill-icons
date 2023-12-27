@@ -16,11 +16,6 @@ const LabelPairedArrowUpToLineMdRegularIcon = (
     <g>
       <path d='M.5 5h11c.313.02.48.188.5.5-.02.313-.188.48-.5.5H.5c-.313-.02-.48-.188-.5-.5.02-.313.188-.48.5-.5Zm5.844 3.156 4 4c.208.23.208.459 0 .688-.23.208-.459.208-.688 0L6.5 9.719V18.5c-.02.313-.188.48-.5.5-.313-.02-.48-.188-.5-.5V9.719l-3.156 3.125c-.23.208-.459.208-.688 0-.208-.23-.208-.459 0-.688l4-4c.23-.208.459-.208.688 0Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h12v24H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedArrowUpToLineMdRegularIcon);

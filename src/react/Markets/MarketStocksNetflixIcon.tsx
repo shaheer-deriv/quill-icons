@@ -28,11 +28,6 @@ export const MarketStocksNetflixIcon = (
         d='M14.286 5.227h-4.282l7.582 21.438c2.13.053 4.41.362 4.41.362l-7.71-21.8Z'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksNetflixIcon);

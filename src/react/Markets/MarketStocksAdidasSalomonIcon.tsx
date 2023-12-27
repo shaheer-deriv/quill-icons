@@ -38,11 +38,6 @@ export const MarketStocksAdidasSalomonIcon = (
         clipRule='evenodd'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksAdidasSalomonIcon);

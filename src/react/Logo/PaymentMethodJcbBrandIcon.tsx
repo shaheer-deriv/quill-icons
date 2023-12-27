@@ -23,48 +23,6 @@ const PaymentMethodJcbBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
       />
       <path d='M38.903 46.084c-2.33 0-4.66-.704-6.903-1.803v3.355c.434.116 3.865.999 8.179.999 7.61 0 9.853-2.947 9.853-6.554V32.8H43.17v9.325c0 2.287-1.495 3.959-4.267 3.959Z' />
     </g>
-    <defs>
-      <linearGradient
-        id='a'
-        x1={76.834}
-        x2={96.051}
-        y1={36.628}
-        y2={36.628}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#007940' />
-        <stop offset={0.229} stopColor='#00873F' />
-        <stop offset={0.743} stopColor='#40A737' />
-        <stop offset={1} stopColor='#5CB531' />
-      </linearGradient>
-      <linearGradient
-        id='b'
-        x1={54.289}
-        x2={73.241}
-        y1={39.958}
-        y2={39.958}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#6C2C2F' />
-        <stop offset={0.173} stopColor='#882730' />
-        <stop offset={0.573} stopColor='#BE1833' />
-        <stop offset={0.859} stopColor='#DC0436' />
-        <stop offset={1} stopColor='#E60039' />
-      </linearGradient>
-      <linearGradient
-        id='c'
-        x1={32.033}
-        x2={51.547}
-        y1={40.002}
-        y2={40.002}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#1F286F' />
-        <stop offset={0.475} stopColor='#004E94' />
-        <stop offset={0.826} stopColor='#0066B1' />
-        <stop offset={1} stopColor='#006FBC' />
-      </linearGradient>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(PaymentMethodJcbBrandIcon);

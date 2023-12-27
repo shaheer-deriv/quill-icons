@@ -36,15 +36,6 @@ export const MarketStocksPaypalIcon = (
         d='M23.274 11.081c-.018.119-.039.24-.063.364-.82 4.209-3.624 5.664-7.206 5.664H14.18a.886.886 0 0 0-.876.75l.03-.19 1.036-6.567a.778.778 0 0 1 .768-.657h4.873c.577 0 1.115.038 1.607.117a7.099 7.099 0 0 1 .798.178 4.392 4.392 0 0 1 .858.342Z'
       />
     </g>
-    <defs>
-      <linearGradient id='b' x1={32} x2={0} y1={0} y2={32} gradientUnits='userSpaceOnUse'>
-        <stop stopColor='#004090' />
-        <stop offset={1} stopColor='#009EDF' />
-      </linearGradient>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksPaypalIcon);

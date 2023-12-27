@@ -25,11 +25,6 @@ export const MarketStocksDeltaAirLinesIcon = (
       />
       <path fill='#fff' d='M6 23.25h20l-10-4.375L6 23.25Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksDeltaAirLinesIcon);

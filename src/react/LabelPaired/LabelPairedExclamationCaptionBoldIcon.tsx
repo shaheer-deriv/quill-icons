@@ -16,11 +16,6 @@ const LabelPairedExclamationCaptionBoldIcon = (
     <g>
       <path d='M1.563 4.813v6.75c-.032.343-.22.53-.563.562-.344-.031-.531-.219-.563-.563v-6.75c.032-.343.22-.53.563-.562.344.031.531.219.563.563ZM1 14.75a.73.73 0 0 1-.54-.21.73.73 0 0 1-.21-.54.73.73 0 0 1 .21-.54.73.73 0 0 1 .54-.21.73.73 0 0 1 .54.21c.14.142.21.321.21.54a.73.73 0 0 1-.21.54.73.73 0 0 1-.54.21Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h2v18H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedExclamationCaptionBoldIcon);

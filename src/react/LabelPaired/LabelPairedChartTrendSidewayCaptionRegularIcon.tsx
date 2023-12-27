@@ -16,11 +16,6 @@ const LabelPairedChartTrendSidewayCaptionRegularIcon = (
     <g>
       <path d='M.375 9.5c0-.188.164-.375.375-.375h13.5c.188 0 .375.188.375.375 0 .21-.188.375-.375.375H.75A.37.37 0 0 1 .375 9.5Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h15v18H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedChartTrendSidewayCaptionRegularIcon);

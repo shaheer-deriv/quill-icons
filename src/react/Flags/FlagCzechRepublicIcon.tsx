@@ -32,11 +32,6 @@ export const FlagCzechRepublicIcon = (
         clipRule='evenodd'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <rect width={24} height={16} fill='#fff' rx={2} />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(FlagCzechRepublicIcon);

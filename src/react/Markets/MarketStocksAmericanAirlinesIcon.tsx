@@ -36,55 +36,6 @@ export const MarketStocksAmericanAirlinesIcon = (
         d='m14.467 20.22-1.895-3.2c-.551-.995-.053-2.176 1.966-2.393 2.02-.217 5.531-.559 6.524 1.5-2.733-.28-6.804.55-6.595 4.092Z'
       />
     </g>
-    <defs>
-      <linearGradient
-        id='b'
-        x1={0}
-        x2={31.996}
-        y1={16.006}
-        y2={16.006}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#EE3324' />
-        <stop offset={1} stopColor='#A02121' />
-      </linearGradient>
-      <linearGradient
-        id='c'
-        x1={16.004}
-        x2={16.004}
-        y1={0.579}
-        y2={31.618}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#4FC8ED' />
-        <stop offset={1} stopColor='#10528A' />
-      </linearGradient>
-      <linearGradient
-        id='d'
-        x1={693.984}
-        x2={380.672}
-        y1={394.88}
-        y2={672.608}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#EE3324' />
-        <stop offset={1} stopColor='#A02121' />
-      </linearGradient>
-      <linearGradient
-        id='e'
-        x1={14.385}
-        x2={20.839}
-        y1={17.365}
-        y2={17.24}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#E6EAEF' />
-        <stop offset={1} stopColor='#95AAB1' />
-      </linearGradient>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksAmericanAirlinesIcon);

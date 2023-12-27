@@ -16,11 +16,6 @@ const LabelPairedHorizontalRuleXlRegularIcon = (
     <g>
       <path d='M0 18c.031-.469.281-.719.75-.75h28.5c.469.031.719.281.75.75-.031.469-.281.719-.75.75H.75C.281 18.719.031 18.469 0 18Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h30v36H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedHorizontalRuleXlRegularIcon);

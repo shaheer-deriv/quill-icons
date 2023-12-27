@@ -23,19 +23,6 @@ const PaymentMethodBanxaBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
       d='M111.862 30c.674 0 1.295.366 1.623.955l9.281 16.707a1.856 1.856 0 0 1-1.622 2.758H102.58a1.857 1.857 0 0 1-1.623-2.758l9.282-16.707c.327-.59.949-.955 1.623-.955Zm-6.127 16.707h12.254l-6.127-11.028-6.127 11.028Z'
       clipRule='evenodd'
     />
-    <defs>
-      <linearGradient
-        id='a'
-        x1={100.459}
-        x2={113.453}
-        y1={50.42}
-        y2={42.995}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#147ABB' />
-        <stop offset={1} stopColor='#22BCAD' />
-      </linearGradient>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(PaymentMethodBanxaBrandIcon);

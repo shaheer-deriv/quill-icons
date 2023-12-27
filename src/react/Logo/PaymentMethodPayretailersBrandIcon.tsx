@@ -43,23 +43,6 @@ const PaymentMethodPayretailersBrandIcon = (
       fill='url(#a)'
       d='M113.463 25.117c-1.269-5.04-4.9-9.716-12.044-12.065 0 0-6.978-2.707-15.888.563-5.446 1.998-10.082 5.727-13.294 10.558-.223.334-.45.686-.684 1.055h5.897s5.404-9.774 19.328-8.244c0 0 7.043-.274 10.865 7.753a12.663 12.663 0 0 1 1.241 5.138c.163 6.206-4.298 11.804-9.906 12.309 4.28-.038 14.514-1.562 14.845-15.228a17.425 17.425 0 0 0-.36-1.84Z'
     />
-    <defs>
-      <linearGradient
-        id='a'
-        x1={71.553}
-        x2={113.823}
-        y1={27.092}
-        y2={27.092}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop stopColor='#8DB73C' />
-        <stop offset={0.08} stopColor='#81AF3B' />
-        <stop offset={0.3} stopColor='#669C37' />
-        <stop offset={0.53} stopColor='#538F35' />
-        <stop offset={0.76} stopColor='#488733' />
-        <stop offset={1} stopColor='#448433' />
-      </linearGradient>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(PaymentMethodPayretailersBrandIcon);

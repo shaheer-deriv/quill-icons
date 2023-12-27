@@ -13,11 +13,6 @@ const LabelPairedBarsXlRegularIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<S
     <g>
       <path d='M0 9.75c.031-.469.281-.719.75-.75h19.5c.469.031.719.281.75.75-.031.469-.281.719-.75.75H.75c-.469-.031-.719-.281-.75-.75Zm0 7.5c.031-.469.281-.719.75-.75h19.5c.469.031.719.281.75.75-.031.469-.281.719-.75.75H.75c-.469-.031-.719-.281-.75-.75Zm21 7.5c-.031.469-.281.719-.75.75H.75c-.469-.031-.719-.281-.75-.75.031-.469.281-.719.75-.75h19.5c.469.031.719.281.75.75Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h21v36H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedBarsXlRegularIcon);

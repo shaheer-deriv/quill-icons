@@ -52,11 +52,6 @@ export const MarketStocksTevaIcon = (
         d='M11.879 9.48 9.344 6.195a.718.718 0 0 0-.843-.245.814.814 0 0 0-.501.773l.02 4.08 3.858 5.135v-6.46Z'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksTevaIcon);

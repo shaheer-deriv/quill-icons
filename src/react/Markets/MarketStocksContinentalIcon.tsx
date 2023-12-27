@@ -88,11 +88,6 @@ export const MarketStocksContinentalIcon = (
         d='M9.4 19.028c0-.108-.015-.125-.088-.125h-.105V20.2H9.4v-.73a.59.59 0 0 1 .287-.096c.093 0 .15.033.15.153v.673h.19v-.716c0-.212-.114-.268-.252-.268a.639.639 0 0 0-.376.137v-.325ZM8.602 20.2v-1.145h.38v-.152h-.964v.152h.378V20.2h.206Z'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksContinentalIcon);

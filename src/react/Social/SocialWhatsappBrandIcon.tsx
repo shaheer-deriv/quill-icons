@@ -30,46 +30,6 @@ export const SocialWhatsappBrandIcon = (
         clipRule='evenodd'
       />
     </g>
-    <defs>
-      <linearGradient id='b' x1={20} x2={20} y1={34.664} y2={2.665} gradientUnits='userSpaceOnUse'>
-        <stop stopColor='#20B038' />
-        <stop offset={1} stopColor='#60D66A' />
-      </linearGradient>
-      <linearGradient id='c' x1={20} x2={20} y1={34.8} y2={2.658} gradientUnits='userSpaceOnUse'>
-        <stop stopColor='#F9F9F9' />
-        <stop offset={1} stopColor='#fff' />
-      </linearGradient>
-      <filter
-        id='a'
-        width={40}
-        height={40}
-        x={0}
-        y={0}
-        colorInterpolationFilters='sRGB'
-        filterUnits='userSpaceOnUse'
-      >
-        <feFlood floodOpacity={0} result='BackgroundImageFix' />
-        <feColorMatrix
-          in='SourceAlpha'
-          result='hardAlpha'
-          values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
-        />
-        <feOffset dy={1.333} />
-        <feGaussianBlur stdDeviation={1.333} />
-        <feColorMatrix values='0 0 0 0 0.054902 0 0 0 0 0.054902 0 0 0 0 0.054902 0 0 0 0.06 0' />
-        <feBlend in2='BackgroundImageFix' result='effect1_dropShadow_1894_170' />
-        <feColorMatrix
-          in='SourceAlpha'
-          result='hardAlpha'
-          values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
-        />
-        <feOffset dy={1.333} />
-        <feGaussianBlur stdDeviation={2} />
-        <feColorMatrix values='0 0 0 0 0.054902 0 0 0 0 0.054902 0 0 0 0 0.054902 0 0 0 0.1 0' />
-        <feBlend in2='effect1_dropShadow_1894_170' result='effect2_dropShadow_1894_170' />
-        <feBlend in='SourceGraphic' in2='effect2_dropShadow_1894_170' result='shape' />
-      </filter>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(SocialWhatsappBrandIcon);

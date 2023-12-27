@@ -42,11 +42,6 @@ export const MarketStocksPfizerIcon = (
         d='M7.08 13.653c-1.07.03-2.234.273-2.513 1.294l-.462 1.687c.28-1.021 1.443-1.264 2.515-1.295.88-.024 1.862.092 1.862.092l.461-1.687s-.981-.116-1.862-.091Z'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksPfizerIcon);

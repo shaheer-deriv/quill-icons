@@ -26,11 +26,6 @@ export const MarketStocksMastercardIcon = (
         d='M16 22a7.488 7.488 0 0 0 3-6 7.489 7.489 0 0 0-3-6 7.489 7.489 0 0 0-3 6 7.488 7.488 0 0 0 3 6Z'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksMastercardIcon);

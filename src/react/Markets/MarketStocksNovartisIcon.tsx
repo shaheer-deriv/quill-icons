@@ -25,22 +25,6 @@ export const MarketStocksNovartisIcon = (
       />
       <path fill='#0460A9' d='m16.113 20.297 1.264-11.94h-2.622l1.264 11.94h.095Z' />
     </g>
-    <defs>
-      <linearGradient
-        id='b'
-        x1={-0.007}
-        x2={31.992}
-        y1={15.996}
-        y2={15.996}
-        gradientUnits='userSpaceOnUse'
-      >
-        <stop offset={0.3} stopColor='#E74A21' />
-        <stop offset={0.7} stopColor='#EC9A1E' />
-      </linearGradient>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(MarketStocksNovartisIcon);

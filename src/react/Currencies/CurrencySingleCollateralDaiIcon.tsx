@@ -28,11 +28,6 @@ export const CurrencySingleCollateralDaiIcon = (
       <path fill='#F7C57B' d='M26 16H16v10l10-10Z' />
       <path fill='#F7B14A' d='M16 9V6l10 10-10 3v-6l3 3h4l-7-7Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(CurrencySingleCollateralDaiIcon);

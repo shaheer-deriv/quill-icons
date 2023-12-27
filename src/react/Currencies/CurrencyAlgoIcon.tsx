@@ -24,11 +24,6 @@ export const CurrencyAlgoIcon = (
         d='m10.794 24 7.309-12.642.875 3.273L13.574 24h2.765l3.513-6.081L21.49 24h2.483l-2.426-9.03 1.72-2.977h-2.51L19.682 8H17.27l-.056.085L8.029 24h2.765Z'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(CurrencyAlgoIcon);

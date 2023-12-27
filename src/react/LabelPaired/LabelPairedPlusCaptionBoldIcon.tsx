@@ -16,11 +16,6 @@ const LabelPairedPlusCaptionBoldIcon = (
     <g>
       <path d='M6.063 5.188v3.75h3.75c.343.03.53.218.562.562-.031.344-.219.531-.563.563h-3.75v3.75c-.03.343-.218.53-.562.562-.344-.031-.531-.219-.563-.563v-3.75h-3.75c-.343-.03-.53-.218-.562-.562.031-.344.219-.531.563-.563h3.75v-3.75c.03-.343.218-.53.562-.562.344.031.531.219.563.563Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path d='M0 0h11v18H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedPlusCaptionBoldIcon);

@@ -24,11 +24,6 @@ export const CurrencyLinkIcon = (
         d='M16.004 6 14.17 7.055l-5 2.89L7.334 11v10l1.835 1.055 5.046 2.89L16.05 26l1.835-1.055 4.954-2.89L24.674 21V11l-1.835-1.055-5-2.89L16.004 6Zm-5 12.89v-5.78l5-2.89 5 2.89v5.78l-5 2.89-5-2.89Z'
       />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(CurrencyLinkIcon);

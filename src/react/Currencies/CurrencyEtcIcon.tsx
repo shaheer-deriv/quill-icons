@@ -30,11 +30,6 @@ export const CurrencyEtcIcon = (
       <path fill='#AECDAE' d='m8.875 15.978 7.164.588 7.07-.612-7.067 3.826-7.167-3.802Z' />
       <path fill='#5B9C5B' d='m16.039 16.566 7.07-.612-7.067 3.826-.003-3.214Z' />
     </g>
-    <defs>
-      <clipPath id='a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
-      </clipPath>
-    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(CurrencyEtcIcon);
