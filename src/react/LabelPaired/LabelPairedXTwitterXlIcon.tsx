@@ -10,9 +10,17 @@ const LabelPairedXTwitterXlIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
     ref={ref}
     {...props}
   >
-    <g>
-      <path d='M18.234 8.25h3.328l-7.218 8.25 8.484 11.25h-6.656l-5.203-6.797-5.953 6.797H1.687l7.735-8.813L1.266 8.25h6.796l4.735 6.234 5.437-6.234Zm-1.172 17.531h1.875L7.079 10.125H5.11l11.954 15.656Z' />
+    <g clipPath='url(#a)'>
+      <path
+        fillOpacity={0.72}
+        d='M18.234 8.25h3.328l-7.218 8.25 8.484 11.25h-6.656l-5.203-6.797-5.953 6.797H1.688l7.734-8.812L1.266 8.25h6.797l4.734 6.234zm-1.172 17.531h1.875L7.079 10.125H5.11z'
+      />
     </g>
+    <defs>
+      <clipPath id='a'>
+        <path d='M0 0h24v36H0z' />
+      </clipPath>
+    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedXTwitterXlIcon);

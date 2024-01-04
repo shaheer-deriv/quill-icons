@@ -13,9 +13,17 @@ const LabelPairedChartTrendSidewayMdBoldIcon = (
     ref={ref}
     {...props}
   >
-    <g>
-      <path d='M.25 12a.74.74 0 0 1 .75-.75h18a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75H1A.722.722 0 0 1 .25 12Z' />
+    <g clipPath='url(#a)'>
+      <path
+        fillOpacity={0.72}
+        d='M.25 12a.74.74 0 0 1 .75-.75h18a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75H1A.722.722 0 0 1 .25 12'
+      />
     </g>
+    <defs>
+      <clipPath id='a'>
+        <path d='M0 0h20v24H0z' />
+      </clipPath>
+    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedChartTrendSidewayMdBoldIcon);

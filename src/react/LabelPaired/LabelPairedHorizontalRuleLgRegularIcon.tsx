@@ -13,9 +13,17 @@ const LabelPairedHorizontalRuleLgRegularIcon = (
     ref={ref}
     {...props}
   >
-    <g>
-      <path d='M0 15.5c.026-.39.234-.599.625-.625h23.75c.39.026.599.234.625.625-.026.39-.234.599-.625.625H.625c-.39-.026-.599-.234-.625-.625Z' />
+    <g clipPath='url(#a)'>
+      <path
+        fillOpacity={0.72}
+        d='M0 15.5c.026-.39.234-.599.625-.625h23.75c.39.026.599.234.625.625-.026.39-.234.599-.625.625H.625c-.39-.026-.599-.234-.625-.625'
+      />
     </g>
+    <defs>
+      <clipPath id='a'>
+        <path d='M0 0h25v30H0z' />
+      </clipPath>
+    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedHorizontalRuleLgRegularIcon);

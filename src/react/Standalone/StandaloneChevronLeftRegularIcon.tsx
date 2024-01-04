@@ -13,7 +13,10 @@ export const StandaloneChevronLeftRegularIcon = (
     ref={ref}
     {...props}
   >
-    <path d='M10.57 16.93c-.26-.287-.26-.573 0-.86l7.5-7.5c.287-.26.573-.26.86 0 .26.287.26.573 0 .86l-7.032 7.07 7.032 7.07c.26.287.26.573 0 .86-.287.26-.573.26-.86 0l-7.5-7.5Z' />
+    <path
+      fillOpacity={0.72}
+      d='M10.57 16.93c-.26-.287-.26-.573 0-.86l7.5-7.5c.287-.26.573-.26.86 0 .26.287.26.573 0 .86l-7.032 7.07 7.032 7.07c.26.287.26.573 0 .86-.287.26-.573.26-.86 0z'
+    />
   </svg>
 );
 const ForwardRef = forwardRef(StandaloneChevronLeftRegularIcon);
