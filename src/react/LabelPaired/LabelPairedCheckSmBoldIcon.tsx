@@ -10,9 +10,17 @@ const LabelPairedCheckSmBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVG
     ref={ref}
     {...props}
   >
-    <g>
-      <path d='M12.434 6.566c.255.31.255.62 0 .93l-7.22 7.219c-.31.255-.619.255-.929 0L.566 10.996c-.255-.31-.255-.62 0-.93.31-.255.62-.255.93 0L4.75 13.32l6.754-6.754c.31-.255.62-.255.93 0Z' />
+    <g clipPath='url(#a)'>
+      <path
+        fillOpacity={0.72}
+        d='M12.434 6.566c.255.31.255.62 0 .93l-7.22 7.219c-.31.255-.619.255-.929 0L.566 10.996c-.255-.31-.255-.62 0-.93.31-.255.62-.255.93 0L4.75 13.32l6.754-6.754c.31-.255.62-.255.93 0'
+      />
     </g>
+    <defs>
+      <clipPath id='a'>
+        <path d='M0 0h13v22H0z' />
+      </clipPath>
+    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedCheckSmBoldIcon);

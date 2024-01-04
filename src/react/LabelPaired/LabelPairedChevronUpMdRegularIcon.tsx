@@ -13,9 +13,17 @@ const LabelPairedChevronUpMdRegularIcon = (
     ref={ref}
     {...props}
   >
-    <g>
-      <path d='M7.656 7.656c.23-.208.459-.208.688 0l6 6c.208.23.208.459 0 .688-.23.208-.459.208-.688 0L8 8.719l-5.656 5.625c-.23.208-.459.208-.688 0-.208-.23-.208-.459 0-.688l6-6Z' />
+    <g clipPath='url(#a)'>
+      <path
+        fillOpacity={0.72}
+        d='M7.656 7.656c.23-.208.459-.208.688 0l6 6c.208.23.208.459 0 .688-.23.208-.459.208-.688 0L8 8.719l-5.656 5.625c-.23.208-.459.208-.688 0-.208-.23-.208-.459 0-.688z'
+      />
     </g>
+    <defs>
+      <clipPath id='a'>
+        <path d='M0 0h16v24H0z' />
+      </clipPath>
+    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedChevronUpMdRegularIcon);

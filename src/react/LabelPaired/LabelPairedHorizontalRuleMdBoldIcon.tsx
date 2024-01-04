@@ -13,9 +13,17 @@ const LabelPairedHorizontalRuleMdBoldIcon = (
     ref={ref}
     {...props}
   >
-    <g>
-      <path d='M0 12c.042-.458.292-.708.75-.75h18.5c.458.042.708.292.75.75-.042.458-.292.708-.75.75H.75C.292 12.708.042 12.458 0 12Z' />
+    <g clipPath='url(#a)'>
+      <path
+        fillOpacity={0.72}
+        d='M0 12c.042-.458.292-.708.75-.75h18.5c.458.042.708.292.75.75-.042.458-.292.708-.75.75H.75C.292 12.708.042 12.458 0 12'
+      />
     </g>
+    <defs>
+      <clipPath id='a'>
+        <path d='M0 0h20v24H0z' />
+      </clipPath>
+    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedHorizontalRuleMdBoldIcon);

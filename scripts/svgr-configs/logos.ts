@@ -72,12 +72,6 @@ export const LogosSvgReactOutPutConfig: Options = {
         },
         'removeComments',
         'removeUselessStrokeAndFill',
-        {
-          name: 'removeAttrs',
-          params: {
-            attrs: ['clip-path', 'id'],
-          },
-        },
         'removeUselessDefs',
       ],
     };

@@ -73,12 +73,6 @@ export const IllustrationSvgReactOutPutConfig: Options = {
           },
         },
         'removeComments',
-        {
-          name: 'removeAttrs',
-          params: {
-            attrs: ['id'],
-          },
-        },
         'removeUselessDefs',
         'removeUselessStrokeAndFill',
       ],

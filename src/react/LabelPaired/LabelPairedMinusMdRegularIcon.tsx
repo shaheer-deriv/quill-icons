@@ -10,9 +10,17 @@ const LabelPairedMinusMdRegularIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
     ref={ref}
     {...props}
   >
-    <g>
-      <path d='M13.5 12c-.02.313-.188.48-.5.5H1c-.313-.02-.48-.188-.5-.5.02-.313.188-.48.5-.5h12c.313.02.48.188.5.5Z' />
+    <g clipPath='url(#a)'>
+      <path
+        fillOpacity={0.72}
+        d='M13.5 12c-.02.313-.187.48-.5.5H1c-.312-.02-.48-.187-.5-.5.02-.312.188-.48.5-.5h12c.313.02.48.188.5.5'
+      />
     </g>
+    <defs>
+      <clipPath id='a'>
+        <path d='M0 0h14v24H0z' />
+      </clipPath>
+    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LabelPairedMinusMdRegularIcon);
