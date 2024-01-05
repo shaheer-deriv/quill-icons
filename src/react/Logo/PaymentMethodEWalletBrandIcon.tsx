@@ -9,7 +9,7 @@ const PaymentMethodEWalletBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g>
       <g fill='#2986D3'>
         <path d='M39.907 23.031V20A15.275 15.275 0 0 1 54.54 34.631h-3.025a12.244 12.244 0 0 0-11.607-11.6' />
         <path d='M39.907 28.906v-3.012a8.75 8.75 0 0 1 8.738 8.737h-3.013a5.731 5.731 0 0 0-5.725-5.725' />

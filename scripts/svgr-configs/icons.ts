@@ -64,6 +64,12 @@ export const IconSvgReactOutPutConfig: Options = {
         },
         'removeComments',
         'removeUselessStrokeAndFill',
+        // {
+        //   name: 'removeAttrs',
+        //   params: {
+        //     attrs: ['id'],
+        //   },
+        // },
         'removeUselessDefs',
       ],
     };
@@ -71,7 +77,7 @@ export const IconSvgReactOutPutConfig: Options = {
       svgoConfig.plugins?.push({
         name: 'removeAttrs',
         params: {
-          attrs: 'fill',
+          attrs: ['fill', 'fill-opacity', 'clip-path'], // 'id'
         },
       });
     }

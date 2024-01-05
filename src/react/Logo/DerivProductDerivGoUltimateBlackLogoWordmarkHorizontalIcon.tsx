@@ -12,7 +12,7 @@ const DerivProductDerivGoUltimateBlackLogoWordmarkHorizontalIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g>
       <path
         fill='#414652'
         d='M0 13.5C0 6.044 6.044 0 13.5 0h45C65.956 0 72 6.044 72 13.5v45C72 65.956 65.956 72 58.5 72h-45C6.044 72 0 65.956 0 58.5z'

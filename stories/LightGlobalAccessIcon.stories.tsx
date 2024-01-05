@@ -1,19 +1,19 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { DarkSafeAndSecureIcon } from '../src/react/Illustration';
+import { LightGlobalAccessIcon } from '../src/react/Illustration';
 
 const meta = {
-  title: 'Illustrations/DarkSafeAndSecureIcon',
-  component: DarkSafeAndSecureIcon,
+  title: 'Illustrations/LightGlobalAccessIcon',
+  component: LightGlobalAccessIcon,
   parameters: {
     layout: 'centered',
   },
   tags: ['autodocs'],
-} satisfies Meta<typeof DarkSafeAndSecureIcon>;
+} satisfies Meta<typeof LightGlobalAccessIcon>;
 
 export default meta;
 
-type Story = StoryObj<typeof DarkSafeAndSecureIcon>;
+type Story = StoryObj<typeof LightGlobalAccessIcon>;
 
 export const Primary: Story = {
   args: {

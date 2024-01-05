@@ -1,19 +1,19 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { DarkRegulatedIcon } from '../src/react/Illustration';
+import { LightSwapFreeIcon } from '../src/react/Illustration';
 
 const meta = {
-  title: 'Illustrations/DarkRegulatedIcon',
-  component: DarkRegulatedIcon,
+  title: 'Illustrations/LightSwapFreeIcon',
+  component: LightSwapFreeIcon,
   parameters: {
     layout: 'centered',
   },
   tags: ['autodocs'],
-} satisfies Meta<typeof DarkRegulatedIcon>;
+} satisfies Meta<typeof LightSwapFreeIcon>;
 
 export default meta;
 
-type Story = StoryObj<typeof DarkRegulatedIcon>;
+type Story = StoryObj<typeof LightSwapFreeIcon>;
 
 export const Primary: Story = {
   args: {

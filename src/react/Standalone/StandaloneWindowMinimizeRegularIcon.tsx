@@ -13,10 +13,7 @@ export const StandaloneWindowMinimizeRegularIcon = (
     ref={ref}
     {...props}
   >
-    <path
-      fillOpacity={0.72}
-      d='M6.625 24h18.75c.39.026.599.234.625.625-.026.39-.234.599-.625.625H6.625c-.39-.026-.599-.234-.625-.625.026-.39.234-.599.625-.625'
-    />
+    <path d='M6.625 24h18.75c.39.026.599.234.625.625-.026.39-.234.599-.625.625H6.625c-.39-.026-.599-.234-.625-.625.026-.39.234-.599.625-.625' />
   </svg>
 );
 const ForwardRef = forwardRef(StandaloneWindowMinimizeRegularIcon);

@@ -10,11 +10,8 @@ const LabelPairedWindowsCaptionIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
-      <path
-        fillOpacity={0.72}
-        d='M.25 5.703v3.563h4.313V5.094zm0 7.594V9.78h4.313v4.125zm4.781.656V9.781h5.719v4.969zm0-8.906 5.719-.797v5.016H5.031z'
-      />
+    <g>
+      <path d='M.25 5.703v3.563h4.313V5.094zm0 7.594V9.78h4.313v4.125zm4.781.656V9.781h5.719v4.969zm0-8.906 5.719-.797v5.016H5.031z' />
     </g>
     <defs>
       <clipPath id='a'>
