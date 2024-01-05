@@ -1,19 +1,19 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { DarkDependableIcon } from '../src/react/Illustration';
+import { LightHighLeverageIcon } from '../src/react/Illustration';
 
 const meta = {
-  title: 'Illustrations/DarkDependableIcon',
-  component: DarkDependableIcon,
+  title: 'Illustrations/LightHighLeverageIcon',
+  component: LightHighLeverageIcon,
   parameters: {
     layout: 'centered',
   },
   tags: ['autodocs'],
-} satisfies Meta<typeof DarkDependableIcon>;
+} satisfies Meta<typeof LightHighLeverageIcon>;
 
 export default meta;
 
-type Story = StoryObj<typeof DarkDependableIcon>;
+type Story = StoryObj<typeof LightHighLeverageIcon>;
 
 export const Primary: Story = {
   args: {

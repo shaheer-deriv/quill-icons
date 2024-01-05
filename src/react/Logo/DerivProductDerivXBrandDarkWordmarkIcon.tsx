@@ -12,7 +12,7 @@ const DerivProductDerivXBrandDarkWordmarkIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g>
       <path
         fill='#FF444F'
         fillRule='evenodd'

@@ -13,11 +13,8 @@ const LabelPairedWindowMinimizeMdRegularIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
-      <path
-        fillOpacity={0.72}
-        d='M.5 18h15c.313.02.48.188.5.5-.02.313-.187.48-.5.5H.5c-.312-.02-.48-.187-.5-.5.02-.312.188-.48.5-.5'
-      />
+    <g>
+      <path d='M.5 18h15c.313.02.48.188.5.5-.02.313-.187.48-.5.5H.5c-.312-.02-.48-.187-.5-.5.02-.312.188-.48.5-.5' />
     </g>
     <defs>
       <clipPath id='a'>

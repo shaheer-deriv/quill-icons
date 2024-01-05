@@ -13,11 +13,8 @@ const LabelPairedChartTrendSidewayLgRegularIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
-      <path
-        fillOpacity={0.72}
-        d='M.625 15.5c0-.312.273-.625.625-.625h22.5c.313 0 .625.313.625.625a.642.642 0 0 1-.625.625H1.25a.617.617 0 0 1-.625-.625'
-      />
+    <g>
+      <path d='M.625 15.5c0-.312.273-.625.625-.625h22.5c.313 0 .625.313.625.625a.642.642 0 0 1-.625.625H1.25a.617.617 0 0 1-.625-.625' />
     </g>
     <defs>
       <clipPath id='a'>

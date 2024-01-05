@@ -10,11 +10,8 @@ const LabelPairedMicrosoftSmIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVG
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
-      <path
-        fillOpacity={0.72}
-        d='M.375 4.625h5.879v5.879H.375zm6.371 0h5.879v5.879H6.746zM.375 10.996h5.879v5.879H.375zm6.371 0h5.879v5.879H6.746z'
-      />
+    <g>
+      <path d='M.375 4.625h5.879v5.879H.375zm6.371 0h5.879v5.879H6.746zM.375 10.996h5.879v5.879H.375zm6.371 0h5.879v5.879H6.746z' />
     </g>
     <defs>
       <clipPath id='a'>
