@@ -9,7 +9,6 @@ import { IllustrationStoriesOptions } from './stories-configs/illustrations';
 
 dotenv.config();
 
-// need to change this file id
 const fileId: string = '4N66of3WfbhmHWkBiGvlT9';
 
 const outputters: ComponentOutputter[] = [
