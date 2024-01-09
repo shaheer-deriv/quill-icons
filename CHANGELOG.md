@@ -1,3 +1,24 @@
+## [1.1.7](https://github.com/deriv-com/quill-icons/compare/v1.1.6...v1.1.7) (2024-01-09)
+
+
+### ♻️ 	 Chores
+
+* exported the icons ([3278801](https://github.com/deriv-com/quill-icons/commit/32788018d06bf8dd2b675f3659cecf3533223fdb))
+* removed clip-path from the icons ([524351e](https://github.com/deriv-com/quill-icons/commit/524351eddcfac728fb8c41dc456febd209c08bb0))
+* this is a test commit ([230686e](https://github.com/deriv-com/quill-icons/commit/230686e149ce9caae56b71ed862712c239de9f30))
+* this is a test commit ([34a189a](https://github.com/deriv-com/quill-icons/commit/34a189af03fa13a5bda3b4023d81e0e9f6e27d77))
+
+
+### ⚙️ 	 Continuous Integrations
+
+* release(version): Release 1.1.6-beta.1 ([d759bd6](https://github.com/deriv-com/quill-icons/commit/d759bd6f9c3ac7b9889fb89019bab32b4cc0a81d))
+* release(version): Release 1.1.6-beta.2 ([d32ada2](https://github.com/deriv-com/quill-icons/commit/d32ada27d5f45ade1ec1d065eff90fa1aa9088e7))
+
+
+### 🐛 	 Bug Fixes
+
+* icon's fill issue ([f9c8ec1](https://github.com/deriv-com/quill-icons/commit/f9c8ec135e7643501c4331ccc1b60aaf3a29512f))
+
 ## [1.1.6](https://github.com/deriv-com/quill-icons/compare/v1.1.5...v1.1.6) (2023-12-27)
 
 
