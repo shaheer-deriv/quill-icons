@@ -1,3 +1,15 @@
+## [1.1.8](https://github.com/deriv-com/quill-icons/compare/v1.1.7...v1.1.8) (2024-01-10)
+
+
+### ♻️ 	 Chores
+
+* exported the icons ([1970237](https://github.com/deriv-com/quill-icons/commit/1970237f8b7588cba0103676ed26364836209c84))
+
+
+### 🐛 	 Bug Fixes
+
+* duplicate ids issue ([921fd90](https://github.com/deriv-com/quill-icons/commit/921fd901912f23c63d4fbf853321501c9e938b2f))
+
 ## [1.1.7](https://github.com/deriv-com/quill-icons/compare/v1.1.6...v1.1.7) (2024-01-09)
 
 
