@@ -1,3 +1,11 @@
+## [1.1.9](https://github.com/deriv-com/quill-icons/compare/v1.1.8...v1.1.9) (2024-01-10)
+
+
+### 🛠 	 Builds
+
+* **deps-dev:** bump follow-redirects from 1.15.3 to 1.15.4 ([6552644](https://github.com/deriv-com/quill-icons/commit/6552644b4f0a7b77515d9f136df1051b6777810e))
+* **deps-dev:** bump follow-redirects from 1.15.3 to 1.15.4 ([6814427](https://github.com/deriv-com/quill-icons/commit/681442745b76e87dd7b9ce0e3ee378254d42dac5))
+
 ## [1.1.8](https://github.com/deriv-com/quill-icons/compare/v1.1.7...v1.1.8) (2024-01-10)
 
 
