@@ -15,7 +15,7 @@ export const SocialTelegramBrandIcon = (
     {...props}
   >
     <path
-      fill='url(#a)'
+      fill='url(#e8764015306b2e9ba5de3ae3d3401c51__a)'
       d='M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16'
     />
     <path
@@ -25,7 +25,14 @@ export const SocialTelegramBrandIcon = (
       clipRule='evenodd'
     />
     <defs>
-      <linearGradient id='a' x1={16} x2={16} y1={0} y2={31.763} gradientUnits='userSpaceOnUse'>
+      <linearGradient
+        id='e8764015306b2e9ba5de3ae3d3401c51__a'
+        x1={16}
+        x2={16}
+        y1={0}
+        y2={31.763}
+        gradientUnits='userSpaceOnUse'
+      >
         <stop stopColor='#2AABEE' />
         <stop offset={1} stopColor='#229ED9' />
       </linearGradient>
