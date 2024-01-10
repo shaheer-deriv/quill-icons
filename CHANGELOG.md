@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/deriv-com/quill-icons/compare/v1.1.9...v1.1.10) (2024-01-10)
+
+
+### ♻️ 	 Chores
+
+* added platforms icons ([2996f3f](https://github.com/deriv-com/quill-icons/commit/2996f3fe130ac993391adb0901e6f8c2e2b8e0a6))
+
 ## [1.1.9](https://github.com/deriv-com/quill-icons/compare/v1.1.8...v1.1.9) (2024-01-10)
 
 
