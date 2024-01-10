@@ -16,7 +16,7 @@ const BrandDerivWordmarkSlateIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
       />
     </g>
     <defs>
-      <clipPath id='a'>
+      <clipPath id='ce6b35be6536931e1e2b921afd5cb823__a'>
         <path fill='#fff' d='M0 0h217v72H0z' />
       </clipPath>
     </defs>

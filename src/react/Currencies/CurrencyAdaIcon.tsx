@@ -14,7 +14,7 @@ export const CurrencyAdaIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g clipPath='url(#90ad4aa620df56e17dbd1a66918434a0__a)'>
       <path
         fill='#0033AD'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -25,7 +25,7 @@ export const CurrencyAdaIcon = (
       />
     </g>
     <defs>
-      <clipPath id='a'>
+      <clipPath id='90ad4aa620df56e17dbd1a66918434a0__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
