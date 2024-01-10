@@ -14,7 +14,7 @@ const LabelPairedCheckSmRegularIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
       <path d='M12.488 6.512c.183.2.183.4 0 .601l-7.437 7.438c-.2.182-.401.182-.602 0L.512 10.613c-.183-.2-.183-.4 0-.601.2-.183.4-.183.601 0l3.637 3.61 7.137-7.11c.2-.183.4-.183.601 0' />
     </g>
     <defs>
-      <clipPath id='077c9475146cb18f5403c2a29e1c45a5__a'>
+      <clipPath id='9c2b13e6dab77618dc4e1b2ae0332ec1__a'>
         <path d='M0 0h13v22H0z' />
       </clipPath>
     </defs>

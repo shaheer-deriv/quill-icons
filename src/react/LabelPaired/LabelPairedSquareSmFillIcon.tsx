@@ -14,7 +14,7 @@ const LabelPairedSquareSmFillIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
       <path d='M.375 6.375c.018-.492.191-.902.52-1.23.328-.329.738-.502 1.23-.52h8.75c.492.018.902.191 1.23.52.329.328.502.738.52 1.23v8.75c-.018.492-.191.902-.52 1.23-.328.329-.738.502-1.23.52h-8.75c-.492-.018-.902-.191-1.23-.52-.329-.328-.502-.738-.52-1.23z' />
     </g>
     <defs>
-      <clipPath id='2e0c5f06b2d66eb38e8f52b7b9a3c960__a'>
+      <clipPath id='aa2b348b6dc0432cb193d62c5b1a8f83__a'>
         <path d='M0 0h13v22H0z' />
       </clipPath>
     </defs>

@@ -17,7 +17,7 @@ const LabelPairedWindowMinimizeMdBoldIcon = (
       <path d='M.75 17.5h14.5c.458.042.708.292.75.75-.042.458-.292.708-.75.75H.75c-.458-.042-.708-.292-.75-.75.042-.458.292-.708.75-.75' />
     </g>
     <defs>
-      <clipPath id='c3a6ca4d3dd7342f5271ec0fcd898c93__a'>
+      <clipPath id='a3c5c02774a0bbfb6f3e1dd6c42083eb__a'>
         <path d='M0 0h16v24H0z' />
       </clipPath>
     </defs>

@@ -14,13 +14,13 @@ export const SocialWhatsappBrandIcon = (
     ref={ref}
     {...props}
   >
-    <g filter='url(#caef21f91b471c5a8fe3f2e5dad22c28__a)'>
+    <g filter='url(#3e9cc3ce6e71456f0613a7a6c840d311__a)'>
       <path
-        fill='url(#caef21f91b471c5a8fe3f2e5dad22c28__b)'
+        fill='url(#3e9cc3ce6e71456f0613a7a6c840d311__b)'
         d='m4.558 34.246 2.184-7.968a15.376 15.376 0 0 1-2.055-7.684c0-8.48 6.906-15.378 15.378-15.378 4.117 0 7.975 1.604 10.878 4.507a15.283 15.283 0 0 1 4.5 10.878c0 8.48-6.906 15.378-15.378 15.378h-.008c-2.574 0-5.103-.65-7.348-1.872z'
       />
       <path
-        fill='url(#caef21f91b471c5a8fe3f2e5dad22c28__c)'
+        fill='url(#3e9cc3ce6e71456f0613a7a6c840d311__c)'
         d='m4 34.667 2.261-8.113a15.863 15.863 0 0 1-2.123-7.96c0-8.785 7.15-15.927 15.935-15.927 4.262 0 8.265 1.657 11.267 4.667A15.794 15.794 0 0 1 36 18.602c0 8.785-7.15 15.927-15.935 15.927h-.008c-2.666 0-5.286-.672-7.616-1.94zm8.838-4.966.482.29a13.276 13.276 0 0 0 6.737 1.85h.008c7.295 0 13.238-5.936 13.238-13.24 0-3.536-1.375-6.86-3.873-9.365a13.138 13.138 0 0 0-9.365-3.88c-7.303 0-13.246 5.935-13.246 13.238 0 2.498.695 4.935 2.024 7.043l.313.505-1.336 4.88z'
       />
       <path
@@ -32,7 +32,7 @@ export const SocialWhatsappBrandIcon = (
     </g>
     <defs>
       <linearGradient
-        id='caef21f91b471c5a8fe3f2e5dad22c28__b'
+        id='3e9cc3ce6e71456f0613a7a6c840d311__b'
         x1={20}
         x2={20}
         y1={34.664}
@@ -43,7 +43,7 @@ export const SocialWhatsappBrandIcon = (
         <stop offset={1} stopColor='#60D66A' />
       </linearGradient>
       <linearGradient
-        id='caef21f91b471c5a8fe3f2e5dad22c28__c'
+        id='3e9cc3ce6e71456f0613a7a6c840d311__c'
         x1={20}
         x2={20}
         y1={34.8}
@@ -54,7 +54,7 @@ export const SocialWhatsappBrandIcon = (
         <stop offset={1} stopColor='#fff' />
       </linearGradient>
       <filter
-        id='caef21f91b471c5a8fe3f2e5dad22c28__a'
+        id='3e9cc3ce6e71456f0613a7a6c840d311__a'
         width={40}
         height={40}
         x={0}

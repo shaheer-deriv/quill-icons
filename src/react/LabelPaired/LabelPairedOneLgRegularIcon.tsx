@@ -14,7 +14,7 @@ const LabelPairedOneLgRegularIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
       <path d='M5.625 7.375V23h3.75c.39.026.599.234.625.625-.026.39-.234.599-.625.625H.625c-.39-.026-.599-.234-.625-.625.026-.39.234-.599.625-.625h3.75V8.547l-2.773 1.836c-.339.182-.625.13-.86-.156-.182-.339-.13-.625.156-.86l3.75-2.5a.67.67 0 0 1 .665-.039c.208.13.312.313.312.547' />
     </g>
     <defs>
-      <clipPath id='16ba6a4d40e5313e214c3978fcdd74cc__a'>
+      <clipPath id='c787c4cc27f2c654ae3926ec66c77db9__a'>
         <path d='M0 0h10v30H0z' />
       </clipPath>
     </defs>

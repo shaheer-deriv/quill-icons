@@ -16,7 +16,7 @@ const BrandDerivWordmarkCoralIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
       />
     </g>
     <defs>
-      <clipPath id='8b928434463d6b19336c432acef1f86b__a'>
+      <clipPath id='38c255b4a0a9df4c4c3a19247d5c5b28__a'>
         <path fill='#fff' d='M0 0h217v72H0z' />
       </clipPath>
     </defs>

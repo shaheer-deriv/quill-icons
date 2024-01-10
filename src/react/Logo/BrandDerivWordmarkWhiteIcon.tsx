@@ -16,7 +16,7 @@ const BrandDerivWordmarkWhiteIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
       />
     </g>
     <defs>
-      <clipPath id='9d52e3710b1d58271bcdc0564f462307__a'>
+      <clipPath id='3308b43adc58b5e4e6fea69504175931__a'>
         <path fill='#fff' d='M0 0h217v72H0z' />
       </clipPath>
     </defs>

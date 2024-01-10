@@ -10,4 +10,5 @@ export const ICON_PAGES = [
   'Illustrative',
   'Markets',
   'Currencies',
+  'Platforms',
 ] as const;
