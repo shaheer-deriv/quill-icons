@@ -44,6 +44,11 @@
       "require": "./dist/Markets/index.cjs",
       "types": "./dist/Markets/index.d.ts"
     },
+    "./Platforms": {
+      "import": "./dist/Platforms/index.js",
+      "require": "./dist/Platforms/index.cjs",
+      "types": "./dist/Platforms/index.d.ts"
+    },
     "./Social": {
       "import": "./dist/Social/index.js",
       "require": "./dist/Social/index.cjs",
