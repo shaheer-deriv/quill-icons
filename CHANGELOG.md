@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/deriv-com/quill-icons/compare/v1.1.10...v1.1.11) (2024-01-11)
+
+
+### ♻️ 	 Chores
+
+* added platforms to package.json exports field ([156ea86](https://github.com/deriv-com/quill-icons/commit/156ea86d02d4b6b33d76a772d4b92f90dbf3c5fb))
+
 ## [1.1.10](https://github.com/deriv-com/quill-icons/compare/v1.1.9...v1.1.10) (2024-01-10)
 
 
