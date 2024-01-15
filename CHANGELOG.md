@@ -1,3 +1,10 @@
+## [1.1.12](https://github.com/deriv-com/quill-icons/compare/v1.1.11...v1.1.12) (2024-01-15)
+
+
+### ♻️ 	 Chores
+
+* exported new icons from figma ([994cc15](https://github.com/deriv-com/quill-icons/commit/994cc15a120ead0e5ac1756a5ce4ed9ed963167c))
+
 ## [1.1.11](https://github.com/deriv-com/quill-icons/compare/v1.1.10...v1.1.11) (2024-01-11)
 
 
