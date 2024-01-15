@@ -14,7 +14,7 @@ const LabelPairedMicrosoftXlIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVG
       <path d='M0 7.5h10.078v10.078H0zm10.922 0H21v10.078H10.922zM0 18.422h10.078V28.5H0zm10.922 0H21V28.5H10.922z' />
     </g>
     <defs>
-      <clipPath id='b0bb30ab22eec045ef53cd5f44f19767__a'>
+      <clipPath id='7faa400805984e610fa4b93f7ff6a983__a'>
         <path d='M0 0h21v36H0z' />
       </clipPath>
     </defs>

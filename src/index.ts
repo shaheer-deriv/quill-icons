@@ -9,6 +9,7 @@ export * from './react/Illustrative/index';
 export * from './react/LabelPaired/index';
 export * from './react/Logo/index';
 export * from './react/Markets/index';
+export * from './react/PaymentMethods/index';
 export * from './react/Platforms/index';
 export * from './react/Social/index';
 export * from './react/Standalone/index';

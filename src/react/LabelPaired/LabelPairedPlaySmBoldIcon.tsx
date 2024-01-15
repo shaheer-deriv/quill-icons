@@ -14,7 +14,7 @@ const LabelPairedPlaySmBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
       <path d='m1.563 15.563 7.875-4.813-7.876-4.812zM.933 4.789c.438-.237.876-.228 1.313.027l7.875 4.813c.401.255.61.629.629 1.121-.018.492-.228.866-.629 1.121l-7.875 4.813c-.437.255-.875.264-1.312.027-.438-.255-.666-.638-.684-1.148V5.938c.018-.51.246-.894.684-1.149' />
     </g>
     <defs>
-      <clipPath id='e6454b13a64a6b238389884221e0aafd__a'>
+      <clipPath id='e4963c093505b627bafcecf0e097c3be__a'>
         <path d='M0 0h11v22H0z' />
       </clipPath>
     </defs>

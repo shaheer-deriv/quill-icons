@@ -14,7 +14,7 @@ export const PlatformsDerivAppsDarkIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#bd661549e23133530ed5de3c58abe8de__a)'>
+    <g clipPath='url(#e55a0f891c14faa58179eaf7ab65293a__a)'>
       <path fill='#fff' d='M0 6a6 6 0 0 1 6-6h20a6 6 0 0 1 6 6v20a6 6 0 0 1-6 6H6a6 6 0 0 1-6-6z' />
       <path
         fill='#EF8933'
@@ -38,7 +38,7 @@ export const PlatformsDerivAppsDarkIcon = (
       />
     </g>
     <defs>
-      <clipPath id='bd661549e23133530ed5de3c58abe8de__a'>
+      <clipPath id='e55a0f891c14faa58179eaf7ab65293a__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

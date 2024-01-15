@@ -14,31 +14,31 @@ export const MarketStocksAmericanAirlinesIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#d5670a981788c68a077e396f4fea79ab__a)'>
+    <g clipPath='url(#b9c6ae6a7254994bb2ae70ac84df2a09__a)'>
       <path
         fill='#F6F7F8'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
       />
       <path
-        fill='url(#d5670a981788c68a077e396f4fea79ab__b)'
+        fill='url(#b9c6ae6a7254994bb2ae70ac84df2a09__b)'
         d='M17.798 15.93 26 25.873h-5.75a4.334 4.334 0 0 1-3.87-2.455l-2.466-4.195.712-2.205z'
       />
       <path
-        fill='url(#d5670a981788c68a077e396f4fea79ab__c)'
+        fill='url(#b9c6ae6a7254994bb2ae70ac84df2a09__c)'
         d='M6 6.149c2.173 0 3.581-.334 5.17 1.505l5.19 6.414H12.51a2.873 2.873 0 0 1-2.67-1.616z'
       />
       <path
-        fill='url(#d5670a981788c68a077e396f4fea79ab__d)'
+        fill='url(#b9c6ae6a7254994bb2ae70ac84df2a09__d)'
         d='M14.526 20.292c.373-1.616 3.177-2.952 4.638-2.735l-1.466-1.801-2.423.527-1.586 2.558z'
       />
       <path
-        fill='url(#d5670a981788c68a077e396f4fea79ab__e)'
+        fill='url(#b9c6ae6a7254994bb2ae70ac84df2a09__e)'
         d='m14.467 20.22-1.895-3.2c-.551-.995-.053-2.176 1.966-2.393 2.02-.217 5.531-.559 6.524 1.5-2.733-.28-6.804.55-6.595 4.092'
       />
     </g>
     <defs>
       <linearGradient
-        id='d5670a981788c68a077e396f4fea79ab__b'
+        id='b9c6ae6a7254994bb2ae70ac84df2a09__b'
         x1={0}
         x2={31.996}
         y1={16.006}
@@ -49,7 +49,7 @@ export const MarketStocksAmericanAirlinesIcon = (
         <stop offset={1} stopColor='#A02121' />
       </linearGradient>
       <linearGradient
-        id='d5670a981788c68a077e396f4fea79ab__c'
+        id='b9c6ae6a7254994bb2ae70ac84df2a09__c'
         x1={16.004}
         x2={16.004}
         y1={0.579}
@@ -60,7 +60,7 @@ export const MarketStocksAmericanAirlinesIcon = (
         <stop offset={1} stopColor='#10528A' />
       </linearGradient>
       <linearGradient
-        id='d5670a981788c68a077e396f4fea79ab__d'
+        id='b9c6ae6a7254994bb2ae70ac84df2a09__d'
         x1={693.984}
         x2={380.672}
         y1={394.88}
@@ -71,7 +71,7 @@ export const MarketStocksAmericanAirlinesIcon = (
         <stop offset={1} stopColor='#A02121' />
       </linearGradient>
       <linearGradient
-        id='d5670a981788c68a077e396f4fea79ab__e'
+        id='b9c6ae6a7254994bb2ae70ac84df2a09__e'
         x1={14.385}
         x2={20.839}
         y1={17.365}
@@ -81,7 +81,7 @@ export const MarketStocksAmericanAirlinesIcon = (
         <stop stopColor='#E6EAEF' />
         <stop offset={1} stopColor='#95AAB1' />
       </linearGradient>
-      <clipPath id='d5670a981788c68a077e396f4fea79ab__a'>
+      <clipPath id='b9c6ae6a7254994bb2ae70ac84df2a09__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
