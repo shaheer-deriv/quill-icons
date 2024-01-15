@@ -14,7 +14,7 @@ const LabelPairedXTwitterSmIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
       <path d='M10.637 5.063h1.941l-4.21 4.812 4.948 6.563H9.434l-3.036-3.965-3.472 3.964H.984l4.512-5.14L.738 5.062h3.965L7.465 8.7zm-.684 10.226h1.094L4.129 6.156H2.98z' />
     </g>
     <defs>
-      <clipPath id='85280353024264dbdfe00ef4c1f04a80__a'>
+      <clipPath id='25c8adf48ff35ae0424884945a9806d6__a'>
         <path d='M0 0h14v22H0z' />
       </clipPath>
     </defs>
