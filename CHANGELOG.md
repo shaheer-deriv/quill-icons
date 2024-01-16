@@ -1,3 +1,10 @@
+## [1.1.13](https://github.com/deriv-com/quill-icons/compare/v1.1.12...v1.1.13) (2024-01-16)
+
+
+### ♻️ 	 Chores
+
+* exported flags and markets icons ([bf333a2](https://github.com/deriv-com/quill-icons/commit/bf333a22f2fe11ec785f5e0eda885239033fe00c))
+
 ## [1.1.12](https://github.com/deriv-com/quill-icons/compare/v1.1.11...v1.1.12) (2024-01-15)
 
 
