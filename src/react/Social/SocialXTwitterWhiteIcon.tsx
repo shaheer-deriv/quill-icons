@@ -14,14 +14,14 @@ export const SocialXTwitterWhiteIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#9cce9c857be8b90b873e4e2cf2e5928e__a)'>
+    <g clipPath='url(#b5442a8c7d3bb2cae73e48675be1c771__a)'>
       <path
         fill='#fff'
         d='M19.044 13.55 30.957 0h-2.823L17.79 11.765 9.53 0H0l12.493 17.79L0 32h2.823l10.923-12.424L22.471 32H32zM3.84 2.08h4.336l19.96 27.935h-4.337z'
       />
     </g>
     <defs>
-      <clipPath id='9cce9c857be8b90b873e4e2cf2e5928e__a'>
+      <clipPath id='b5442a8c7d3bb2cae73e48675be1c771__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

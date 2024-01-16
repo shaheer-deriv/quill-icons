@@ -14,7 +14,7 @@ export const FlagCzechRepublicIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#d9aa7d920dfae0dba6c445452aa0df90__a)'>
+    <g clipPath='url(#663c30d018807c7e3739f452d54dc84c__a)'>
       <path fill='#E8252A' d='M.682 15.504c.352.309.813.496 1.318.496h20a2 2 0 0 0 2-2V8H11z' />
       <path fill='#fff' d='M22 0H2C1.495 0 1.034.187.682.496L11 8h13V2a2 2 0 0 0-2-2' />
       <path
@@ -30,7 +30,7 @@ export const FlagCzechRepublicIcon = (
       />
     </g>
     <defs>
-      <clipPath id='d9aa7d920dfae0dba6c445452aa0df90__a'>
+      <clipPath id='663c30d018807c7e3739f452d54dc84c__a'>
         <rect width={24} height={16} fill='#fff' rx={2} />
       </clipPath>
     </defs>

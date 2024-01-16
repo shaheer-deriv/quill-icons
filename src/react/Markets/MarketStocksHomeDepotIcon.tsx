@@ -14,7 +14,7 @@ export const MarketStocksHomeDepotIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#33f97064544f440d9153aba9a72c69c9__a)'>
+    <g clipPath='url(#6ba0c958935cdd83b4634277d756517e__a)'>
       <path
         fill='#F96302'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -29,7 +29,7 @@ export const MarketStocksHomeDepotIcon = (
       />
     </g>
     <defs>
-      <clipPath id='33f97064544f440d9153aba9a72c69c9__a'>
+      <clipPath id='6ba0c958935cdd83b4634277d756517e__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

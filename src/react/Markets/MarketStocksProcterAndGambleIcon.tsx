@@ -14,13 +14,13 @@ export const MarketStocksProcterAndGambleIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#1e7b928da8b8bb1b2e5eb0915b0d5c55__a)'>
+    <g clipPath='url(#3b4b49cf10ca0a9b5637cdd984a6be46__a)'>
       <path
-        fill='url(#1e7b928da8b8bb1b2e5eb0915b0d5c55__b)'
+        fill='url(#3b4b49cf10ca0a9b5637cdd984a6be46__b)'
         d='M18.5.194C10.85 1.394 5 8.014 5 16c0 7.986 5.85 14.606 13.5 15.806C26.15 30.606 32 23.986 32 16 32 8.014 26.15 1.394 18.5.194'
       />
       <path
-        fill='url(#1e7b928da8b8bb1b2e5eb0915b0d5c55__c)'
+        fill='url(#3b4b49cf10ca0a9b5637cdd984a6be46__c)'
         d='M18.5.194A16.121 16.121 0 0 0 16 0C7.163 0 0 7.163 0 16s7.163 16 16 16a15.95 15.95 0 0 0 2.5-.194C10.85 30.606 5 23.986 5 16 5 8.014 10.85 1.394 18.5.194'
       />
       <path
@@ -42,7 +42,7 @@ export const MarketStocksProcterAndGambleIcon = (
     </g>
     <defs>
       <radialGradient
-        id='1e7b928da8b8bb1b2e5eb0915b0d5c55__c'
+        id='3b4b49cf10ca0a9b5637cdd984a6be46__c'
         cx={0}
         cy={0}
         r={1}
@@ -53,7 +53,7 @@ export const MarketStocksProcterAndGambleIcon = (
         <stop offset={1} stopColor='#0098DA' />
       </radialGradient>
       <linearGradient
-        id='1e7b928da8b8bb1b2e5eb0915b0d5c55__b'
+        id='3b4b49cf10ca0a9b5637cdd984a6be46__b'
         x1={18.963}
         x2={18.963}
         y1={-0.197}
@@ -63,7 +63,7 @@ export const MarketStocksProcterAndGambleIcon = (
         <stop stopColor='#0093D7' />
         <stop offset={1} stopColor='#002A78' />
       </linearGradient>
-      <clipPath id='1e7b928da8b8bb1b2e5eb0915b0d5c55__a'>
+      <clipPath id='3b4b49cf10ca0a9b5637cdd984a6be46__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

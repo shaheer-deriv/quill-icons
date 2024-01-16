@@ -137,6 +137,16 @@ export { default as MarketDerivedVolatility1501sIcon } from './MarketDerivedVola
 export { default as MarketDerivedVolatility2001sIcon } from './MarketDerivedVolatility2001sIcon';
 export { default as MarketDerivedVolatility2501sIcon } from './MarketDerivedVolatility2501sIcon';
 export { default as MarketDerivedVolatility3001sIcon } from './MarketDerivedVolatility3001sIcon';
+export { default as MarketDerivedAudusdDfx10Icon } from './MarketDerivedAudusdDfx10Icon';
+export { default as MarketDerivedAudusdDfx20Icon } from './MarketDerivedAudusdDfx20Icon';
+export { default as MarketDerivedEurusdDfx10Icon } from './MarketDerivedEurusdDfx10Icon';
+export { default as MarketDerivedEurusdDfx20Icon } from './MarketDerivedEurusdDfx20Icon';
+export { default as MarketDerivedGbpusdDfx10Icon } from './MarketDerivedGbpusdDfx10Icon';
+export { default as MarketDerivedGbpusdDfx20Icon } from './MarketDerivedGbpusdDfx20Icon';
+export { default as MarketDerivedUsdchfDfx10Icon } from './MarketDerivedUsdchfDfx10Icon';
+export { default as MarketDerivedUsdchfDfx20Icon } from './MarketDerivedUsdchfDfx20Icon';
+export { default as MarketDerivedUsdjpyDfx10Icon } from './MarketDerivedUsdjpyDfx10Icon';
+export { default as MarketDerivedUsdjpyDfx20Icon } from './MarketDerivedUsdjpyDfx20Icon';
 export { default as MarketStocksAmericanAirlinesIcon } from './MarketStocksAmericanAirlinesIcon';
 export { default as MarketStocksAppleIcon } from './MarketStocksAppleIcon';
 export { default as MarketStocksAirbusIcon } from './MarketStocksAirbusIcon';
