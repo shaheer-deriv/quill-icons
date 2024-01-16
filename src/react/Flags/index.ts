@@ -81,3 +81,4 @@ export { default as FlagUnitedArabEmiratesIcon } from './FlagUnitedArabEmiratesI
 export { default as FlagUnitedKingdomIcon } from './FlagUnitedKingdomIcon';
 export { default as FlagUsaIcon } from './FlagUsaIcon';
 export { default as FlagVietnamIcon } from './FlagVietnamIcon';
+export { default as FlagCroatiaIcon } from './FlagCroatiaIcon';

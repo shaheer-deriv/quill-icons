@@ -14,7 +14,7 @@ export const MarketStocksAppleIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#92bd300bc84cad29d46a5a2a75068f21__a)'>
+    <g clipPath='url(#c3b13549431bc62bc811dc92ff89d19c__a)'>
       <path
         fill='#F6F7F8'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -25,7 +25,7 @@ export const MarketStocksAppleIcon = (
       />
     </g>
     <defs>
-      <clipPath id='92bd300bc84cad29d46a5a2a75068f21__a'>
+      <clipPath id='c3b13549431bc62bc811dc92ff89d19c__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

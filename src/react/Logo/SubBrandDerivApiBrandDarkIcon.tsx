@@ -20,7 +20,7 @@ const SubBrandDerivApiBrandDarkIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
       />
     </g>
     <defs>
-      <clipPath id='a38249d83b14391fb0acfe720ad712cf__a'>
+      <clipPath id='234490a4610548e0bf03324f43841567__a'>
         <path fill='#fff' d='M0 0h268v58H0z' />
       </clipPath>
     </defs>
