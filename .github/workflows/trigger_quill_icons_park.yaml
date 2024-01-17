@@ -1,0 +1,27 @@
+name: Open Pull Request with Version Bump
+
+on:
+  workflow_dispatch:
+
+jobs:
+  bump-version-and-open-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout destination repo
+        uses: actions/checkout@v2
+        with:
+          repository: deriv-com/quill-icons-park
+          token: ${{ secrets.CI_GITHUB_TOKEN }}
+          path: quill-icons-park
+
+      - name: Set up Git
+        run: |
+          git config --global user.email "github@deriv.com"
+          git config --global user.name "Deriv Automation"
+
+      - name: Bump version
+        run: |
+          cd quill-icons-park
+          npm version patch -m "chore(release): bump version to %s"
+          git push origin main
