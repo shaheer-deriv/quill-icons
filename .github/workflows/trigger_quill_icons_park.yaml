@@ -27,4 +27,4 @@ jobs:
           git push origin updated-quill-icons
 
       - name: Create Pull Request
-        run: gh pr create --base master --title "[Quill Icons] 🚦 Update quill icons" --body "Merge this PR to trigger build and deployment of latest quill icons"
+        run: gh pr create --B master -H updated-quill-icons --title "[Quill Icons] 🚦 Update quill icons" --body "Merge this PR to trigger build and deployment of latest quill icons"
