@@ -1,3 +1,13 @@
+# [1.3.0](https://github.com/deriv-com/quill-icons/compare/v1.2.0...v1.3.0) (2024-01-17)
+
+
+### ✨ 	 Features
+
+* github action ([a8daf9e](https://github.com/deriv-com/quill-icons/commit/a8daf9ef394e87b66f4653d7d36e87c94b875075))
+* github action ([19e39eb](https://github.com/deriv-com/quill-icons/commit/19e39eb925e3350280ad67ef7de7059e50f997f2))
+* github action test ([5ac2552](https://github.com/deriv-com/quill-icons/commit/5ac25529cff21d225256fbf6cf1d6369bd4d278c))
+* github action test ([2cd174c](https://github.com/deriv-com/quill-icons/commit/2cd174cd7627afe55c4aa4c4c65cedc17797bf47))
+
 # [1.2.0](https://github.com/deriv-com/quill-icons/compare/v1.1.13...v1.2.0) (2024-01-17)
 
 
