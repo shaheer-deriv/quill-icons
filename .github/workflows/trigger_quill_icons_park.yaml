@@ -23,11 +23,17 @@ jobs:
           git config --global user.email "quill-icons@deriv.com"
           git config --global user.name "Quill Icons"
 
-      - name: Create pull request
+      - name: Update version
         run: |
           cd quill-icons-park
-          git branch -D updated-quill-icons
-          git checkout -b updated-quill-icons
+          git checkout -b quill-icons-update
           npm version patch -m "build: 🚀 %s installs latest quill icons"
-          git push -uf origin updated-quill-icons
-          gh pr create --B master -H updated-quill-icons --title "[Quill Icons] 🚦 Update quill icons" --body "Merge this PR to trigger build and deployment of latest quill icons"
+
+      - name: Create pull request
+        uses: rematocorp/open-pull-request-action@v1
+        with:
+          github-token: ${{ secrets.CI_GITHUB_TOKEN }}
+          from-branch: quill-icons-update
+          to-branch: master
+          repository-owner: deriv-com
+          repository: quill-icons-park
