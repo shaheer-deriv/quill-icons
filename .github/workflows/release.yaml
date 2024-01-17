@@ -42,6 +42,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN}}
         run: npx semantic-release
       - name: Trigger Quill Icons Park release
+        if: success()
         run: |
           curl \
             -X POST \
