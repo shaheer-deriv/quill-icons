@@ -1,3 +1,11 @@
+# [1.11.0](https://github.com/deriv-com/quill-icons/compare/v1.10.0...v1.11.0) (2024-01-17)
+
+
+### ✨ 	 Features
+
+* :zap: adds github action for quill-icons-park ([c03f339](https://github.com/deriv-com/quill-icons/commit/c03f33936dac1584a43fa9c61e790d757dd8e42e))
+* :zap: adds github action for quill-icons-park ([15620d0](https://github.com/deriv-com/quill-icons/commit/15620d04dfc2568321c945c56961ebe4d4a28308))
+
 # [1.10.0](https://github.com/deriv-com/quill-icons/compare/v1.9.0...v1.10.0) (2024-01-17)
 
 
