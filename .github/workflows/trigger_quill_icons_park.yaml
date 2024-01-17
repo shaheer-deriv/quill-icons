@@ -24,4 +24,4 @@ jobs:
         run: |
           cd quill-icons-park
           npm version patch -m "chore(release): bump version to %s"
-          git push origin main
+          git push origin master
