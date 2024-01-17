@@ -26,14 +26,5 @@ jobs:
       - name: Update version
         run: |
           cd quill-icons-park
-          git checkout -b quill-icons-update
           npm version patch -m "build: 🚀 %s installs latest quill icons"
-
-      - name: Create pull request
-        uses: rematocorp/open-pull-request-action@v1
-        with:
-          github-token: ${{ secrets.CI_GITHUB_TOKEN }}
-          from-branch: quill-icons-update
-          to-branch: master
-          repository-owner: deriv-com
-          repository: quill-icons-park
+          git push origin master
