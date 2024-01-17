@@ -1,3 +1,11 @@
+# [1.12.0](https://github.com/deriv-com/quill-icons/compare/v1.11.0...v1.12.0) (2024-01-17)
+
+
+### ✨ 	 Features
+
+* :zap: adds github action ([f908deb](https://github.com/deriv-com/quill-icons/commit/f908deb993a02c944fafeae5b74ca8059782f965))
+* :zap: adds github action ([67fd6a7](https://github.com/deriv-com/quill-icons/commit/67fd6a703944055a69946ae32141b2a684927638))
+
 # [1.11.0](https://github.com/deriv-com/quill-icons/compare/v1.10.0...v1.11.0) (2024-01-17)
 
 
