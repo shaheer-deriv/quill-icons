@@ -19,12 +19,11 @@ jobs:
           git config --global user.email "quill-icons@deriv.com"
           git config --global user.name "Quill Icons"
 
-      - name: Update version
+      - name: Create pull request
         run: |
           cd quill-icons-park
+          git branch -D updated-quill-icons
           git checkout -b updated-quill-icons
           npm version patch -m "build: 🚀 %s installs latest quill icons"
           git push origin updated-quill-icons
-
-      - name: Create Pull Request
-        run: gh pr create --B master -H updated-quill-icons --title "[Quill Icons] 🚦 Update quill icons" --body "Merge this PR to trigger build and deployment of latest quill icons"
+          gh pr create --B master -H updated-quill-icons --title "[Quill Icons] 🚦 Update quill icons" --body "Merge this PR to trigger build and deployment of latest quill icons"
