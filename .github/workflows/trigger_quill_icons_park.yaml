@@ -1,27 +1,30 @@
-name: Open Pull Request with Version Bump
+name: Trigger Quill Icons Park release
 
 on:
   workflow_dispatch:
 
 jobs:
-  bump-version-and-open-pr:
+  trigger-quill-icons-park-release:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout destination repo
-        uses: actions/checkout@v2
+      - name: Checkout Quill Icons Park repository
+        uses: actions/checkout@v3
         with:
           repository: deriv-com/quill-icons-park
           token: ${{ secrets.CI_GITHUB_TOKEN }}
           path: quill-icons-park
 
-      - name: Set up Git
+      - name: Set up Git identity
         run: |
-          git config --global user.email "github@deriv.com"
-          git config --global user.name "Deriv Automation"
+          git config --global user.email "quill-icons@deriv.com"
+          git config --global user.name "Quill Icons"
 
-      - name: Bump version
+      - name: Update version
         run: |
           cd quill-icons-park
-          npm version patch -m "chore(release): bump version to %s"
-          git push origin master
+          git checkout -b updated-quill-icons
+          npm version patch -m "build: 🚀 %s installs latest quill icons"
+          git push origin updated-quill-icons
+
+      - name: Create Pull Request
+        run: gh pr create --base master --title "[Quill Icons] 🚦 Update quill icons" --body "Merge this PR to trigger build and deployment of latest quill icons"
