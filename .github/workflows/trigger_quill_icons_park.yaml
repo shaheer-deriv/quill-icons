@@ -20,10 +20,12 @@ jobs:
           git config --global user.name "Quill Icons"
 
       - name: Create pull request
+        env:
+          GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
         run: |
           cd quill-icons-park
           git branch -D updated-quill-icons
           git checkout -b updated-quill-icons
           npm version patch -m "build: 🚀 %s installs latest quill icons"
-          git push origin updated-quill-icons
+          git push -uf origin updated-quill-icons
           gh pr create --B master -H updated-quill-icons --title "[Quill Icons] 🚦 Update quill icons" --body "Merge this PR to trigger build and deployment of latest quill icons"
