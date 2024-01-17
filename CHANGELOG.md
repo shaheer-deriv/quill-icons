@@ -1,3 +1,11 @@
+# [1.9.0](https://github.com/deriv-com/quill-icons/compare/v1.8.0...v1.9.0) (2024-01-17)
+
+
+### ✨ 	 Features
+
+* :zap: adds github action for trigerring quill-icons-park ([2afd7cf](https://github.com/deriv-com/quill-icons/commit/2afd7cf060c3c2f9e64608821d73422ac075134f))
+* :zap: adds github action for trigerring quill-icons-park ([b773025](https://github.com/deriv-com/quill-icons/commit/b773025842c59dc7cc29c8776abe8e68939c5fbf))
+
 # [1.8.0](https://github.com/deriv-com/quill-icons/compare/v1.7.0...v1.8.0) (2024-01-17)
 
 
