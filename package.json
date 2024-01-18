@@ -10,58 +10,58 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
       "types": "./dist/index.d.ts"
     },
     "./Currencies": {
-      "import": "./dist/Currencies/index.js",
-      "require": "./dist/Currencies/index.cjs",
+      "import": "./dist/Currencies/index.mjs",
+      "require": "./dist/Currencies/index.js",
       "types": "./dist/Currencies/index.d.ts"
     },
     "./Flags": {
-      "import": "./dist/Flags/index.js",
-      "require": "./dist/Flags/index.cjs",
+      "import": "./dist/Flags/index.mjs",
+      "require": "./dist/Flags/index.js",
       "types": "./dist/Flags/index.d.ts"
     },
     "./Illustrative": {
-      "import": "./dist/Illustrative/index.js",
-      "require": "./dist/Illustrative/index.cjs",
+      "import": "./dist/Illustrative/index.mjs",
+      "require": "./dist/Illustrative/index.js",
       "types": "./dist/Illustrative/index.d.ts"
     },
     "./LabelPaired": {
-      "import": "./dist/LabelPaired/index.js",
-      "require": "./dist/LabelPaired/index.cjs",
+      "import": "./dist/LabelPaired/index.mjs",
+      "require": "./dist/LabelPaired/index.js",
       "types": "./dist/LabelPaired/index.d.ts"
     },
     "./Logo": {
-      "import": "./dist/Logo/index.js",
-      "require": "./dist/Logo/index.cjs",
+      "import": "./dist/Logo/index.mjs",
+      "require": "./dist/Logo/index.js",
       "types": "./dist/Logo/index.d.ts"
     },
     "./Markets": {
-      "import": "./dist/Markets/index.js",
-      "require": "./dist/Markets/index.cjs",
+      "import": "./dist/Markets/index.mjs",
+      "require": "./dist/Markets/index.js",
       "types": "./dist/Markets/index.d.ts"
     },
     "./Platforms": {
-      "import": "./dist/Platforms/index.js",
-      "require": "./dist/Platforms/index.cjs",
+      "import": "./dist/Platforms/index.mjs",
+      "require": "./dist/Platforms/index.js",
       "types": "./dist/Platforms/index.d.ts"
     },
     "./Social": {
-      "import": "./dist/Social/index.js",
-      "require": "./dist/Social/index.cjs",
+      "import": "./dist/Social/index.mjs",
+      "require": "./dist/Social/index.js",
       "types": "./dist/Social/index.d.ts"
     },
     "./Standalone": {
-      "import": "./dist/Standalone/index.js",
-      "require": "./dist/Standalone/index.cjs",
+      "import": "./dist/Standalone/index.mjs",
+      "require": "./dist/Standalone/index.js",
       "types": "./dist/Standalone/index.d.ts"
     },
     "./Illustration": {
-      "import": "./dist/Illustration/index.js",
-      "require": "./dist/Illustration/index.cjs",
+      "import": "./dist/Illustration/index.mjs",
+      "require": "./dist/Illustration/index.js",
       "types": "./dist/Illustration/index.d.ts"
     },
     "./package.json": "./package.json"
