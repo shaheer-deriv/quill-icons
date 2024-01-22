@@ -1,3 +1,11 @@
+## [1.14.1](https://github.com/deriv-com/quill-icons/compare/v1.14.0...v1.14.1) (2024-01-22)
+
+
+### 🐛 	 Bug Fixes
+
+* export es6 imports ([b10dbcd](https://github.com/deriv-com/quill-icons/commit/b10dbcd7334f55945e68ff972421d60b6aa723f6))
+* export es6 imports ([4070944](https://github.com/deriv-com/quill-icons/commit/40709447ce7b21174bd8db9c6082e47117737f5f))
+
 # [1.14.0](https://github.com/deriv-com/quill-icons/compare/v1.13.0...v1.14.0) (2024-01-17)
 
 
