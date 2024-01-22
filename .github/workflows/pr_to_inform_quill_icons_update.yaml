@@ -6,7 +6,7 @@ on:
 permissions: write-all
 
 env:
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GH_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
   REPO_FULL_NAME: 'deriv-com/quill-icons-park'
   REPO_NAME: 'quill-icons-park'
   PR_BRANCH: 'quill-icons-update'
