@@ -44,7 +44,7 @@ jobs:
       - name: Trigger Quill Icons Park release
         if: success()
         env:
-          QUILL_ICONS_PARK_WORK_FLOW_FILE: 'pr_to_inform_quill_icons_update'
+          QUILL_ICONS_PARK_WORK_FLOW_FILE: 'pr_to_inform_quill_icons_update.yaml'
           QUILL_ICONS_PARK_REPO_ORG: 'deriv-com'
           QUILL_ICONS_PARK_REPO_NAME: 'quill-icons'
         run: |
@@ -52,5 +52,5 @@ jobs:
             -X POST \
             -H "Authorization: token ${{ secrets.CI_GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/${{env.QUILL_ICONS_PARK_REPO_ORG}}/${{env.QUILL_ICONS_PARK_REPO_NAME}}/actions/workflows/${{env.QUILL_ICONS_PARK_WORK_FLOW_FILE}}.yaml/dispatches \
+            https://api.github.com/repos/${{env.QUILL_ICONS_PARK_REPO_ORG}}/${{env.QUILL_ICONS_PARK_REPO_NAME}}/actions/workflows/${{env.QUILL_ICONS_PARK_WORK_FLOW_FILE}}/dispatches \
             -d '{"ref":"main"}'
